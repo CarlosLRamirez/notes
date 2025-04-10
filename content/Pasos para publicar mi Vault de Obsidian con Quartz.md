@@ -1,6 +1,6 @@
 ---
-publish: true
-modified: 2025-04-09T21:16:40-06:00
+publish: false
+modified: 2025-04-10T17:46:22-06:00
 created: 2025-04-09T18:01:23-06:00
 ---
 Estos son los pasos que seguí para publicar en internet mi Vault existente de Obsidian a travez de Github Pages, utilizando Quartz como el generador de sitio estático a partir de mis notas en Markdown
