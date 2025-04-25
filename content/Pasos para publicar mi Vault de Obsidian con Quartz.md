@@ -1,6 +1,6 @@
 ---
 publish: true
-modified: 2025-04-10T17:57:17-06:00
+modified: 2025-04-25T08:01:22-06:00
 created: 2025-04-09T18:01:23-06:00
 ---
 Estos son los pasos que seguí para publicar en internet mi Vault existente de Obsidian a travez de Github Pages, utilizando Quartz como el generador de sitio estático a partir de mis notas en Markdown
@@ -105,3 +105,14 @@ git remote set-url origin REMOTE-URL
 git remote add upstream https://github.com/jackyzha0/quartz.git
 ```
 
+4. Para sincronizar el contenido con el repositorio utilizamos el siguiente comando
+
+```
+npx quartz sync --no-pull
+```
+
+5. Para actualizaciones futuras únicamente corremos este comando cada vez que queramos enviarlas
+
+```
+npx quartz sync
+```
