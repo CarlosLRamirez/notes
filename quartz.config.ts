@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Carlos' Notes, Projects, and Thoughts",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,15 +16,19 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "carloslramirez.com/my-digital-jungle",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        //header: "Schibsted Grotesk",
+        header: "Playfair Display",
+        //header: "Lora",
+        //body: "Source Sans Pro",
+        body: "Inter",
+        //body: "Work Sans",
         code: "IBM Plex Mono",
       },
       colors: {
@@ -73,7 +77,10 @@ const config: QuartzConfig = {
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
-    filters: [Plugin.RemoveDrafts()],
+    filters: [
+      //Plugin.RemoveDrafts(),
+      Plugin.ExplicitPublish(),
+    ],
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
