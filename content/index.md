@@ -1,6 +1,6 @@
 ---
 created: 2025-04-09T17:56:02
-modified: 2025-04-27T08:45:05-06:00
+modified: 2025-05-02T09:09:25-06:00
 aliases:
   - Welcome
 publish: true
@@ -26,4 +26,5 @@ Aquí encontrarás una creciente colección de mis notas, ideas y reflexiones pe
 Este espacio es un archivo vivo, y espero que algunas de estas exploraciones puedan inspirarte a ti también.
 
 Siéntete libre de explorar y pasea entre las ideas. Si quieres ponerte en contacto conmigo, no dudes en hacerlo: me encantaría ampliar mi red de contactos con personas que comparten intereses comunes.
+
 

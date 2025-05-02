@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Carlos' Notes, Projects, and Thoughts",
+    pageTitle: "My Digital Jungle",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -27,32 +27,32 @@ const config: QuartzConfig = {
         header: "Playfair Display",
         //header: "Lora",
         //body: "Source Sans Pro",
-        body: "Inter",
+        body: "JetBrains Mono",
         //body: "Work Sans",
-        code: "IBM Plex Mono",
+        code: "Source Code Pro",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#fdfdfd",                // page background
+          lightgray: "#e6e8ec",            // subtle borders
+          gray: "#b0b4ba",                 // secondary text
+          darkgray: "#5a5e66",            // headings/subtitles
+          dark: "#2b2d30",                 // strong text
+          secondary: "#3e64ff",           // links or accent (blue)
+          tertiary: "#ffbc42",            // highlights (yellow-orange)
+          highlight: "rgba(62, 100, 255, 0.1)", // background highlight
+          textHighlight: "#ffbc42cc",     // inline text highlight
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#1c1e21",                // main background
+          lightgray: "#2c2f33",           // code blocks / UI
+          gray: "#6b7280",                // muted text
+          darkgray: "#d1d5db",            // brighter headings
+          dark: "#f3f4f6",                // strong text
+          secondary: "#7f5af0",           // links/accent (purple-blue)
+          tertiary: "#ffd803",            // highlight / tags
+          highlight: "rgba(127, 90, 240, 0.15)", // highlight block
+          textHighlight: "#ffd803aa",     // inline text highlight
         },
       },
     },
@@ -65,8 +65,10 @@ const config: QuartzConfig = {
       }),
       Plugin.SyntaxHighlighting({
         theme: {
-          light: "github-light",
-          dark: "github-dark",
+          //light: "github-light",
+          //dark: "github-dark",
+          light: "light-plus", // or "light-plus"
+          dark: "monokai", // or "monokai", "tokyo-night", "material-theme-palenight"
         },
         keepBackground: false,
       }),
