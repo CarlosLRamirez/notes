@@ -1,7 +1,8 @@
 ---
-modified: 2025-05-03T04:06:29-06:00
+modified: 2025-05-03T04:08:15-06:00
 created: 2025-05-03T03:55:16-06:00
 title: My Reading List
+publish: true
 ---
 Books I'm reading, I would like to read, I just write them down to decide later.
 

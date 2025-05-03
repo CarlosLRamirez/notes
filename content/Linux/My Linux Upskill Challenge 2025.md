@@ -1,5 +1,5 @@
 ---
-modified: 2025-05-02T09:08:20-06:00
+modified: 2025-05-03T04:10:53-06:00
 created: 2025-04-24T17:16:15-06:00
 publish: true
 title: My Linux Upskill Challenge 2025
@@ -12,4 +12,3 @@ I have started following the [Linux Upskill Challenge](https://linuxupskillchall
 
 - [[Linux Upskill Challenge - Day 0 & 1]]
 - [[Linux Upskill Challenge - Day 2]]
-- 
