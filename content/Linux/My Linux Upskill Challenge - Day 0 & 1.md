@@ -1,6 +1,6 @@
 ---
-title: "Linux Upskill Challenge Daily: Day 0 & 1"
-modified: 2025-04-29T19:08:01-06:00
+title: "My Linux Upskill Challenge Journal: Day 0 & 1"
+modified: 2025-05-04T04:16:18-06:00
 created: 2025-04-29T18:54:36-06:00
 aliases:
   - "Linux Upskill Challenge Daily: Day 0 & 1"
