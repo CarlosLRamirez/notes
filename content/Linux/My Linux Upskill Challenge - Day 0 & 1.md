@@ -1,12 +1,13 @@
 ---
 title: "My Linux Upskill Challenge Journal: Day 0 & 1"
-modified: 2025-05-04T04:16:18-06:00
+modified: 2025-05-15T14:41:14-06:00
 created: 2025-04-29T18:54:36-06:00
 aliases:
   - "Linux Upskill Challenge Daily: Day 0 & 1"
 publish: true
 tags:
   - linux
+URL: https://carloslramirez.com/my-digital-jungle/Linux/My-Linux-Upskill-Challenge---Day-0--and--1
 ---
 
 ## Day 0 (Apr 24)  

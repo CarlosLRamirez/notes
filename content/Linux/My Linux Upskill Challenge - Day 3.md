@@ -1,9 +1,9 @@
 ---
 created: 2025-05-04T04:16:27
-modified: 2025-05-04T06:56:54-06:00
+modified: 2025-05-08T13:15:59-06:00
 aliases:
   - My Linux Upskill Challenge - Day 3
-title: "My Linux Upskill Challenge Journal: Day 3 - Power Trip!"
+title: "Linux Upskill Challenge Daily: Day 3"
 publish: true
 ---
 **Date:** May 4th (May the Force be with you!)
@@ -143,11 +143,119 @@ wtmp begins Fri Apr 25 00:07:50 2025
 - Apparently, this is kind of normal for internet-facing servers, and there’s nothing to worry about _at this time_. However, implementing `fail2ban` could be a good idea.
 
 ---
-- `sudo -i` allows a  a user to become fully `root` (kind of danger I think.)
+- You can use the command `sudo -i` to fully become the `root` user. That means from now on, you won’t need to prefix commands with `sudo` for any high-privilege tasks. This is handy when you have a series of commands to run as “*root*.” You’ll also notice that the prompt changes. **I recommend doing this with caution.**
+- To get back to your normal "*sudoer*" account you need to type `exit` or `logout`
+
+```sh
+carlos@ip-172-31-92-220:~$ whoami
+carlos
+carlos@ip-172-31-92-220:~$ sudo -i
+root@ip-172-31-92-220:~# whoami
+root
+root@ip-172-31-92-220:~# logout
+carlos@ip-172-31-92-220:~$ whoami
+carlos
+carlos@ip-172-31-92-220:~$ 
+```
+
+- With  `sudo journalctl -e /usr/bin/sudo` you can see the last times when `sudo` was used including the user which used and with which command.
+
+
+## 👷 Administrative Tasks
+
+This are some examples of simple administrative tasks that a sysadmin regualar do using `sudo`:
+
+### Change the hostname
+
+One of the must basic task for you'll need `sudo` priviledges is to rename your server, that means change the `hostname`.
+
+Probably the  current `hostname` of the server is what you see in the prompt after "*username@*", however if you want to double check, there are several ways to do it on linux: you can issue any of this commands: `hostname` , `uname-h`, or check the content of this file: `cat /etc/hostname`.
+
+Also, if you need to change it, you can use any of this options:
+
+1. Edit these two files: `/etc/hostname` and `/etc/hosts` , and then reboot the server
+2. (Recommended) Use the command `hostnamectl` withouth rebooting the server, like this: 
+
+```sh
+sudo hostnamectl set-hostname myec2ubuntu
+```
+
+To  observe the change in the prompt you should open a new session using the command `bash` or just logout and login again.
+
+```sh
+carlos@ip-172-31-92-220:~$ sudo hostnamectl set-hostname myec2ubuntu
+carlos@ip-172-31-92-220:~$ bash
+carlos@myec2ubuntu:~$ 
+```
+
+> I stopped and re-started the EC2 instance just to be sure the new hostname preservers after the server restart.
+
+---
+
+> [!NOTE]
+**May 8th:**  I decided to deploy a local VM on my computer to not depend on starting an EC2 instance in AWS every time I want to lab, this saves me time (and money!)
+>
+> So I installed UTM  on my Mac computer and used [Ubuntu Server for ARM (24.04.2 LTS)](https://ubuntu.com/download/server/arm) ISO image to launch my Linux VM, and I destroyed (Terminate) the EC2 in AWS.
+>
+> I may do a [[Installation Guide]] someday #someday 
+
+	
+----
+### Change the Timezone
+
+Another regular task when you are in charge or server administration is to setup the correct timezone (this could be the timezone of the region the server is actually located, or a timezone the company agreed). The default for any Linux server is UTM. (that is same as GMT).
+
+To check the current settings you use:
+```shell
+timedatectl
+```
+
+You can check the available timezones with:
+```shell
+timedatectl list-timezones
+```
+
+After decide which one to use, I change it using this command
+```shell
+sudo timedatectl set-timezone Americas/Guatemala
+```
+
+Then I confirmed the change, again with:
+```shell
+timedatectl
+```
+
+```sh
+               Local time: Thu 2025-05-08 12:51:30 CST
+           Universal time: Thu 2025-05-08 18:51:30 UTC
+                 RTC time: Thu 2025-05-08 18:51:30
+                Time zone: America/Guatemala (CST, -0600)
+System clock synchronized: no
+              NTP service: active
+          RTC in local TZ: no
+```
+
+Selecting the correct timezone for all your servers take importance when you need configure scheduled tasks that you need to run at certain time, it also allows you to have consistency in the timestamps of your log files (those under `/var/log`).
+
+## Conclusion
+- Always double check before pressing `Enter` when you're acting as `root` on a server.
+- Always try to use for daily operations a  "normal" account and add to `sudoers` group so need to use  `sudo` for elevated priviledge commands.
+- For critical changes on production systems, take extra precaution actions like using a test environment, check for syntax errors and typos, and monitor the log files.
+
+## Additional Resources
+- [How To Edit the Sudoers File](https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file)
+- [Hardening SSH](https://medium.com/@jasonrigden/hardening-ssh-1bcb99cd4cef)
+- [SSH Tunneling](https://linuxize.com/post/how-to-setup-ssh-tunneling/)
+- [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04)
 
 
 ---
 
+### What’s the difference between `sudo -i` and `sudo -s`?
+
+- `sudo -i` and `sudo -s` are two commands that allow you to "become root" and run elevated-privilege commands without needing to prefix each one with `sudo`.   However, they have some key differences:
+- `sudo -i` launches a root shell—it's like starting a new shell session as if you had logged in directly as the root user. It also loads the root user's environment and places you in the `/root` directory (`cd /root`). If you type `echo $HOME`, it will point to `/root`. The `-i` stands for "*simulate initial login*".
+- `sudo -s` also launches a root shell, but it doesn’t load the root environment and keeps you in your current working directory. The `-s` stands for "*shell*", and it's less powerful than `-i`.
 
 
 
