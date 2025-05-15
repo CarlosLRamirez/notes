@@ -1,10 +1,10 @@
 ---
-modified: 2025-05-02T16:58:45-06:00
+modified: 2025-05-15T17:36:08-06:00
 created: 2025-05-01T20:09:07-06:00
 tags:
   - linux
 publish: true
-title: Linux Upskill Challenge - Day 2
+title: My Linux Upskill Challenge - Day 2
 ---
 **Date:** May 1st, 2025  
 **URL:** [https://linuxupskillchallenge.org/02/](https://linuxupskillchallenge.org/02/)

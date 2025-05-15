@@ -1,9 +1,8 @@
 ---
 created: 2025-05-04T04:16:27
-modified: 2025-05-08T13:15:59-06:00
-aliases:
-  - My Linux Upskill Challenge - Day 3
-title: "Linux Upskill Challenge Daily: Day 3"
+modified: 2025-05-15T17:36:15-06:00
+aliases: []
+title: My Linux Upskill Challenge - Day 3
 publish: true
 ---
 **Date:** May 4th (May the Force be with you!)

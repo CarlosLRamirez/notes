@@ -9,7 +9,30 @@ tags:
   - digital-garden
   - quartz
   - setup
-modified: 2025-05-15T17:17:29-06:00
+modified: 2025-05-15T17:22:12-06:00
+---
+
+
+## Ayuda
+
+### Pruebas en localhost
+
+```
+npx quartz build --serve
+```
+
+### sincronizar con Github:
+```
+npx quartz sync
+```
+
+### Landing Page
+https://carloslramirez.com/my-digital-jungle/
+
+### Repositorio Pùblico
+https://github.com/CarlosLRamirez/my-digital-jungle
+
+
 ---
 
 ## 🌱 Propósito
@@ -52,11 +75,3 @@ SORT created desc
 ## **📝 Pendientes**
 - Revisión periódica para mover notas publicadas antiguas al archivo si es necesario.
 - Refinamiento de etiquetas y categorías.
-
-## Help
-
-Para correr en local:
-`npx quartz build --serve` 
-
-Para sincronizar con Github:
-`npx quartz sync`
