@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Carlos's Packets Garden",
+    pageTitle: "🌿 The Packets Garden",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -33,15 +33,15 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#fdfdfd",                // page background
-          lightgray: "#e6e8ec",            // subtle borders
-          gray: "#b0b4ba",                 // secondary text
-          darkgray: "#5a5e66",            // headings/subtitles
-          dark: "#2b2d30",                 // strong text
-          secondary: "#3e64ff",           // links or accent (blue)
-          tertiary: "#ffbc42",            // highlights (yellow-orange)
-          highlight: "rgba(62, 100, 255, 0.1)", // background highlight
-          textHighlight: "#ffbc42cc",     // inline text highlight
+          light: "#ffffff",                // page background
+          lightgray: "#f0f0f0",            // subtle borders
+          gray: "#999999",                 // secondary text
+          darkgray: "#555555",             // headings/subtitles
+          dark: "#000000",                 // strong text
+          secondary: "#1a73e8",            // links or accent (blue)
+          tertiary: "#ffc107",            // highlights (yellow)
+          highlight: "rgba(26, 115, 232, 0.1)", // background highlight
+          textHighlight: "#ffc107cc",     // inline text highlight
         },
         darkMode: {
           light: "#1c1e21",                // main background

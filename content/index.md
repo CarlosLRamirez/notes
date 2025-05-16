@@ -1,37 +1,34 @@
 ---
 created: 2025-04-09T17:56:02
-modified: 2025-05-08T14:48:34-06:00
+modified: 2025-05-15T20:36:27-06:00
 aliases:
   - Welcome
 publish: true
 title:
-  - Welcome | Bienvenido
+  - 🌿 The Packets Garden
 ---
 
-##  Welcome to my Notes
 
-Here you'll find a growing collection of my personal notes, ideas, and reflections —  
-things I'm learning, experiencing, or simply questioning.
-
-This space is a living archive, and I hope that some of these explorations might inspire you as well.
-
-Feel free to explore and wander through the ideas!  
-
-If you'd like to connect, feel free to reach out — I'd love to expand my network with people who share common interests.
+# 🌿 The Packets Garden
+## Engineering Notes on Networking, Cloud & Learning in Public
 
 ---
-##  Bienvenido a mis Notas
+## Welcome 🌐
 
-Aquí encontrarás una creciente colección de mis notas, ideas y reflexiones personales: cosas que estoy aprendiendo, experimentando o simplemente cuestionando.
+Welcome to **The Packets Garden**, a growing collection of notes, thoughts, and reflections on my journey through cloud engineering, networking, DevOps, and personal knowledge management.
 
-Este espacio es un archivo vivo, y espero que algunas de estas exploraciones puedan inspirarte a ti también.
+This digital garden is not a blog — it's a living archive where notes evolve, ideas connect, and learning happens in public.
 
-Siéntete libre de explorar y pasea entre las ideas. Si quieres ponerte en contacto conmigo, no dudes en hacerlo: me encantaría ampliar mi red de contactos con personas que comparten intereses comunes.
+Feel free to explore, follow the rabbit holes, and if you'd like to connect, [reach out](carlos.ramirez@syprotec.com.gt). Let's learn and grow together.
 
-[[About Me]]
+---
+## Bienvenido 🌐
 
---- 
+Bienvenido a **The Packets Garden**, una colección creciente de notas, ideas y reflexiones sobre mi camino por el mundo de la ingeniería en la nube, redes, DevOps y gestión del conocimiento.
 
-## Main Sections
+Este jardín digital no es un blog tradicional — es un archivo vivo donde las notas evolucionan, las ideas se conectan y el aprendizaje ocurre en público.
 
-#linux 
+Explora libremente, sigue los caminos de ideas, y si quieres [contactarme](carlos.ramirez@syprotec.com.gt), no dudes en hacerlo: me encantaría conectar con personas con intereses similares.
+
+---
+
