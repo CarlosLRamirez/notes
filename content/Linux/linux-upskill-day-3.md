@@ -1,9 +1,10 @@
 ---
-created: 2025-05-04T04:16:27
-modified: 2025-05-15T22:43:50-06:00
+title: "My Linux Upskill Challenge: Day 3"
+date: 2025-05-04
 aliases:
   - "My Linux Upskill Challenge: Day 3"
-title: "My Linux Upskill Challenge: Day 3"
+created: 2025-05-04T04:16:27
+modified: 2025-05-15T23:15:24-06:00
 publish: true
 tags:
   - linux
