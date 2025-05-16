@@ -4,11 +4,11 @@ date: 2025-05-04
 aliases:
   - "My Linux Upskill Challenge: Day 3"
 created: 2025-05-04T04:16:27
-modified: 2025-05-16T06:59:16-06:00
+modified: 2025-05-16T07:05:16-06:00
 publish: true
 tags:
   - linux
-socialImage: /assets/me-linux2.png
+socialImage: ./assets/me-linux2.png
 ---
 ## Introduction
 
