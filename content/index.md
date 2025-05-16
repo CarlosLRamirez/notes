@@ -1,6 +1,6 @@
 ---
 created: 2025-04-09T17:56:02
-modified: 2025-05-15T20:46:53-06:00
+modified: 2025-05-15T22:52:44-06:00
 aliases:
   - Welcome
 publish: true
@@ -9,8 +9,8 @@ title:
 ---
 
 
-# 🌿 The Packets Garden
-## Engineering Notes on Networking, Cloud & Learning in Public
+# 🌿💻 The Packets Garden
+## My  Notes on Networking, Cloud & Learning in Public
 
 ---
 ## Welcome 🌐
@@ -30,6 +30,6 @@ Este jardín digital no es un blog tradicional — es un archivo vivo donde las 
 
 Explora libremente, sigue los caminos de ideas, y si quieres [contactarme](mailto:carlos.ramirez@syprotec.com.gt), no dudes en hacerlo: me encantaría conectar con personas con intereses similares.
 
-
-
-
+---
+## Main Topics
+- [Linux](/tags/linux)

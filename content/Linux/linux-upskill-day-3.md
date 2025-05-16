@@ -1,15 +1,23 @@
 ---
 created: 2025-05-04T04:16:27
-modified: 2025-05-15T17:36:15-06:00
-aliases: []
-title: My Linux Upskill Challenge - Day 3
+modified: 2025-05-15T22:43:50-06:00
+aliases:
+  - "My Linux Upskill Challenge: Day 3"
+title: "My Linux Upskill Challenge: Day 3"
 publish: true
+tags:
+  - linux
 ---
-**Date:** May 4th (May the Force be with you!)
-**URL:** https://linuxupskillchallenge.org/03/
+## Introduction
 
-## Day 3 - Notes
+I’ve started following the [Linux Upskill Challenge](https://linuxupskillchallenge.org/) to sharpen my Linux knowledge and hands-on skills. It’s a series of 21 lessons designed to be completed daily, but I’ll be going through them at my own pace. I’ll share my journey and notes here as I move forward.
 
+---
+## Day 3 - Power trip!
+- **URL:** https://linuxupskillchallenge.org/03/
+- **Previous Lesson:** [[linux-upskill-day-3|My Linux Upskill Challenge: Day 3]]
+
+---
 ### 🚪 Introduction
 
 - `root` is the power user on a Linux System, it's the "super user" account that is all powerful. That also means that a typo in a command being root could mess up your server!
@@ -192,12 +200,12 @@ carlos@myec2ubuntu:~$
 ---
 
 > [!NOTE]
-**May 8th:**  I decided to deploy a local VM on my computer to not depend on starting an EC2 instance in AWS every time I want to lab, this saves me time (and money!)
+>  I decided to deploy a local VM on my computer to not depend on starting an EC2 instance in AWS every time I want to lab, this saves me time (and money!)
 >
 > So I installed UTM  on my Mac computer and used [Ubuntu Server for ARM (24.04.2 LTS)](https://ubuntu.com/download/server/arm) ISO image to launch my Linux VM, and I destroyed (Terminate) the EC2 in AWS.
 >
-> I may do a [[Installation Guide]] someday #someday 
-
+> I may do a [[Installation Guide]] someday 
+> 
 	
 ----
 ### Change the Timezone
@@ -257,12 +265,8 @@ Selecting the correct timezone for all your servers take importance when you nee
 - `sudo -s` also launches a root shell, but it doesn’t load the root environment and keeps you in your current working directory. The `-s` stands for "*shell*", and it's less powerful than `-i`.
 
 
-
-
 --- 
-## Enlaces: 
-
-
-## Referencias:
-
+## Related Notes:
+- [[linux-upskill-day-2|My Linux Upskill Challenge: Day 2]]
+- [[linux-upskill-day-4|My Linux Upskill Challenge - Day 4]]
 

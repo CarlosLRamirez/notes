@@ -1,13 +1,20 @@
 ---
-modified: 2025-05-15T17:36:08-06:00
+modified: 2025-05-15T22:43:36-06:00
 created: 2025-05-01T20:09:07-06:00
 tags:
   - linux
 publish: true
-title: My Linux Upskill Challenge - Day 2
+title: "My Linux Upskill Challenge: Day 2"
+aliases:
+  - "My Linux Upskill Challenge: Day 2"
 ---
-**Date:** May 1st, 2025  
-**URL:** [https://linuxupskillchallenge.org/02/](https://linuxupskillchallenge.org/02/)
+## Introduction
+I’ve started following the [Linux Upskill Challenge](https://linuxupskillchallenge.org/) to sharpen my Linux knowledge and hands-on skills. It’s a series of 21 lessons designed to be completed daily, but I’ll be going through them at my own pace. I’ll share my journey and notes here as I move forward.
+
+---
+## Day 2 - Basic navigation
+- **URL:** [https://linuxupskillchallenge.org/02/](https://linuxupskillchallenge.org/02/)
+- **Previous Lesson:**  [[linux-upskill-day-1|My Linux Upskill Challenge: Day 1]]
 
 ---
 ## **RTFM**
@@ -184,8 +191,7 @@ popd
 > So these are my notes for the [**Day 2 – Basic Navigation**](https://linuxupskillchallenge.org/02/#wrap) of the Linux Upskill Challenge.
 
 ---
-
-## **RESOURCES**
+## Additional Resources
 
 - [Difference between help, info and man command](https://unix.stackexchange.com/questions/19451/difference-between-help-info-and-man-command)  
 - [GNU Texinfo](https://www.gnu.org/software/texinfo/)  
@@ -193,3 +199,9 @@ popd
 - [Linux File System – YouTube](https://www.youtube.com/watch?v=2qQTXp4rBEE)  
 - [Simple Terminal Commands on Ubuntu – YouTube](http://www.youtube.com/watch?v=CGBsurVdLGY)  
 - [Solaris Unix Commands](http://www.gsp.com/support/virtual/admin/unix/solaris/commands.html)
+
+---
+## Related notes
+- [[linux-upskill-day-1|My Linux Upskill Challenge: Day 1]]
+- [[linux-upskill-day-3|My Linux Upskill Challenge: Day 3]]
+
