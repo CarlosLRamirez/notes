@@ -6,7 +6,7 @@ socialImage: ./_attachments/1.png
 aliases:
   - "My Linux Upskill Challenge: Day 3"
 created: 2025-05-04T04:16:27
-modified: 2025-05-16T12:00:18-06:00
+modified: 2025-05-16T13:08:58-06:00
 publish: true
 tags:
   - linux
@@ -21,7 +21,7 @@ In this lesson, I learned about the types of users that exist in a Linux system,
 ---
 ## Day 3 - Power trip!
 - **URL:** https://linuxupskillchallenge.org/03/
-- **Previous Lesson:** [[linux-upskill-day-3|My Linux Upskill Challenge: Day 3]]
+- **Previous Lesson:** [[linux-upskill-day-2|My Linux Upskill Challenge: Day 2]]
 
 ---
 ### 🚪 Introduction
