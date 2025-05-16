@@ -24,35 +24,38 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         //header: "Schibsted Grotesk",
-        header: "Playfair Display",
+        //header: "Playfair Display",
         //header: "Lora",
         //body: "Source Sans Pro",
-        body: "JetBrains Mono",
+        //body: "JetBrains Mono",
         //body: "Work Sans",
-        code: "Source Code Pro",
+        //code: "Source Code Pro",
+        header: "Playfair Display",
+        body: "IBM Plex Sans",
+        code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#ffffff",                // page background
-          lightgray: "#f0f0f0",            // subtle borders
-          gray: "#999999",                 // secondary text
-          darkgray: "#555555",             // headings/subtitles
-          dark: "#000000",                 // strong text
-          secondary: "#1a73e8",            // links or accent (blue)
-          tertiary: "#ffc107",            // highlights (yellow)
-          highlight: "rgba(26, 115, 232, 0.1)", // background highlight
-          textHighlight: "#ffc107cc",     // inline text highlight
+          light: "#f5f4f6",                // fondo general más cálido
+          lightgray: "#e0e0e0",            // bordes sutiles
+          gray: "#8b8b8b",                 // texto secundario
+          darkgray: "#4a4a4a",             // títulos/subtítulos
+          dark: "#2c2c2c",                 // texto fuerte
+          secondary: "#9f7aea",            // enlaces o acentos (lavanda)
+          tertiary: "#f38ba8",             // resaltados (rosado pastel)
+          highlight: "rgba(159, 122, 234, 0.1)", // fondo de resaltado
+          textHighlight: "#f38ba8cc",      // texto resaltado en línea
         },
         darkMode: {
-          light: "#1c1e21",                // main background
-          lightgray: "#2c2f33",           // code blocks / UI
-          gray: "#6b7280",                // muted text
-          darkgray: "#d1d5db",            // brighter headings
-          dark: "#f3f4f6",                // strong text
-          secondary: "#7f5af0",           // links/accent (purple-blue)
-          tertiary: "#ffd803",            // highlight / tags
-          highlight: "rgba(127, 90, 240, 0.15)", // highlight block
-          textHighlight: "#ffd803aa",     // inline text highlight
+          light: "#1e1e28",                // fondo principal
+          lightgray: "#2e2e3a",            // bloques de código / UI
+          gray: "#6e6c7e",                 // texto apagado
+          darkgray: "#d6d6e7",             // títulos brillantes
+          dark: "#f5f5fa",                 // texto fuerte
+          secondary: "#cba6f7",            // enlaces o acentos (lavanda clara)
+          tertiary: "#f38ba8",             // resaltados
+          highlight: "rgba(203, 166, 247, 0.15)", // fondo de resaltado
+          textHighlight: "#f38ba8aa",      // texto resaltado en línea
         },
       },
     },
