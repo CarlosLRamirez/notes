@@ -4,14 +4,17 @@ date: 2025-05-04
 aliases:
   - "My Linux Upskill Challenge: Day 3"
 created: 2025-05-04T04:16:27
-modified: 2025-05-15T23:15:24-06:00
+modified: 2025-05-16T06:59:16-06:00
 publish: true
 tags:
   - linux
+socialImage: /assets/me-linux2.png
 ---
 ## Introduction
 
-I’ve started following the [Linux Upskill Challenge](https://linuxupskillchallenge.org/) to sharpen my Linux knowledge and hands-on skills. It’s a series of 21 lessons designed to be completed daily, but I’ll be going through them at my own pace. I’ll share my journey and notes here as I move forward.
+I’ve started following the [Linux Upskill Challenge](https://linuxupskillchallenge.org/) to sharpen my Linux knowledge and hands-on skills. This is the **third** in a series of 21 lessons designed to be completed on a daily basis.
+
+In this lesson, I learned about the types of users that exist in a Linux system, along with their scope and limitations. I also explored the proper way to handle administrative tasks that require elevated privileges—how to temporarily become root in order to perform sensitive actions while minimizing the risk of making a mistake that could break your server.
 
 ---
 ## Day 3 - Power trip!
@@ -245,6 +248,14 @@ System clock synchronized: no
 
 Selecting the correct timezone for all your servers take importance when you need configure scheduled tasks that you need to run at certain time, it also allows you to have consistency in the timestamps of your log files (those under `/var/log`).
 
+
+## Final Question?
+### What’s the difference between `sudo -i` and `sudo -s`?
+
+- `sudo -i` and `sudo -s` are two commands that allow you to "become root" and run elevated-privilege commands without needing to prefix each one with `sudo`.   However, they have some key differences:
+- `sudo -i` launches a root shell—it's like starting a new shell session as if you had logged in directly as the root user. It also loads the root user's environment and places you in the `/root` directory (`cd /root`). If you type `echo $HOME`, it will point to `/root`. The `-i` stands for "*simulate initial login*".
+- `sudo -s` also launches a root shell, but it doesn’t load the root environment and keeps you in your current working directory. The `-s` stands for "*shell*", and it's less powerful than `-i`.
+
 ## Conclusion
 - Always double check before pressing `Enter` when you're acting as `root` on a server.
 - Always try to use for daily operations a  "normal" account and add to `sudoers` group so need to use  `sudo` for elevated priviledge commands.
@@ -259,11 +270,7 @@ Selecting the correct timezone for all your servers take importance when you nee
 
 ---
 
-### What’s the difference between `sudo -i` and `sudo -s`?
 
-- `sudo -i` and `sudo -s` are two commands that allow you to "become root" and run elevated-privilege commands without needing to prefix each one with `sudo`.   However, they have some key differences:
-- `sudo -i` launches a root shell—it's like starting a new shell session as if you had logged in directly as the root user. It also loads the root user's environment and places you in the `/root` directory (`cd /root`). If you type `echo $HOME`, it will point to `/root`. The `-i` stands for "*simulate initial login*".
-- `sudo -s` also launches a root shell, but it doesn’t load the root environment and keeps you in your current working directory. The `-s` stands for "*shell*", and it's less powerful than `-i`.
 
 
 --- 
