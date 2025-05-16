@@ -9,7 +9,7 @@ tags:
   - digital-garden
   - quartz
   - setup
-modified: 2025-05-15T17:22:12-06:00
+modified: 2025-05-15T19:18:37-06:00
 ---
 
 
@@ -27,10 +27,10 @@ npx quartz sync
 ```
 
 ### Landing Page
-https://carloslramirez.com/my-digital-jungle/
+https://carloslramirez.com/notes/
 
 ### Repositorio Pùblico
-https://github.com/CarlosLRamirez/my-digital-jungle
+https://github.com/CarlosLRamirez/notes
 
 
 ---
