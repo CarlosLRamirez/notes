@@ -1,7 +1,7 @@
 ---
 title: "My Linux Upskill Challenge: Day 0"
 date: 2025-04-29
-modified: 2025-05-16T06:43:02-06:00
+modified: 2025-05-16T19:00:49-06:00
 created: 2025-04-29T18:54:36-06:00
 aliases:
   - "My Linux Upskill Challenge: Day 0"
@@ -11,6 +11,8 @@ tags:
 URL: https://carloslramirez.com/my-digital-jungle/Linux/My-Linux-Upskill-Challenge---Day-0--and--1
 socialDescription: In this lesson, I set up my lab environment by deploying a virtual machine in the cloud—specifically, an EC2 instance on AWS. I configured the SSH key and logged into my Linux server for the first time.
 ---
+> 📅 Created on: {{ created }}  
+> 🛠️ Last updated: {{ modified }}
 ## Introduction
 I’ve started following the [Linux Upskill Challenge](https://linuxupskillchallenge.org/) to sharpen my Linux knowledge and hands-on skills. It’s a series of 21 lessons designed to be completed daily, but I’ll be going through them at my own pace. I’ll share my journey and notes here as I move forward.
 
