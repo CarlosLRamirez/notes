@@ -1,5 +1,5 @@
 ---
-modified: 2025-05-16T19:02:22-06:00
+modified: 2025-05-16T21:29:54-06:00
 created: 2025-05-16T18:49:21-06:00
 title: List of the most commonly used shells
 aliases:
@@ -8,9 +8,6 @@ publish: true
 tags:
   - linux
 ---
-> 📅 Created on: {{ created }}  
-> 🛠️ Last updated: {{ modified }}
-
 This is a list of the most commonly used and well-known **Unix/Like shells** are still in use today:
 
 ## 🐚 Commonly Used Shells in Linux/Unix

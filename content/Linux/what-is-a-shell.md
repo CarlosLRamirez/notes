@@ -1,5 +1,5 @@
 ---
-modified: 2025-05-16T19:04:06-06:00
+modified: 2025-05-16T21:30:07-06:00
 created: 2025-05-16T17:08:17-06:00
 publish: true
 title: What a Shell is?
@@ -9,9 +9,6 @@ tags:
   - linux
   - fundamentals
 ---
-> 📅 Created on: {{ created }}  
-> 🛠️ Last updated: {{ modified }}
-
 ## So what actually the Shell is?
 
 The Shell is the "program" that **runs on the server side** that provides the command-line interface between the user and the operating system.

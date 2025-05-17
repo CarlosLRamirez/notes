@@ -1,6 +1,6 @@
 ---
 title: "My Linux Upskill Challenge: Day 1"
-modified: 2025-05-16T19:05:41-06:00
+modified: 2025-05-16T21:29:23-06:00
 created: 2025-04-29T18:54:36-06:00
 aliases:
   - "My Linux Upskill Challenge: Day 1"
@@ -9,8 +9,6 @@ tags:
   - linux
 URL: https://carloslramirez.com/my-digital-jungle/Linux/My-Linux-Upskill-Challenge---Day-0--and--1
 ---
-> 📅 Created on: {{ created }}  
-> 🛠️ Last updated: {{ modified }}
 ## Introduction
 I’ve started following the [Linux Upskill Challenge](https://linuxupskillchallenge.org/) to sharpen my Linux knowledge and hands-on skills. It’s a series of 21 lessons designed to be completed daily, but I’ll be going through them at my own pace. I’ll share my journey and notes here as I move forward.
 

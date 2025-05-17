@@ -29,11 +29,8 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     if (text) {
       const segments: (string | JSX.Element)[] = []
 
-      // I modified this acording to https://discord.com/channels/927628110009098281/927628110009098284/1366107598385840178
-      // to show both craeated and modified dates
       if (fileData.dates) {
-segments.push(<span>🌱 <Date date={fileData.dates?.created ?? new Date()} locale={cfg.locale} /></span>)
-segments.push(<span>🪴 <Date date={fileData.dates?.modified ?? new Date()} locale={cfg.locale} /></span>)
+        segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
       }
 
       // Display reading time if enabled
@@ -42,7 +39,7 @@ segments.push(<span>🪴 <Date date={fileData.dates?.modified ?? new Date()} loc
         const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
           minutes: Math.ceil(minutes),
         })
-        segments.push(<span>⏱️ {displayedTime}</span>)
+        segments.push(<span>{displayedTime}</span>)
       }
 
       return (

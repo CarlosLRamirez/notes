@@ -1,14 +1,11 @@
 ---
-modified: 2025-05-16T18:59:25-06:00
+modified: 2025-05-16T21:29:09-06:00
 created: 2025-05-16T18:34:36-06:00
 title: History of Shells
 aliases:
   - History of Shells
 publish: true
 ---
-> 📅 Created on: {{ created }}  
-> 🛠️ Last updated: {{ modified }}
-
 ## 🧭 The Lineage — Which shell came first?
 
 ### 🕰️ 1. Thompson Shell (`sh`) — 1971

@@ -1,16 +1,13 @@
 ---
 created: 2025-05-08T13:14:29
-modified: 2025-05-16T19:04:59-06:00
-title: My Linux Upskill Challenge - Day 4
+modified: 2025-05-16T21:30:23-06:00
+title: "My Linux Upskill Challenge: Day 4"
 aliases:
-  - My Linux Upskill Challenge - Day 4
+  - "My Linux Upskill Challenge: Day 4"
 publish: true
 tags:
   - linux
 ---
-> 📅 Created on: {{ created }}  
-> 🛠️ Last updated: {{ modified }}
-
 ## Introduction
 
 I’ve started following the [Linux Upskill Challenge](https://linuxupskillchallenge.org/) to sharpen my Linux knowledge and hands-on skills. It’s a series of 21 lessons designed to be completed daily, but I’ll be going through them at my own pace. I’ll share my journey and notes here as I move forward.

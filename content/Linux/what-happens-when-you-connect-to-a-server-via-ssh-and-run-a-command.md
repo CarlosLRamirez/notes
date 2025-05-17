@@ -1,16 +1,11 @@
 ---
-modified: 2025-05-16T19:03:02-06:00
+modified: 2025-05-16T21:30:02-06:00
 created: 2025-05-16T18:34:42-06:00
 title: What Happens When You Connect to a Server via SSH and Run a Command?
 aliases:
   - What Happens When You Connect to a Server via SSH and Run a Command?
 publish: true
 ---
-
-> 📅 Created on: {{ created }}  
-> 🛠️ Last updated: {{ modified }}
-
-
 # What Happens When You Connect to a Server via SSH and Run a Command?
 
 ![](https://i.imgur.com/eVusbDi.png)
