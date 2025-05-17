@@ -1,10 +1,10 @@
 ---
-title: "My Linux Upskill Challenge: Day 0"
+title: "Linux Upskill Challenge: Day 0"
 date: 2025-04-29
-modified: 2025-05-16T21:29:19-06:00
+modified: 2025-05-16T21:52:09-06:00
 created: 2025-04-29T18:54:36-06:00
 aliases:
-  - "My Linux Upskill Challenge: Day 0"
+  - "Linux Upskill Challenge: Day 0"
 publish: true
 tags:
   - linux

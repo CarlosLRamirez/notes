@@ -1,9 +1,9 @@
 ---
-title: "My Linux Upskill Challenge: Day 2"
+title: "Linux Upskill Challenge: Day 2"
 aliases:
   - "My Linux Upskill Challenge: Day 2"
 publish: true
-modified: 2025-05-16T21:29:27-06:00
+modified: 2025-05-16T21:52:21-06:00
 created: 2025-05-01T20:09:07-06:00
 tags:
   - linux
