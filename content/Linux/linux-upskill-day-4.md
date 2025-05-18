@@ -1,6 +1,6 @@
 ---
 created: 2025-05-08T13:14:29
-modified: 2025-05-17T11:54:38-06:00
+modified: 2025-05-18T11:18:47-06:00
 title: "Linux Upskill Challenge: Day 4"
 aliases:
   - "My Linux Upskill Challenge: Day 4"
@@ -69,10 +69,33 @@ Now we have installed Midnight Commander we can use  his retro interface and esa
 - If you want to read the official manual of the file system hierarchy type `man hier`
 
 ### The `/` - Root Directory
+- Everything on your Linux system is located under the `/` directory, also called *root* directory. (don't confuse with the `/root` directory)
+- In Linux you don't have Drive Letters, like C: or D:, **everything** is under `/`, even if you have diferent physical  drives and partitions, all of them will be under `/`.
 
-- Everything on your Linux system is located under the `/` directory, also called *root* directory. (don't confuse with the `/root directory)
-- In Linux you don't have Drive Letters, like C: or D:, **everything** is under `/`, even if you have differet physical hard drives and partitions, all of them will be under `/`.
+---
+### The `/bin` directory
+- The `/bin` directory contains all the essential **system binaries** that Linux needs to function — even when it boots into a special recovery state called **single-user mode** (you can think of it like Safe Mode in Windows).
+	- [[20250518T1034-what-is-a-binary-in-linux|What is a Binary in Linux?]]
+- It contains important core command-line tools that must be available even if no other filesystems are mounted yet — such as `ls`, `cp`, `mv`, and the `bash` shell.
+- It traditionally has two sibling directories: `/sbin` (for essential system binaries for administrators) and `/usr/bin` (for general user binaries that are not critical for boot).
 
+---
+### The `/sbin` directory
+- The `/sbin` directory contains **essential system administration binaries** used for system booting, repairing, or managing services — like `fsck`, `reboot`, and `ifconfig`.
+- These tools are generally intended for **the root user or administrators**, and may not be in a regular user’s `$PATH`.
+
+---
+### The `/usr/bin` directory
+
+- 📦 The `/usr/bin` directory contains **most user-level commands and applications** that are not essential for booting or single-user mode.
+- It’s often much larger than `/bin` and includes tools like `git`, `nano`, `python`, `gcc`, etc.
+
+
+> [!WARNING]
+> ⚠️ Modern Linux systems often **merge `/bin` and `/usr/bin`** using symbolic links.
+> So the physical separation may no longer exist — but conceptually, this is still true.
+
+---
 
 ### The `/etc` folder
 - Key configuration files are stored here, and on subdirectories inside
