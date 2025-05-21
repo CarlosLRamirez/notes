@@ -1,5 +1,5 @@
 ---
-modified: 2025-05-16T21:30:07-06:00
+modified: 2025-05-21T15:47:31-06:00
 created: 2025-05-16T17:08:17-06:00
 publish: true
 title: What a Shell is?
@@ -65,7 +65,8 @@ Each shell aims to:
 - Provide better interactivity (autocomplete, colors, plugins, etc.)
 - Cater to specific use cases (like scripting vs. interactive use)
 
-
 ---
-[[list-of-shells|List of the most commonly used shells]]
-[[what-happens-when-you-connect-to-a-server-via-ssh-and-run-a-command|What Happens When You Connect to a Server via SSH and Run a Command?]]
+## Related notes
+- [[list-of-shells|List of the most commonly used shells]]
+- [[history-of-shells|History of Shells]]
+- [[what-happens-when-you-connect-to-a-server-via-ssh-and-run-a-command|What Happens When You Connect to a Server via SSH and Run a Command?]]

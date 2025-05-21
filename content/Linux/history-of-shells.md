@@ -1,10 +1,12 @@
 ---
-modified: 2025-05-16T21:29:09-06:00
+modified: 2025-05-21T15:47:22-06:00
 created: 2025-05-16T18:34:36-06:00
 title: History of Shells
 aliases:
   - History of Shells
 publish: true
+tags:
+  - linux
 ---
 ## 🧭 The Lineage — Which shell came first?
 
@@ -43,4 +45,5 @@ Because each has tradeoffs:
 | `ksh` | Legacy commercial UNIX systems (e.g., AIX, Solaris) |
 
 ---
-
+## Related notes
+- [[what-is-a-shell|What a Shell is?]]

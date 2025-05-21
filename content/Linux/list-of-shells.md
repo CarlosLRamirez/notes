@@ -1,5 +1,5 @@
 ---
-modified: 2025-05-16T21:29:54-06:00
+modified: 2025-05-21T15:46:15-06:00
 created: 2025-05-16T18:49:21-06:00
 title: List of the most commonly used shells
 aliases:
@@ -42,5 +42,6 @@ cat /etc/shells
 ```
 
 ---
-[[history-of-shells|History of Shells]]
-
+## Related Notes
+- [[history-of-shells|History of Shells]]
+- [[what-happens-when-you-connect-to-a-server-via-ssh-and-run-a-command|What Happens When You Connect to a Server via SSH and Run a Command?]]

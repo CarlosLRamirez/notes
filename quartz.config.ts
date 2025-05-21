@@ -30,34 +30,34 @@ const config: QuartzConfig = {
         //body: "JetBrains Mono",
         //body: "Work Sans",
         //code: "Source Code Pro",
-        header: "Playfair Display",
-        body: "IBM Plex Sans",
-        code: "IBM Plex Mono",
+        header: "Ubuntu",
+        body: "Inter",
+        code: "Fira Code",
       },
       colors: {
-        lightMode: {
-          light: "#f5f4f6",                // fondo general más cálido
-          lightgray: "#e0e0e0",            // bordes sutiles
-          gray: "#8b8b8b",                 // texto secundario
-          darkgray: "#4a4a4a",             // títulos/subtítulos
-          dark: "#2c2c2c",                 // texto fuerte
-          secondary: "#9f7aea",            // enlaces o acentos (lavanda)
-          tertiary: "#f38ba8",             // resaltados (rosado pastel)
-          highlight: "rgba(159, 122, 234, 0.1)", // fondo de resaltado
-          textHighlight: "#f38ba8cc",      // texto resaltado en línea
-        },
-        darkMode: {
-          light: "#1e1e28",                // fondo principal
-          lightgray: "#2e2e3a",            // bloques de código / UI
-          gray: "#6e6c7e",                 // texto apagado
-          darkgray: "#d6d6e7",             // títulos brillantes
-          dark: "#f5f5fa",                 // texto fuerte
-          secondary: "#cba6f7",            // enlaces o acentos (lavanda clara)
-          tertiary: "#f38ba8",             // resaltados
-          highlight: "rgba(203, 166, 247, 0.15)", // fondo de resaltado
-          textHighlight: "#f38ba8aa",      // texto resaltado en línea
-        },
-      },
+  lightMode: {
+    light: "#fef6e3",        // base (Latte)
+    lightgray: "#f5e0dc",    // subtle surface
+    gray: "#9ca3af",         // neutral gray
+    darkgray: "#4c4f69",     // text emphasis
+    dark: "#1e1e2e",         // stronger text or accents
+    secondary: "#d20f39",    // red accent (Catppuccin Red)
+    tertiary: "#f2cdcd",     // light red/pink highlight
+    highlight: "rgba(210, 15, 57, 0.1)", // soft red highlight
+    textHighlight: "#d20f39cc",  // red text highlight
+  },
+  darkMode: {
+    light: "#24273a",        // base (Macchiato)
+    lightgray: "#1e2030",    // surface
+    gray: "#cad3f5",         // muted text
+    darkgray: "#a5adcb",     // title/subtitle
+    dark: "#f4f4f5",         // strong text
+    secondary: "#f5a97f",    // flamingo accent
+    tertiary: "#f0c6c6",     // lighter flamingo
+    highlight: "rgba(245, 169, 127, 0.15)", // soft flamingo highlight
+    textHighlight: "#f5a97faa",  // flamingo text highlight
+  },
+},
     },
   },
   plugins: {
@@ -70,10 +70,10 @@ const config: QuartzConfig = {
         theme: {
           //light: "github-light",
           //dark: "github-dark",
-          light: "light-plus", // or "light-plus"
-          dark: "monokai", // or "monokai", "tokyo-night", "material-theme-palenight"
+          light: "material-theme", // or "light-plus"
+          dark: "material-theme-darker", // or "monokai", "tokyo-night", "material-theme-palenight"
         },
-        keepBackground: false,
+        keepBackground: true,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
