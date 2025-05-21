@@ -95,6 +95,7 @@ const config: QuartzConfig = {
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,
+        rssFullHtml: true, // Include full HTML content
       }),
       Plugin.Assets(),
       Plugin.Static(),

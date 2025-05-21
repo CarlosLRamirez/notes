@@ -1,5 +1,5 @@
 ---
-modified: 2025-05-21T15:47:31-06:00
+modified: 2025-05-21T16:01:27-06:00
 created: 2025-05-16T17:08:17-06:00
 publish: true
 title: What a Shell is?
@@ -21,7 +21,10 @@ Different shells exist — some are mostly historical, while others are still wi
 
 On Linux, every user can choose which shell they want to use as their default login shell. 
 
-We can check our current shell with:
+## How to change the shell?
+
+You can check our current shell with:
+
 ```zsh
 echo $SHELL
 ```
