@@ -1,7 +1,7 @@
 ---
 created: 2025-05-08T13:14:29
-modified: 2025-05-21T10:41:07-06:00
-title: "Linux Upskill Challenge: Day 4"
+modified: 2025-05-21T16:31:37-06:00
+title: "Linux Upskill Challenge: Day 4 - Installing software, exploring the file structure"
 aliases:
   - "My Linux Upskill Challenge: Day 4"
 publish: true
@@ -11,14 +11,15 @@ tags:
 
 ## Introduction
 
-I’ve started following the [Linux Upskill Challenge](https://linuxupskillchallenge.org/) to sharpen my Linux knowledge and hands-on skills. It’s a series of 21 lessons designed to be completed daily, but I’ll be going through them at my own pace. I’ll share my journey and notes here as I move forward.
+This is the Day 4 Journal on my [Linux Upskill Challenge](https://linuxupskillchallenge.org/) , yes, this is the lesson when you get in deep with the Linux File System, I also learned about how to install packages in Ubuntu Linux with APT.
 
----
+## Table of Contents
 
-## Day 4 - Installing software, exploring the file structure
-- **URL:** https://linuxupskillchallenge.org/04/
-- **Previous Lesson:**  [[linux-upskill-day-3|My Linux Upskill Challenge: Day 3]]
-
+- [[#Introduction|Introduction]]
+- [[#Installing packages in Ubuntu Linux|Installing packages in Ubuntu Linux]]
+- [[#The Linux File System|Linux File System]]
+- [[#Questions I asked myself 🤔|Questions I asked myself 🤔]]
+- [[#Related Notes|Related Notes]]
 --- 
 ## Installing packages in Ubuntu Linux
 
@@ -74,7 +75,7 @@ Now that we've installed Midnight Commander, we can use its retro interface to e
 
 ---
 
-## Linux File System
+## The Linux File System
 
 - The Linux operating system has a standard file system structure. At first, it might seem a bit intimidating—especially if you're only familiar with Windows, where you have the C: drive, D: drive, and various folders within each. **With Linux, it's a totally different beast.**
 - The Filesystem Hierarchy Standard (FHS) defines the structure of file systems on Linux and other UNIX-like operating systems. However, Linux file systems also contain some directories that aren't yet defined by the standard.
