@@ -46,4 +46,4 @@ Because each has tradeoffs:
 
 ---
 ## Related notes
-- [[what-is-a-shell|What a Shell is?]]
+- [[20250516T1708-what-is-a-shell|What a Shell is?]]

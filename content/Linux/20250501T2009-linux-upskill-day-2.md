@@ -14,7 +14,7 @@ I’ve started following the [Linux Upskill Challenge](https://linuxupskillchall
 ---
 ## Day 2 - Basic navigation
 - **URL:** [https://linuxupskillchallenge.org/02/](https://linuxupskillchallenge.org/02/)
-- **Previous Lesson:**  [[linux-upskill-day-1|My Linux Upskill Challenge: Day 1]]
+- **Previous Lesson:**  [[20250429T1854-linux-upskill-day-1|My Linux Upskill Challenge: Day 1]]
 
 ---
 ## **RTFM**
@@ -202,6 +202,6 @@ popd
 
 ---
 ## Related notes
-- [[linux-upskill-day-1|My Linux Upskill Challenge: Day 1]]
-- [[linux-upskill-day-3|My Linux Upskill Challenge: Day 3]]
+- [[20250429T1854-linux-upskill-day-1|My Linux Upskill Challenge: Day 1]]
+- [[20250504T0416-linux-upskill-day-3|My Linux Upskill Challenge: Day 3]]
 

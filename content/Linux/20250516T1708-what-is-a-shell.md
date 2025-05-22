@@ -1,5 +1,5 @@
 ---
-modified: 2025-05-21T16:01:27-06:00
+modified: 2025-05-21T21:41:19-06:00
 created: 2025-05-16T17:08:17-06:00
 publish: true
 title: What a Shell is?
@@ -21,46 +21,9 @@ Different shells exist — some are mostly historical, while others are still wi
 
 On Linux, every user can choose which shell they want to use as their default login shell. 
 
-## How to change the shell?
-
-You can check our current shell with:
-
-```zsh
-echo $SHELL
-```
-
-You can also see the default login shell of your user by checking the content of the file `/etc/passwd`
-
-```zsh
-grep "^$USER" /etc/passwd
-```
-
-To change your default shell (only for your user):
-```zsh
-chsh -s /path/to/shell
-```
-
-For example (*`-s` = set shell and the change applies on next login)*)
-```zsh
-chsh -s /bin/zsh
-```
-
-This file lists all valid login shells on the system
-```zsh
-cat /etc/shells
-```
-
-If you're root 🔐, you can change the shell for another user with:
-```zsh
-sudo chsh -s /bin/bash carlos
-```
-
-or edit directly the `/etc/passwd` (not recommended unless you're sure what your doing!)
-
----
 ### 🧠 Why are there different shells?
 
-> Because over time, developers built **new shells with more features**, better scripting, customization, performance, or user experience — just like how web browsers or text editors evolved.
+Because over time, developers built **new shells with more features**, better scripting, customization, performance, or user experience — just like how web browsers or text editors evolved.
 
 Each shell aims to:
 - Improve on limitations of older shells
@@ -68,8 +31,9 @@ Each shell aims to:
 - Provide better interactivity (autocomplete, colors, plugins, etc.)
 - Cater to specific use cases (like scripting vs. interactive use)
 
----
+
 ## Related notes
-- [[list-of-shells|List of the most commonly used shells]]
-- [[history-of-shells|History of Shells]]
-- [[what-happens-when-you-connect-to-a-server-via-ssh-and-run-a-command|What Happens When You Connect to a Server via SSH and Run a Command?]]
+- [[20250516T1849-list-of-shells|List of the most commonly used shells]]
+- [[20250526T1834-history-of-shells|History of Shells]]
+- [[20250521T2100-how-to-change-your-shell-in-linux|How to change your shell in Linux]]
+- [[20250516T1834-what-happens-when-you-connect-to-a-server-via-ssh-and-run-a-command|What Happens When You Connect to a Server via SSH and Run a Command?]]

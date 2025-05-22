@@ -15,7 +15,7 @@ I’ve started following the [Linux Upskill Challenge](https://linuxupskillchall
 ---
 ## Day 1 - Get to know your server
 - **URL**: <https://linuxupskillchallenge.org/01/>
-- **Previous Lesson:** [[linux-upskill-day-0|My Linux Upskill Challenge: Day 0]]
+- **Previous Lesson:** [[20250429T1854-linux-upskill-day-0|My Linux Upskill Challenge: Day 0]]
 
 ---
 
@@ -94,8 +94,8 @@ I connected to my Linux server in the cloud and ran the following commands:
 ---
 
 ## Related Notes
-- [[linux-upskill-day-0|My Linux Upskill Challenge: Day 0]]
-- [[linux-upskill-day-2|My Linux Upskill Challenge: Day 2]]
+- [[20250429T1854-linux-upskill-day-0|My Linux Upskill Challenge: Day 0]]
+- [[20250501T2009-linux-upskill-day-2|My Linux Upskill Challenge: Day 2]]
 
 
 
