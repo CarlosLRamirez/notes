@@ -1,5 +1,5 @@
 ---
-modified: 2025-05-22T00:32:38-06:00
+modified: 2025-05-22T12:40:08-06:00
 created: 2025-05-20T21:00:06
 publish: true
 tags:
@@ -7,10 +7,8 @@ tags:
 title: How to change your shell in Linux
 aliases:
   - How to change your shell in Linux
-zettel-type:
+zettel-type: 
 ---
-# How to Change Your Shell in Linux
-
 Sometimes you want to change your default shell on your Linux system to a different one. This is a step-by-step guide.
 
 ## ✅ Check Your Current Shell
@@ -125,24 +123,25 @@ sudo nano /etc/passwd
 
 ## 👀 Prompt Differences Between Bash, Zsh, and Fish (Quick Peek)
 
-One of the most obvious differences between the different shells is the prompt, but there are many more,
+One of the most obvious differences between the different shells is the prompt
 
 ### Bash prompt
 - Classical
 - It is customizable via `.bashrc`.
-![](https://i.imgur.com/MYPOJ0t.png)
 
+	![Bash promtp|300](https://i.imgur.com/MYPOJ0t.png)
 
 ### Fish prompt
 - Colorful
 - Auto-suggestions by default
-![](https://i.imgur.com/zfEDcNb.png)
 
-### Zhz prompt
+![Fish prompt|300](https://i.imgur.com/zfEDcNb.png)
+
+### Zsh prompt
 - Support themes like `agnoster`, `robbyrussell`
-![](https://i.imgur.com/amTDido.png)
+
+![Zsh promtp|300](https://i.imgur.com/amTDido.png)
 
 ---
-
 ## Related Notes
 [[20250521T2355-customizing-your-linux-shell-oh-my-zsh-oh-my-bash-and-prompt-styling|Customizing Your Linux Shell: Oh My Zsh, Oh My Bash, and Prompt Styling]]
