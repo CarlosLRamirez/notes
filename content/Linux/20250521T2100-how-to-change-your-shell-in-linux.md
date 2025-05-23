@@ -1,5 +1,5 @@
 ---
-modified: 2025-05-22T12:40:08-06:00
+modified: 2025-05-22T17:02:54-06:00
 created: 2025-05-20T21:00:06
 publish: true
 tags:
@@ -143,5 +143,5 @@ One of the most obvious differences between the different shells is the prompt
 ![Zsh promtp|300](https://i.imgur.com/amTDido.png)
 
 ---
-## Related Notes
+## Related Note
 [[20250521T2355-customizing-your-linux-shell-oh-my-zsh-oh-my-bash-and-prompt-styling|Customizing Your Linux Shell: Oh My Zsh, Oh My Bash, and Prompt Styling]]
