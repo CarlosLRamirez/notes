@@ -1,3 +1,23 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// permite manejar columnas 
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 1rem;
+}
+
+.column {
+  flex: 1;
+  min-width: 200px;
+}
+
+//Automaticamente centra todas las imagenes (supuestamente)
+.markdown-preview-view img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
