@@ -1,0 +1,49 @@
+---
+created: 2024-12-18T13:14:14
+modified: '"2025-01-11 11:20", "6tc/G1T+6"'
+type:
+  - Zettelkasten
+aliases:
+  - Commit
+tags: 
+status:
+  - in-progress
+---
+## Concepto
+Un *commit* es una instantanea de los cambios en el repositorio local.
+
+
+## Descripción
+Un *commit* representa un cambio en los datos del repositorio local.  La acción de "hacer un *commit*" o "*commitear*" es confirmar los cambios que se encuentren en el staging area y a la vez guardarlos en el historial del repositorio.
+
+El proceso de commit genera un identificador único ([[2024-12-18 - 2024-12-18 - Git Hashes|Hash]] de tipo SHA-1) que permite localizar un cambio en el proyecto en un momento específico.
+## Puntos Clave
+- Hacer un *commit* afecta solo el **repositorio local.** 
+- Para que los cambios puedan ser enviados al [[2024-12-18 Git Remote|Remoto]] debemos hacer un [[20241218T0113 Git Push|Push]]
+- La traducción de *commit* al castellano seria "confirmar", sin embargo en el contexto de **Git** tambien significa "registrar" o "guardar" un cambio en el historia.  Generalmente se suele mantener el termino original en ingles.
+## Ejemplo
+1. Supongamos que tengo dos archivos en mi proyecto:
+
+**Tracked.md**
+Hola mundo
+
+**noTracked.md**
+Homa Git
+
+2. Hacemos un cambio en ambos archivos, por ejemplo agregar una linea
+
+**Tracked.md**
+Hola mundo
+nueva linea
+
+**noTracked.md**
+Homa Git
+nueva linea
+
+3. Agregamos solo el archivo Tracked.md a nuestra staging area con `git add Tracked.md`. Al hacer eso Git compara la nueva version del archivo con la versión anterior (la del último commit) e identifica que hay una linea nueva: ("nueva linea").  ([[diff]])
+4. El cambio en noTracked.md no lo rastrea, ya que no fue agregado al stating area.
+5. Sin embargo, si yo quiero que este punto en el tiempo. (por ejemplo antes de hacer mas cambios como agregar otra linea) quede guardado en el historial de cambios del repositorio, debo hacer un **commit** ahora, con `git commit -m "se agrego una linea"`.
+	- El _commit_ solo incluye los cambios que están en el _staging area_.
+	- noTracked.md no forma parte del _commit_, porque no fue agregado al _staging area_.
+
+
