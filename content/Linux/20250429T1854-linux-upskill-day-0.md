@@ -1,7 +1,7 @@
 ---
 title: "Linux Upskill Challenge: Day 0"
 date: 2025-04-29
-modified: 2025-05-16T21:52:09-06:00
+modified: 2025-05-25T23:19:07-06:00
 created: 2025-04-29T18:54:36-06:00
 aliases:
   - "Linux Upskill Challenge: Day 0"
