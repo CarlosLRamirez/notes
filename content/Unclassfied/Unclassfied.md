@@ -1,1 +1,0 @@
-Este folder tiene todas las notas tipo Zettelkasten en un mismo nivel 

@@ -37,7 +37,7 @@ I connected to my Linux server in the cloud and ran the following commands:
 - `lshw`: Displays detailed hardware info.  
 - `lscpu`: Shows CPU information.  
 - `lscpu | grep Hypervisor`: Shows which hypervisor your VM is using—my EC2 instance uses Xen.  
-- `lsblk`: Lists storage devices and their partitions. This command led me to start reading about the [[20250429T1748 snap package manager]].  
+- `lsblk`: Lists storage devices and their partitions. This command led me to start reading about the [[20250429T1746-snap-package-manager]].  
 - `lspci`: Lists all PCI devices. These are emulated by the Xen hypervisor, and some are quite outdated.  
 - `lsusb`: Lists USB devices—my EC2 instance shows none, as expected.
 
