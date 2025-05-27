@@ -5,7 +5,7 @@ aliases:
 publish: true
 tags:
   - linux
-modified: 2025-05-23T20:49:47-06:00
+modified: 2025-05-26T12:17:16-06:00
 created: 2025-05-21T18:22:52-06:00
 ---
 
@@ -191,6 +191,12 @@ A **terminal multiplexer** is a command-line tool that lets you run and manage *
 I wrote a separate note with a quick introduction to tmux basics:
 
 - [[20250523T0650-tmux-101-sessions-windows-panes|tmux 101: Sessions, Windows & Panes]]
+
+
+## Related Notes
+- Previous Lesson: [[20250508T1314-linux-upskill-day-4|My Linux Upskill Challenge: Day 4]]
+- Next Lesson: [[20250526T1214-my-linux-upskill-challenge-day-6|My Linux Upskill Challenge: Day 6]]
+
 
 ---
 ## External Resources
