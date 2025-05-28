@@ -1,14 +1,15 @@
 ---
-modified: 2025-05-21T15:47:22-06:00
+modified: 2025-05-27T21:12:08-06:00
 created: 2025-05-16T18:34:36-06:00
-title: History of Shells
+title: Shells timeline
 aliases:
-  - History of Shells
+  - Shells timeline
 publish: true
 tags:
   - linux
 ---
-## 🧭 The Lineage — Which shell came first?
+
+##🧭 The Lineage — Which shell came first?
 
 ### 🕰️ 1. Thompson Shell (`sh`) — 1971
 - The original shell for **Version 1 UNIX**.
