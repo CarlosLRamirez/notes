@@ -1,6 +1,6 @@
 ---
 created: 2025-05-08T14:55:56
-modified: 2025-05-26T09:47:54-06:00
+modified: 2025-05-28T23:04:05-06:00
 aliases:
   - Jardín Digital
 title: Jardín Digital
@@ -52,7 +52,7 @@ Además, he notado recientemente un creciente interés en métodos como Zettelka
 ## Ejemplos
 Ejemplos de Jardines Digitales que he encontrado y me parecen interesantes, no todos son con Quartz
 - https://rachsmith.com/
-- 
+- https://bagrounds.org/
 
 
 ## Conclusiones
