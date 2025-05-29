@@ -25,6 +25,26 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ContentMeta(),
     Component.TagList(),
   ],
+  afterBody: [
+  Component.ConditionalRender({
+    component: Component.Comments({
+      provider: "giscus",
+      options: {
+        repo: "CarlosLRamirez/notes",
+        repoId: "R_kgDOOXCNEw",
+        category: "Comments",
+        categoryId: "DIC_kwDOOXCNE84Cqt0z",
+        mapping: "pathname",
+        strict: true,
+        reactionsEnabled: true,
+        inputPosition: "bottom",
+        lightTheme: "light",
+        darkTheme: "dark",
+      },
+    }),
+    condition: (page) => page.fileData.frontmatter?.comments === true,
+  }),
+],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),

@@ -1,5 +1,5 @@
 ---
-modified: 2025-05-23T08:22:08-06:00
+modified: 2025-05-28T22:42:02-06:00
 created: 2025-05-20T21:00:06
 publish: true
 tags:
@@ -8,6 +8,7 @@ title: How to change your shell in Linux
 aliases:
   - How to change your shell in Linux
 zettel-type: 
+comments: true
 ---
 Sometimes you want to change your default shell on your Linux system to a different one. This is a step-by-step guide.
 

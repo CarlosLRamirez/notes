@@ -1,6 +1,6 @@
 ---
 created: 2025-05-18T10:34:57
-modified: 2025-05-18T11:19:16-06:00
+modified: 2025-05-28T22:41:49-06:00
 publish: true
 tags:
   - linux
@@ -9,6 +9,7 @@ aliases:
   - What is a Binary in Linux?
 zettel-type:
   - permanent
+comments: true
 ---
 In Linux (and UNIX-like systems), a **binary** is a **compiled executable file**—meaning it’s machine code that the system can run directly. It’s the output of compiling source code (like C or C++) into an executable format.
 

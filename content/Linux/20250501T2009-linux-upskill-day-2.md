@@ -3,10 +3,11 @@ title: "Linux Upskill Challenge: Day 2"
 aliases:
   - "My Linux Upskill Challenge: Day 2"
 publish: true
-modified: 2025-05-16T21:52:21-06:00
+modified: 2025-05-28T22:41:15-06:00
 created: 2025-05-01T20:09:07-06:00
 tags:
   - linux
+comments: true
 ---
 ## Introduction
 I’ve started following the [Linux Upskill Challenge](https://linuxupskillchallenge.org/) to sharpen my Linux knowledge and hands-on skills. It’s a series of 21 lessons designed to be completed daily, but I’ll be going through them at my own pace. I’ll share my journey and notes here as I move forward.

@@ -1,11 +1,12 @@
 ---
 created: 2025-05-21T23:55:44
-modified: 2025-05-22T12:40:25-06:00
+modified: 2025-05-28T22:42:07-06:00
 publish: false
 tags: 
 title: "Customizing Your Linux Shell: Oh My Zsh, Oh My Bash, and Prompt Styling"
 aliases:
   - "Customizing Your Linux Shell: Oh My Zsh, Oh My Bash, and Prompt Styling"
+comments: true
 ---
 A beginner-friendly guide to enhancing your shell experience with themes, plugins, and smarter prompts.
 

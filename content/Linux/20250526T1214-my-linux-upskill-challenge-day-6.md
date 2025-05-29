@@ -1,6 +1,6 @@
 ---
 created: 2025-05-26T12:14:57
-modified: 2025-05-27T07:36:28-06:00
+modified: 2025-05-28T22:42:16-06:00
 publish: true
 tags:
   - linux
@@ -11,6 +11,7 @@ zettel-type:
   - permanent
 status:
   - finished
+comments: 
 ---
 ## Introduction
 

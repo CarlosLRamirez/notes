@@ -1,6 +1,6 @@
 ---
 created: 2025-05-23T06:50:14
-modified: 2025-05-23T20:49:41-06:00
+modified: 2025-05-28T22:42:13-06:00
 publish: true
 tags:
   - linux
@@ -9,6 +9,7 @@ tags:
 title: "tmux 101: Sessions, Windows & Panes"
 aliases:
   - "tmux 101: Sessions, Windows & Panes"
+comments: true
 ---
 ## Introduction
 

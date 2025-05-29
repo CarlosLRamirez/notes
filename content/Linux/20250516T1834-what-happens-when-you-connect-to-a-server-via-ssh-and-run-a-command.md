@@ -1,5 +1,5 @@
 ---
-modified: 2025-05-21T15:45:45-06:00
+modified: 2025-05-28T22:41:40-06:00
 created: 2025-05-16T18:34:42-06:00
 title: What Happens When You Connect to a Server via SSH and Run a Command?
 aliases:
@@ -8,6 +8,7 @@ publish: true
 tags:
   - linux
   - operating-systems
+comments: true
 ---
 ![](https://i.imgur.com/eVusbDi.png)
 Let’s say you’re using a Mac. You open the **Terminal app** — that’s your **terminal emulator**. It’s the program that gives you a window to type commands and see output.

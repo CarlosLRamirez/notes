@@ -1,6 +1,6 @@
 ---
 created: 2025-05-04T04:16:27
-modified: 2025-05-16T21:52:29-06:00
+modified: 2025-05-28T22:41:21-06:00
 title: "Linux Upskill Challenge: Day 3"
 aliases:
   - "My Linux Upskill Challenge: Day 3"
@@ -9,6 +9,7 @@ tags:
 socialImage: ./_attachments/1.png
 description: In this lesson, I learned about the types of users that exist in a Linux system, along with their scope and limitations. I also explored the proper way to handle administrative tasks that require elevated privileges—how to temporarily become root in order to perform sensitive actions while minimizing the risk of making a mistake that could break your server.
 publish: true
+comments: true
 ---
 ## Introduction
 

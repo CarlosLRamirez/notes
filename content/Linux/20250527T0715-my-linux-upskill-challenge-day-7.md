@@ -1,6 +1,6 @@
 ---
 created: 2025-05-27T07:15:30
-modified: 2025-05-28T20:07:24-06:00
+modified: 2025-05-28T22:42:20-06:00
 publish: true
 tags:
   - linux
@@ -11,11 +11,14 @@ zettel-type:
   - permanent
 statuS:
   - finished
+comments: true
 ---
+
 ## Introduction
 
 This is my journal note following the [Linux Upskill Challenge: Day 7](https://linuxupskillchallenge.org/07/).
 
+---
 ## Before we Begin
 
 In this lesson, we explore how **services work in Linux**, how they're configured, and where to find their logs. The example used is installing and experimenting with the **Apache2 web server**.
@@ -41,15 +44,19 @@ In this lesson, we explore how **services work in Linux**, how they're configure
 >- [GCP](https://cloud.google.com/firewall/docs/using-firewalls#listing-rules-vm)
 > - [Oracle Cloud Infrastructure](https://docs.oracle.com/en-us/iaas/developer-tutorials/tutorials/apache-on-oracle-linux/01-summary.htm#add-ingress-rules)
  
+---
 ##  Understanding Services in Linux
 
-**What is a service in Linux?**  
-	- A service is a background process (also called a *daemon*) that is managed by the system to start, stop, or restart as needed.
-	- In our case **apache2** applications is running as a "service" inside Linux.
+### What is a service in Linux?
 
-**How are services managed?**  
+- A service is a background process (also called a *daemon*) that is managed by the system to start, stop, or restart as needed.
+- In our case **apache2** applications is running as a "service" inside Linux.
+
+### How are services managed?
+
 - On modern systems like Ubuntu, services are managed using `systemd` via the `systemctl` command.  
 
+---
 ## Process,  Daemons, Services,  and Units
 ### Process
 
@@ -84,6 +91,8 @@ In this lesson, we explore how **services work in Linux**, how they're configure
 
 - Units are defined using configuration files called **unit files**.
 
+---
+
 ## What is  systemd ?
 
 - `systemd` it's the core **init system** used in most modern Linux distributions (like Ubuntu, Debian, Fedora, RHEL, etc.).
@@ -93,8 +102,6 @@ In this lesson, we explore how **services work in Linux**, how they're configure
 - Its job is to **initialize the system**, **start all necessary services**, and **manage them** during runtime.
 
 > Other Linux distribution (specialy oldest) could have a different **init systems**, like OpenRC, Upstart, etc..
-
-[[20250528T1653-the-difference-between-a-service-process-daemon-and-unit-in-linux|The difference between a service, process,  daemon and unit in Linux?]]
 
 ### The command `systemctl`
 
@@ -174,6 +181,7 @@ sudo systemctl disable apache2
 systemctl list-units
 ```
 
+---
 ## Service configuration Files
 
 - As must of the services  in Linux **Apache2** configurations files are located in the usual place: `/etc/`.  
@@ -210,7 +218,7 @@ systemctl list-units
 
 > This lesson isn’t about setting up Apache2 web server or deploying a web page, so I didn’t dive into the details, only a very basic guide  [here](#apache2-very-basic-setup)
 
-
+---
 ## Service logs
 
 Services saves their logs in `var/logs`, as expected, **Apache** keeps its logs under `/var/log/apache2/`
@@ -235,8 +243,8 @@ less access.log
 
 - I also looked at `error.log` — luckily, it was empty (which is a good sign 😅).  
 
-
-## appendix: Apache2 very basic setup
+---
+## Appendix: Apache2 very basic setup
 
 
 - In Apache2, the default webpage files are located in `/var/www/html`
@@ -277,10 +285,12 @@ less access.log
 
 ![](https://i.imgur.com/jFWnqtO.png)
 
-## Conclusions
+---
+## Key takeaways
 
-`systemd` is the program responsible for **managing and coordinating** other programs that run in the background on a Linux system — known as **services** or **daemons**. But it goes beyond just services: it also manages **devices**, **mount points**, **sockets**, **timers**, and other essential components. Think of it as the **modern orchestrator** of the system’s startup process and overall state.
-
+- `systemd` is the program responsible for **managing and coordinating** other programs that run in the background on a Linux system — known as **services** or **daemons**. But it goes beyond just services: it also manages **devices**, **mount points**, **sockets**, **timers**, and other essential components. 
+- Think of it as the **modern orchestrator** of the system’s startup process and overall state.
+- Every sevice has their own configuration files and service logs that are stores in `/etc` and `/var/logs` respectively
 
 ---
 ## Additional Resources

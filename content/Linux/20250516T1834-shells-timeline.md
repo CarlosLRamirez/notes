@@ -1,5 +1,5 @@
 ---
-modified: 2025-05-27T21:12:08-06:00
+modified: 2025-05-28T22:41:36-06:00
 created: 2025-05-16T18:34:36-06:00
 title: Shells timeline
 aliases:
@@ -7,6 +7,7 @@ aliases:
 publish: true
 tags:
   - linux
+comments: true
 ---
 
 ##🧭 The Lineage — Which shell came first?

@@ -1,6 +1,6 @@
 ---
 created: 2025-05-19T21:38:52
-modified: 2025-05-21T07:40:56-06:00
+modified: 2025-05-28T22:41:55-06:00
 publish: true
 tags:
   - linux
@@ -8,6 +8,7 @@ title: What is a Daemon in Linux?
 aliases:
   - What is a Daemon in Linux?
 zettel-type: 
+comments: true
 ---
 ## Main Concept
 

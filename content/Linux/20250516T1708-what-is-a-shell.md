@@ -1,5 +1,5 @@
 ---
-modified: 2025-05-21T21:41:19-06:00
+modified: 2025-05-28T22:41:31-06:00
 created: 2025-05-16T17:08:17-06:00
 publish: true
 title: What a Shell is?
@@ -8,6 +8,7 @@ aliases:
 tags:
   - linux
   - fundamentals
+comments: true
 ---
 ## So what actually the Shell is?
 

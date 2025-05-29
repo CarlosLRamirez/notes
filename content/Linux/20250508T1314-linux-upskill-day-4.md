@@ -1,12 +1,13 @@
 ---
 created: 2025-05-08T13:14:29
-modified: 2025-05-21T16:31:37-06:00
+modified: 2025-05-28T22:41:26-06:00
 title: "Linux Upskill Challenge: Day 4 - Installing software, exploring the file structure"
 aliases:
   - "My Linux Upskill Challenge: Day 4"
 publish: true
 tags:
   - linux
+comments: true
 ---
 
 ## Introduction
