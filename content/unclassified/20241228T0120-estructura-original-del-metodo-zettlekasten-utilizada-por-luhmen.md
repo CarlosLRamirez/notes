@@ -24,4 +24,6 @@ Esto le permitía a Lhumen buscar una nota a partir de dicha estructura. Sin emb
 
 --- 
  **Notas relacionadas:**
- 
+
+---
+**Nota diaria:** [[2024-12-28]]

@@ -77,4 +77,6 @@ publish: true
 	- You consume the application
 	- You abstract everything else
 	- i.e. Office 365, Google Workspace, Netflix, etc..
- 
+
+---
+**Nota diaria:** [[2024-12-30]]

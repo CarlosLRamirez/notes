@@ -28,4 +28,5 @@ https://www.youtube.com/watch?v=Ak7cuIyQeYw&t=2s
 
 https://jdheyburn.co.uk/blog/how-i-use-obsidian-to-journal/#plugins-and-configuration
 
-
+---
+**Nota diaria:** [[2024-12-30]]

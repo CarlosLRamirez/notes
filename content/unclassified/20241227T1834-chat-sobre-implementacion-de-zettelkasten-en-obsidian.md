@@ -53,3 +53,6 @@ publish: true
 - [[20241118T2019-metodo-zettelkasten]]
 - [[Obsidian Setup]]
 - [[Templates en Obsidian]]
+
+---
+**Nota diaria:** [[2024-12-27]]

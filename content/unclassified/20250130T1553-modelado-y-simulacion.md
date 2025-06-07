@@ -75,4 +75,5 @@ La simulación tiene aplicaciones en una gran vasta cantidad de áreas, como por
 
 ## Referencias:
 
-
+---
+**Nota diaria:** [[2025-01-30]]

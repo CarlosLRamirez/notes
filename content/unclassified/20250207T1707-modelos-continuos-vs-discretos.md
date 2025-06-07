@@ -55,4 +55,5 @@ A estos modelos se les llama **Modelos de Simulación de Eventos Discretos**
 
 ## Referencias:
 
-
+---
+**Nota diaria:** [[2025-02-07]]

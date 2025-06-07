@@ -63,3 +63,5 @@ Para mayor profundidad podemos ver la nota de lección de la profesora Friedman.
 - Banks, 1.10 Types of Models, Paginas 13 y 14
 - Notas de la Professor Linda Weiser Friedman  - Lecture 1 - Introduction to Simulation  and Modeling - https://sim.proffriedman.net/lectures
 
+---
+**Nota diaria:** [[2025-02-07]]

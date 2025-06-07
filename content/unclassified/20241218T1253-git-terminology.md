@@ -50,3 +50,5 @@ By Daniel Kinzler - Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.p
 **Referencia**
 https://learn.microsoft.com/en-us/training/modules/intro-to-git//1-what-is-vc
 
+---
+**Nota diaria:** [[2024-12-18]]

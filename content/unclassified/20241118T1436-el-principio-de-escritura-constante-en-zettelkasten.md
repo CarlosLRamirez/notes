@@ -18,7 +18,5 @@ La escritura activa y personal es el núcleo del método Zettelkasten. Al escrib
 [[20241118T1521 The FUN and EFFICIENT note-taking system I use in my PhD]]
 [[20241227T1834-chat-sobre-implementacion-de-zettelkasten-en-obsidian]]
 
-
-
-
-
+---
+**Nota diaria:** [[2024-11-18]]

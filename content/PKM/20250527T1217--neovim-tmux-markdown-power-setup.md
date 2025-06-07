@@ -86,3 +86,6 @@ set -g mouse off
 - Use `:Glow` or `<Space>p` to preview inside terminal
 - Navigate panes with `Ctrl + h/j/k/l`
 - Toggle file tree with `<Space>e`
+
+---
+**Nota diaria:** [[2025-05-27]]

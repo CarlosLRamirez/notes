@@ -235,3 +235,6 @@ Now that we've installed Midnight Commander, we can use its retro interface to e
 ## Related Notes
 - [[20250504T0416-linux-upskill-day-3|My Linux Upskill Challenge: Day 3]]
 - [[20250521T1822-linux-upskill-day-5|My Linux Upskill Challenge: Day 5]]
+
+---
+**Nota diaria:** [[2025-05-08]]

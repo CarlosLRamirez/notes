@@ -22,4 +22,7 @@ publish: true
 	- key:value
 	- Objects {} ans Arrays []
 	- Indentation doesn't matter
-	- Used in CloudFormation and Policy Documents n 
+	- Used in CloudFormation and Policy Documents n
+
+---
+**Nota diaria:** [[2024-12-30]]

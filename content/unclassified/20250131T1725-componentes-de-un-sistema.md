@@ -38,4 +38,5 @@ publish: true
 
 ## Referencias:
 
-
+---
+**Nota diaria:** [[2025-01-31]]

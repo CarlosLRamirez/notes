@@ -35,4 +35,5 @@ https://git-scm.com/
 
 ## Referencias:
 
-
+---
+**Nota diaria:** [[2025-01-08]]

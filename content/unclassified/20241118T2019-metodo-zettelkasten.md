@@ -55,3 +55,6 @@ El método funciona como un "segundo cerebro" que permite capturar, procesar y c
 
 
 ---
+
+---
+**Nota diaria:** [[2024-11-18]]

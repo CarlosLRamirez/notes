@@ -103,3 +103,6 @@ Un **storyboard** representa la evolución del sistema en una serie de imágenes
 | **Diagrama de Flujo**          | Fácil de entender, visualiza procesos y lógica      | Definir la estructura del modelo       |
 | **Lista de Eventos Ordenados** | Muestra ejecución específica con tiempos reales     | Simulación basada en eventos discretos |
 | **Storyboard**                 | Explicación visual sencilla, útil en presentaciones | Explicar sistemas de forma didáctica   |
+
+---
+**Nota diaria:** [[2025-02-08]]

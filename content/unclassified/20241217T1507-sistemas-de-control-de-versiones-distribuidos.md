@@ -29,5 +29,5 @@ En un sistema de control de versiones distribuido **todo el historial del proyec
 https://medium.com/@pm74367/types-of-vcs-version-control-system-f7af5594bd04
 https://learn.microsoft.com/en-us/training/modules/intro-to-git/1-what-is-vc
 
-
- 
+---
+**Nota diaria:** [[2024-12-17]]

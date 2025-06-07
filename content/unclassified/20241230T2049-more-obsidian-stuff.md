@@ -81,4 +81,7 @@ publish: true
 
 - https://github.com/efemkay/obsidian-modular-css-layout
 - https://www.youtube.com/watch?v=uSCsWppTFHs
-- 
+-
+
+---
+**Nota diaria:** [[2024-12-30]]

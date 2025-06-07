@@ -28,5 +28,6 @@ Podríamos comparar un *bare repository* con los planos de una casa, contiene la
 
 ## Enlaces
  [[20241218T1715-procedimiento-de-restauracion-a-partir-de-un-bare-repository]]
- 
- 
+
+---
+**Nota diaria:** [[2024-12-18]]

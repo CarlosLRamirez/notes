@@ -18,4 +18,7 @@ publish: true
 
 --- 
  **Notas relacionadas:**
-[[20241216T1903 Curso - Github Foundations de Microsoft]] 
+[[20241216T1903 Curso - Github Foundations de Microsoft]]
+
+---
+**Nota diaria:** [[2024-12-16]]

@@ -25,4 +25,6 @@ Otro aspecto importante es ser consistente en el proceso de procesar las notas f
 
 --- 
  **Enlaces:**
- 
+
+---
+**Nota diaria:** [[2025-01-02]]

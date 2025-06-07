@@ -60,3 +60,6 @@ print(next(gen))  # Imprime 2
 [[Introducción a Simpy y Simulación de Sistemas de Colas (M-M-1)]]
 [[20250224T1757 Ejemplo Simulacion con Simpy|Ejemplo de Simulacion con Simpy]]
 [[Simulacion Sistema de cola 1 solo servidor en Python con Simpy]]
+
+---
+**Nota diaria:** [[2025-02-28]]

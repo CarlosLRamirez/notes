@@ -43,3 +43,5 @@ Es mucho mas fácil la instalación en MacOS y/o Linux.
 ## Enlaces: 
 https://git-scm.com/
 
+---
+**Nota diaria:** [[2025-01-08]]

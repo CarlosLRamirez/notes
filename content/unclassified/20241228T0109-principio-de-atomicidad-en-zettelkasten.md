@@ -46,4 +46,5 @@ publish: true
 [[20241118T1521 The FUN and EFFICIENT note-taking system I use in my PhD]]
 [[20241227T1834-chat-sobre-implementacion-de-zettelkasten-en-obsidian]]
 
-
+---
+**Nota diaria:** [[2024-12-28]]

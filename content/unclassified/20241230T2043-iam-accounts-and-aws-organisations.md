@@ -41,4 +41,7 @@ title: IAM, ACCOUNTS AND AWS ORGANISATIONS
 - Amazon Resource Name (ARN)
 	- Uniquely identify resources within any AWS accounts
 - you can only have **5,000** IAM Users **per account**
-- IAM Users can be member of **10** groups. 
+- IAM Users can be member of **10** groups.
+
+---
+**Nota diaria:** [[2024-12-30]]

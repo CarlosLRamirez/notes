@@ -18,4 +18,6 @@ https://awskarthik82.medium.com/part-3-securing-aws-api-gateway-using-jwt-author
 --- 
  **Enlaces:**
  [[20250226T0912 AWS]]
- 
+
+---
+**Nota diaria:** [[2024-12-31]]

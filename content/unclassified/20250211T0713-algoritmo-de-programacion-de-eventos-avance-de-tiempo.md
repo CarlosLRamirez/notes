@@ -139,4 +139,5 @@ This structure allows for efficient event handling in **Discrete Event Simulatio
 
 ## Referencias:
 
-
+---
+**Nota diaria:** [[2025-02-11]]

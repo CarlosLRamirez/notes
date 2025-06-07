@@ -76,3 +76,5 @@ En otras palabras, se podría dar el caso (teóricamente) en que las variables d
 ## Referencias:
 Banks, 1.11 Discrete -Event System Simulation, Pag. 14
 
+---
+**Nota diaria:** [[2025-02-04]]

@@ -32,4 +32,5 @@ The term comes from the Greek “δαίμων” (daimon), meaning a **guiding s
 - `httpd`, `nginxd`: *Web servers*
 - `mysqld`,`postgres`: *Database servers*
 
-
+---
+**Nota diaria:** [[2025-05-19]]

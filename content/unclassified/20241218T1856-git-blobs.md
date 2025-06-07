@@ -15,4 +15,6 @@ publish: true
 
 --- 
  **Notas relacionadas:**
- 
+
+---
+**Nota diaria:** [[2024-12-18]]

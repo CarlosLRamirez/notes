@@ -65,4 +65,5 @@ En la realidad actual existe una saturación de información, y en donde cada ve
 
 ## Referencias:
 
-
+---
+**Nota diaria:** [[2025-05-08]]

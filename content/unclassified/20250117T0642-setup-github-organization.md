@@ -48,4 +48,5 @@ En la segunda cuenta, tengo que aceptar la invitación
 
 ## Referencias:
 
-
+---
+**Nota diaria:** [[2025-01-17]]

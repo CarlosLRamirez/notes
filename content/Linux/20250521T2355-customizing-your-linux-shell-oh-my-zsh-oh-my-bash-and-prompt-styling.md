@@ -175,3 +175,6 @@ Whether you use Bash, Zsh, or Fish — customizing your shell brings out the pow
 ---
 
 Let me know if you want this as a Markdown export or need a visual (image) to include in the post for comparison of prompts!
+
+---
+**Nota diaria:** [[2025-05-21]]

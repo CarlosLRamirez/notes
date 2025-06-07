@@ -101,3 +101,6 @@ publish: true
 	- stores records (recorsets)
 - AWS is the registar
 - .COM, .ORG, .IO etc, TLD are the registry
+
+---
+**Nota diaria:** [[2024-12-30]]

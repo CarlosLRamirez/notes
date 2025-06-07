@@ -50,3 +50,5 @@ Para este propósito el autor menciona mantener un [[20250104T0754-backlog-de-co
 ## Referencias:
 [The American Diet: 34 Gigabytes a Day](https://archive.nytimes.com/bits.blogs.nytimes.com/2009/12/09/the-american-diet-34-gigabytes-a-day/#:~:text=The%20report%20suggests%20the%20average,a%20single%2024%2Dhour%20period.)
 
+---
+**Nota diaria:** [[2025-01-04]]

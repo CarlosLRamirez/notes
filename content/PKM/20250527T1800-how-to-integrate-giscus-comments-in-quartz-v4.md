@@ -126,3 +126,6 @@ Visit a note with `comments: true` and confirm Giscus is displayed **after** the
 
 Carlos Leonel Ramírez — [@CarlosLRamirez](https://github.com/CarlosLRamirez)  
 Digital garden: [carloslramirez.com/notes](https://carloslramirez.com/notes)
+
+---
+**Nota diaria:** [[2025-05-28]]

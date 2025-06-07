@@ -21,3 +21,6 @@ https://github.com/platers/obsidian-linter
 
 ---
  **Notas relacionadas**
+
+---
+**Nota diaria:** [[2024-12-10]]

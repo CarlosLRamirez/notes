@@ -206,3 +206,5 @@ popd
 - [[20250429T1854-linux-upskill-day-1|My Linux Upskill Challenge: Day 1]]
 - [[20250504T0416-linux-upskill-day-3|My Linux Upskill Challenge: Day 3]]
 
+---
+**Nota diaria:** [[2025-05-01]]

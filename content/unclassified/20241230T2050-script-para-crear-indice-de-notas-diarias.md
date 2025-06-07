@@ -59,3 +59,6 @@ with open(index_file_path, 'w') as index_file:
 
 print("Index file created successfully with year and month groupings, ordered by date, with month names.")
 ```
+
+---
+**Nota diaria:** [[2024-12-30]]

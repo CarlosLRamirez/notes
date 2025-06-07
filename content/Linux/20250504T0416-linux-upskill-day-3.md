@@ -279,3 +279,5 @@ Selecting the correct timezone for all your servers take importance when you nee
 - [[20250501T2009-linux-upskill-day-2|My Linux Upskill Challenge: Day 2]]
 - [[20250508T1314-linux-upskill-day-4|My Linux Upskill Challenge - Day 4]]
 
+---
+**Nota diaria:** [[2025-05-04]]

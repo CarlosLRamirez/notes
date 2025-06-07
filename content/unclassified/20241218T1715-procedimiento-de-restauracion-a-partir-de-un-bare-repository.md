@@ -25,4 +25,6 @@ Imagina que tienes un directorio `.git` llamado "mi_proyecto_backup" en tu carpe
 
 --- 
  **Notas relacionadas:**
- 
+
+---
+**Nota diaria:** [[2024-12-18]]

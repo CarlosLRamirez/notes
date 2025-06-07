@@ -34,4 +34,6 @@ La idea de un sistema de **productividad sin esfuerzo** es que podamos tomarlo e
 --- 
  **Notas relacionadas:**
  1. [[20241227T1805 Course - The Zettlekasten Method in Obsidian]]
- 
+
+---
+**Nota diaria:** [[2024-12-28]]

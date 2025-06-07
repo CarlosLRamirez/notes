@@ -13,3 +13,5 @@ publish: true
 
 Snap is a **software packaging system** in Ubuntu that allows apps to be installed with their dependencies bundled.
 
+---
+**Nota diaria:** [[2025-04-29]]

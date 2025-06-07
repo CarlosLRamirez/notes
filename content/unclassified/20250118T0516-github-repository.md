@@ -60,3 +60,5 @@ Github nos permite tener repositorios tanto públicos como privados.
 ## Referencias:
 https://docs.github.com/en/get-started/learning-about-github/githubs-plans
 
+---
+**Nota diaria:** [[2025-01-18]]

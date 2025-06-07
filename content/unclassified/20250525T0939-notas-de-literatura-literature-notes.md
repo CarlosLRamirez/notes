@@ -88,3 +88,6 @@ aliases: []
 
 <!-- Puedes enlazar a la nota bibliográfica o referencial correspondiente, si ya la tienes -->
 ```
+
+---
+**Nota diaria:** [[2025-05-25]]

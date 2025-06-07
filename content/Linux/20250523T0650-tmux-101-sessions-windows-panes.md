@@ -242,3 +242,6 @@ To close a pane, simply type `exit` in that pane — it will disappear, and the 
 ---
 ## External Resources
 - [Video: Tmux Tutorial  for Begineers](https://youtu.be/U41BTVZLKB0?si=HNvyFL8CLzi1zb94)
+
+---
+**Nota diaria:** [[2025-05-23]]

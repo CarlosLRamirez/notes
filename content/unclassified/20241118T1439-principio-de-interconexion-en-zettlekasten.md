@@ -56,3 +56,5 @@ La interconexión es el principio que establece que el verdadero valor del conoc
 - [[20241118T1521 The FUN and EFFICIENT note-taking system I use in my PhD]]
 - [[20241227T1834-chat-sobre-implementacion-de-zettelkasten-en-obsidian]]
 
+---
+**Nota diaria:** [[2024-11-18]]

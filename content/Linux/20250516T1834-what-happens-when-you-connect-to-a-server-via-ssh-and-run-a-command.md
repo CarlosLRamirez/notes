@@ -93,3 +93,6 @@ echo $SHELL
 ## Related Notes
 - [[20250516T1708-what-is-a-shell|What a Shell is?]]
 - [[20250516T1849-list-of-shells|List of the most commonly used shells]]
+
+---
+**Nota diaria:** [[2025-05-16]]

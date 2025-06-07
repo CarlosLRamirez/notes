@@ -210,3 +210,6 @@ I wrote a separate note with a quick introduction to tmux basics:
 - [Bash Shell: Take Control of PS1, PS2, PS3, PS4 and PROMPT_COMMAND](http://www.thegeekstuff.com/2008/09/bash-shell-take-control-of-ps1-ps2-ps3-ps4-and-prompt_command/)
 - [Bash Shell PS1: 10 Examples to Make Your Linux Prompt like Angelina Jolie](http://www.thegeekstuff.com/2008/09/bash-shell-ps1-10-examples-to-make-your-linux-prompt-like-angelina-jolie/)
 - [Video: How to Use the Linux Screen Tool](https://www.youtube.com/@cbtnuggets)
+
+---
+**Nota diaria:** [[2025-05-21]]

@@ -33,3 +33,6 @@ Las Notas Fugases se pueden capturar de cualquier lado, durante todo el día, la
 Es importante que las notas se capturen en un solo lugar, y que seamos consistentes para evitar distracciones, (esto nuevamente tiene que ver con evitar la fricción), tambien es igual de importante que las notas se **procesen de manera regular.** 
 
 Cuando decimos procesar nos referimos a convertir las Notas Fugaces, en [[20250102T2205-notas-permanentes]], aqui es donde le proceso de pensamiento realmente se activa! 🧠
+
+---
+**Nota diaria:** [[2024-12-30]]

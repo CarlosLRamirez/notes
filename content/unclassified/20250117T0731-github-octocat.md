@@ -41,4 +41,5 @@ Este es mi Octocat, creado el 17/01/2025 😀, asignado a mi cuenta secundaria d
 
 ## Referencias:
 
-
+---
+**Nota diaria:** [[2025-01-17]]

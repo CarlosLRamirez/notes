@@ -302,3 +302,6 @@ less access.log
 ## Related Notes
 - Previous Lesson: [[20250526T1214-my-linux-upskill-challenge-day-6|My Linux Upskill Challenge: Day 6]]
 - Next Lesson: [[20250528T1022-my-linux-upskill-challenge-day-8|My Linux Upskill Challenge: Day 8]]
+
+---
+**Nota diaria:** [[2025-05-27]]

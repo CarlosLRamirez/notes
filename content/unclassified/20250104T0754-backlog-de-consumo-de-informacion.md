@@ -47,4 +47,5 @@ Tambien es posible utilizar una aplicación separada para esto como aplicaciones
 
 ## Referencias:
 
-
+---
+**Nota diaria:** [[2025-01-04]]

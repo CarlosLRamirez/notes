@@ -42,9 +42,5 @@ Ver [[20241118T1436-el-principio-de-escritura-constante-en-zettelkasten|Principi
 # Enlaces
 [[20241118T1834-tipos-de-notas-en-zettlekasten]]
 
-
-
-
-
-
-
+---
+**Nota diaria:** [[2024-11-18]]

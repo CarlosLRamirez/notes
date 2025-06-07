@@ -19,3 +19,6 @@ Debemos evitar cometer el error de personalizarlo demasiado y querer encontrar e
 
 ## Notas Relacionadas
 [
+
+---
+**Nota diaria:** [[2025-01-09]]

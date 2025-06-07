@@ -36,5 +36,5 @@ Un modelo es un concepto muy abstracto, el reto es como representar un sistema r
 Banks - 1.9 Models of a System - Pag 13
 Law - 1.2 Systems, Models, and Simulation - Pag 3
 
-
-
+---
+**Nota diaria:** [[2025-02-07]]

@@ -38,3 +38,6 @@ Es el área en donde están todos los archivos y estructura de carpetas que form
  [[Staging Area]]
  [[Local Repository]]
  [[20241218T1314-git-commits]]
+
+---
+**Nota diaria:** [[2024-12-18]]

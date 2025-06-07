@@ -46,3 +46,6 @@ Un sistema de control de versiones se utiliza principalmente la gestión de cód
 
 **Referencias**
 https://learn.microsoft.com/en-us/training/modules/intro-to-git/1-what-is-vc
+
+---
+**Nota diaria:** [[2024-12-16]]

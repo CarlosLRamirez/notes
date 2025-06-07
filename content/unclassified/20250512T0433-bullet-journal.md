@@ -48,3 +48,5 @@ Tambien hay un libro del autor donde explica el método, esta en la lista de [[M
 z
 - Durante ese tiempo vi la seria Zero Day donde protagonista (interpretado por Robert DeNiro) era un ex-presidente de Estados Unidos que siempre llevaba consigo[ un cuaderno](https://www.reddit.com/r/notebooks/comments/1iulsnf/a_presidents_notebooks_as_portrayed_in_zero_day/) y anotaba todo lo que pensaba, hacia o se cuestionaba. En la serie se muestra una repisa llena de libros con las anotaciones de toda su vida política. De alguna manera esto tambien me inspiró.
 
+---
+**Nota diaria:** [[2025-05-12]]

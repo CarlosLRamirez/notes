@@ -50,3 +50,6 @@ En este ejemplo, "mi_proyecto" es la carpeta principal del proyecto. Dentro de e
 ## Enlaces:
 - [[20241218T1701-bare-repository]]
 - [[20241218T1313-git-working-tree]]
+
+---
+**Nota diaria:** [[2024-12-18]]

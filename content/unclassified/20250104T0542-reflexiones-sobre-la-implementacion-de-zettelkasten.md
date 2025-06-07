@@ -30,3 +30,6 @@ Por cierto esta nota la tome de un [chat](https://claude.ai/chat/0465757e-b71b-4
 --- 
 ## Notas Relacionadas
 [[20241118T2019-metodo-zettelkasten]]
+
+---
+**Nota diaria:** [[2025-01-04]]

@@ -60,3 +60,5 @@ Explora libremente, sigue los hilos de las ideas, y si quieres contactarme o env
 - [Linux](/tags/linux)
 -  [Git](/tags/git)
 
+---
+**Nota diaria:** [[2025-04-09]]

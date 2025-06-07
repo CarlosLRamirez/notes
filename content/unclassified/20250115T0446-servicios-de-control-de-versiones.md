@@ -54,4 +54,5 @@ Los Servicios de Control de Versiones mas populares hoy en día son:
 
 ## Referencias:
 
-
+---
+**Nota diaria:** [[2025-01-15]]

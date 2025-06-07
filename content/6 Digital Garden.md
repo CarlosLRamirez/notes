@@ -75,3 +75,6 @@ SORT created desc
 ## **📝 Pendientes**
 - Revisión periódica para mover notas publicadas antiguas al archivo si es necesario.
 - Refinamiento de etiquetas y categorías.
+
+---
+**Nota diaria:** [[2025-05-15]]

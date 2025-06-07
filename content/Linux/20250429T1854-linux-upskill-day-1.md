@@ -98,5 +98,5 @@ I connected to my Linux server in the cloud and ran the following commands:
 - [[20250429T1854-linux-upskill-day-0|My Linux Upskill Challenge: Day 0]]
 - [[20250501T2009-linux-upskill-day-2|My Linux Upskill Challenge: Day 2]]
 
-
-
+---
+**Nota diaria:** [[2025-04-29]]

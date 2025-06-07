@@ -60,3 +60,5 @@ https://medium.com/@pm74367/types-of-vcs-version-control-system-f7af5594bd04
 [[20241218T0949-git|Git]]
 [[20241216T1919-sistema-de-control-de-versiones]]
 
+---
+**Nota diaria:** [[2024-12-17]]

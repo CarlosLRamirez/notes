@@ -55,4 +55,5 @@ Implementación de Mischa autor del  [[20241227T1805 Course - The Zettlekasten M
 
 ## Referencias:
 
-
+---
+**Nota diaria:** [[2025-01-06]]

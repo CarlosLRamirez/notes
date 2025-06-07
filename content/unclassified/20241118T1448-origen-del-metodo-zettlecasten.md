@@ -41,3 +41,5 @@ La tarjeta unicamente estaba escriba en la parte frontal, y tenia cierta infraes
 
  ## Notas relacionadas
 
+---
+**Nota diaria:** [[2024-11-18]]

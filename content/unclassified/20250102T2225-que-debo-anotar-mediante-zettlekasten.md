@@ -34,4 +34,6 @@ Tampoco desaconseja utilizar aplicaciones para capturar y clipar información di
 
 --- 
  **Enlaces:**
- 
+
+---
+**Nota diaria:** [[2025-01-02]]

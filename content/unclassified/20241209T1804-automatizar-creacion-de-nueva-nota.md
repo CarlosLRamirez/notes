@@ -35,3 +35,5 @@ Hay otra forma para que automáticamente le de formato a la nota al momento de s
 ---
 **Notas relacionadas**
 
+---
+**Nota diaria:** [[2024-12-09]]

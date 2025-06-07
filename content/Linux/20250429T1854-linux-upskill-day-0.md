@@ -63,3 +63,5 @@ This reading looks interesting: <https://linuxjourney.com/lesson/linux-history>
 ## Related Notes
 - [[20250429T1854-linux-upskill-day-1|My Linux Upskill Challenge: Day 1]]
 
+---
+**Nota diaria:** [[2025-04-29]]

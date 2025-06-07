@@ -49,3 +49,6 @@ Because each has tradeoffs:
 ---
 ## Related notes
 - [[20250516T1708-what-is-a-shell|What a Shell is?]]
+
+---
+**Nota diaria:** [[2025-05-16]]

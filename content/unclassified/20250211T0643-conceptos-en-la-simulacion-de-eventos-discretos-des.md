@@ -84,3 +84,6 @@ Frecuentemente, los retardos son valores medidos y constituyen **resultados de l
 
 ## Referencias:
 Banks - 3.1 Models of a System - Pag 91-93
+
+---
+**Nota diaria:** [[2025-02-11]]

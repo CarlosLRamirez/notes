@@ -227,3 +227,6 @@ u
 - [Graphical vi-vim Cheat Sheet and Tutorial](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
 - [Vi - Vim Tutorial](http://www.youtube.com/watch?v=71YTkxUNwmg) (video)
 - [How to Copy, Cut and Paste in Vim / Vi](https://linuxize.com/post/how-to-copy-cut-paste-in-vim/)
+
+---
+**Nota diaria:** [[2025-05-26]]

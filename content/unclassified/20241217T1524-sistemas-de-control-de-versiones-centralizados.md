@@ -28,3 +28,6 @@ Los VSC centralizados tienen un único servidor el cual contiene todos los archi
 
 **Referencia**
 https://medium.com/@pm74367/types-of-vcs-version-control-system-f7af5594bd04
+
+---
+**Nota diaria:** [[2024-12-17]]

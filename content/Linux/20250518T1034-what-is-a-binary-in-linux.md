@@ -24,3 +24,6 @@ In Linux (and UNIX-like systems), a **binary** is a **compiled executable file**
 So:
 🟢 **All binaries are programs,** but
 🔴 **Not all programs are binaries.** Some are scripts.
+
+---
+**Nota diaria:** [[2025-05-18]]

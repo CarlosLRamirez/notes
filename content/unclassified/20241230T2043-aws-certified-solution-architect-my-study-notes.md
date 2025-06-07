@@ -1015,7 +1015,7 @@ https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concep
 https://aws.amazon.com/cloudwatch/faqs/
 
 # 13-High Availability and Scaling
-- 
+-
 
-
-
+---
+**Nota diaria:** [[2024-12-30]]

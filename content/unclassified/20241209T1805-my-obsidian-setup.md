@@ -21,4 +21,5 @@ Esta nota contiene todas las cosas que he utilizado para implementar mi propio s
 ## Notas relacionadas
 [[20250106T0645-zettlekasten-implementation-in-obsidian|Implementación del método Zettlekasten en Obsidian]]
 
-
+---
+**Nota diaria:** [[2024-12-09]]

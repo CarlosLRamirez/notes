@@ -93,3 +93,6 @@ Este modelo es la base para la **Teoría de Colas**, donde analizamos cómo se c
 ✅ Es ampliamente utilizado en la **simulación de eventos discretos** y la **teoría de colas**.
 
 🚀 ¡Este concepto es clave para modelar sistemas como bancos, hospitales y tráfico en redes de comunicación!
+
+---
+**Nota diaria:** [[2025-02-15]]

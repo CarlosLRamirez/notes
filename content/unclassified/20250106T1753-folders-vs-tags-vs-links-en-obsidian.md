@@ -42,4 +42,5 @@ El sistema de notas debería ser un liberador de tiempo, no un consumidor de tie
 
 ## Referencias:
 
-
+---
+**Nota diaria:** [[2025-01-06]]

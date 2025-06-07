@@ -57,4 +57,5 @@ Un modelo **estocástico** incluye variables aleatorias, lo que genera salidas a
 
 ## Referencias:
 
-
+---
+**Nota diaria:** [[2025-02-07]]

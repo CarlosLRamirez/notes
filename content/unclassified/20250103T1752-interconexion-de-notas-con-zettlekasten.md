@@ -22,3 +22,5 @@ Al encontrar patrones en nuestras notas nos permite descubrir como ciertos temas
 ## Notas Relacionadas:
 [[20241118T1439-principio-de-interconexion-en-zettlekasten]]
 
+---
+**Nota diaria:** [[2025-01-03]]

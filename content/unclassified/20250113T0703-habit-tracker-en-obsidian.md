@@ -17,4 +17,5 @@ Voy a seguir investigando y ver si lo implemento en Obsidian, aunque lo mejor es
 [[20250109T1226-obsidian-its-a-rabbit-hole|Obsidian it's a rabbit hole]]
 [[20241209T1805-my-obsidian-setup]]
 
-
+---
+**Nota diaria:** [[2025-01-13]]
