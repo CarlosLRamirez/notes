@@ -1,7 +1,7 @@
 ---
 created: 2025-06-06T18:11:56
-modified: 2025-06-10T18:18:12-06:00
-publish: false
+modified: 2025-06-10T19:29:06-06:00
+publish: true
 tags:
   - linux
 title: "My Linux Upskill Challenge: Day 9"
