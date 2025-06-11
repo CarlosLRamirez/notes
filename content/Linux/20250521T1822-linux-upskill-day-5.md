@@ -2,10 +2,11 @@
 title: "Linux Upskill Challenge: Day 5 - More or less…"
 aliases:
   - "Linux Upskill Challenge: Day 5"
+  - "My Linux Upskill Challenge: Day 5"
 publish: true
 tags:
   - linux
-modified: 2025-05-28T22:41:59-06:00
+modified: 2025-06-08T05:35:00-06:00
 created: 2025-05-21T18:22:52-06:00
 comments: true
 ---

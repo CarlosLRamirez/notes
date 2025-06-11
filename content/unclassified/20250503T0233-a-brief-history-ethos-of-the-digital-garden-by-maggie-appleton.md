@@ -41,4 +41,4 @@ Buen articulo sobre los orígenes del concepto de jardín digital y sus principi
 - https://maggieappleton.com/garden-history/
 
 ---
-**Nota diaria:** [[2025-05-03]]
+**Nota diaria:** [[20250608T0507-2025-05-03]]

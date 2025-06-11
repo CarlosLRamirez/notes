@@ -51,4 +51,4 @@ These principles form the foundation of Waitzkin’s philosophy for achieving ex
 [8] Josh Waitzkin: The Art of Learning & Living Life - Ask Huberman Lab https://ai.hubermanlab.com/d/196784e6-dcb9-11ef-84ce-bbf218f851a9?t=2-Innovation+and+Adaptation
 
 ---
-**Nota diaria:** [[2025-05-03]]
+**Nota diaria:** [[20250608T0507-2025-05-03]]
