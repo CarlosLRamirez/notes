@@ -1,23 +1,24 @@
 ---
-created: 2025-06-11T08:31:18
-modified: 2025-06-11T18:45:00-06:00
-publish: true
-tags:
-  - linux
-title: "My Linux Upskill Challenge: Day 10"
+id: 20250611T0831-my-linux-upskill-challenge-day-10
 aliases:
   - "My Linux Upskill Challenge: Day 10"
-zettel-type: 
+tags:
+  - linux
 comments: true
+created: 2025-06-11T08:31:18
+modified: 2025-06-12T07:36:53-06:00
+publish: true
+title: "My Linux Upskill Challenge: Day 10"
 ---
 
-This are my notes following the Lesson No 10 from the [Linux Upskill Challenge: Day 10](https://linuxupskillchallenge.org/10)
+This are my notes following the Lesson No. 10 from the [Linux Upskill Challenge: Day 10](https://linuxupskillchallenge.org/10)
 
 ## Scheduling Tasks in Linux
 
 ### Schedule one-time tasks with `at`
 
 - We'll use **at** to schedule one-time task to be run _at_ a certain time in the future
+
 - You can install `at`with:
 
 ```bash
@@ -47,12 +48,13 @@ Then you enter the commands you want to run at that time, followed by `Ctrl+d` t
 at 14:30
 ```
 
-Then type:
+- Then type:
 
 ```bash
 echo "Backup started" >> /tmp/backup.log
 ```
-(Press Ctrl+D to save and exit)
+
+*Press Ctrl+D to save and exit*
 
 - Example 2:  Run a script in the future
 
@@ -60,7 +62,7 @@ echo "Backup started" >> /tmp/backup.log
 at now + 1 hour
 ```
 
-Then type:
+- Then type:
 
 ```bash
 bash /home/carlos/backup.sh
@@ -72,7 +74,7 @@ bash /home/carlos/backup.sh
 at 9:00 AM tomorrow
 ```
 
-Then
+- Then
 
 ```bash
 tar -czf ~/backup.tgz ~/projects
@@ -120,7 +122,7 @@ atrm <job_id>
 at -c <job_id>
 ```
 
-### Schedule time-based jobs with cron
+### Schedule time-based jobs with **cron**
 
 - **cron** is a Linux daemon — a background service — that automatically executes scheduled tasks.
 
@@ -226,17 +228,24 @@ Basic crontab syntax
 ```
 
 - Minute values can be from 0 to 59.
+
 - Hour values can be from 0 to 23.
+
 - Day of month values can be from 1 to 31.
+
 - Month values can be from 1 to 12.
+
 - Day of week values can be from 0 to 6, with 0 denoting Sunday.
 
-We can use operators or wiildcards like:
+We can use operators or wildcards like:
 
-- `*`  --> Wildcard, indicates every posible time interval
-- `,`  --> to list different values separated by a comma
-- `-`  --> to specify a range between two numbers 
-- `/`  --> specify a periodicity or frequency
+- `*`  -->  Wildcard, indicates every posible time interval
+
+- `,`  -->  to list different values separated by a comma
+
+- `-`  -->  to specify a range between two numbers 
+
+- `/`  -->  specify a periodicity or frequency
 
 For instance, if you want to programa command to run every 2 hours, from 8am to 18pm, during the weekdays:
 
@@ -244,21 +253,169 @@ For instance, if you want to programa command to run every 2 hours, from 8am to 
 0 8-16/2 * * 1-5 /path/to/your/command
 ```
 
-- 0 → Minute 0 of the hour
+Explanation
 
-- 8-18/2 → From 8 AM to 6 PM, every 2 hours (runs at 8, 10, 12, 14, 16)
+- `0`→ Minute 0 of the hour
 
-- * → Every day of the month
+- `8-18/2` → From 8 AM to 6 PM, every 2 hours (runs at 8, 10, 12, 14, 16)
 
-- * → Every month
+- `*` → Every day of the month
 
-- 1-5 → Weekdays (Monday=1 to Friday=5)
+- `*` → Every month
 
-- /path/to/your/command → Replace with the full path to your script or comma
+- `1-5` → Weekdays (Monday=1 to Friday=5)
 
+- `/path/to/your/command`→ Replace with the full path to your script or comma
+
+There're are also sites that help us to build crontab expressions, like this one:  [crontab.guru](https://crontab.guru/)
+
+## Automating common system administration tasks
+
+### Automate a backup
+
+#### Doing a manual backup
+
+- When you schedule a task, it is a good idea to test first the command or script manually, before adding as a cronjob.
+- I manually created a compressed archive for all my user's `home` directory using `tar` and save it on `/var/backups/home.tar.gz`
+
+```bash
+sudo tar -czvf /var/backups/home.tar.gz /home/
+tar: Removing leading `/' from member names
+/home/
+/home/carlos/
+/home/carlos/.selected_editor
+/home/carlos/.zcompdump
+/home/carlos/.ssh/
+/home/carlos/.ssh/authorized_keys
+...
+```
+
+> **Tar** is short for *"tape archive"*, and it comes from the early days of Unix, when you actually saved your data on physical tapes.
+
+ >[!NOTE]
+ > - The `-v`options for `tar`means "verbose", so we can see what it's doing
+ > - `czf`means "create", "gzip compress" and "file" respectivelly
+
+#### Check the current date
+
+- To check the system date and hour we can use
+
+```bash
+date
+Thu Jun 12 05:16:43 AM CST 2025
+```
+
+- To get the date only
+
+```bash
+date -I
+2025-06-12
+```
+
+#### Adding the date to the backup filename
+
+- We can add the date to the filename of the backup like this:
+
+```bash
+sudo tar -czvf /var/backups/home.$(date -I).tar.gz /home/
+```
+
+- We can see that different [tarballs](https://wiki.debian.org/TarBall) (tar files) have  been created
+
+```bash
+❯ ls /var/backups/home* -l
+-rw-r--r-- 1 root root 2354579 Jun 12 05:19 /var/backups/home.2025-06-12.tar.gz
+-rw-r--r-- 1 root root 2354593 Jun 12 05:12 /var/backups/home.tar.gz
+```
+
+#### Scheduling the backup
+
+- So after check everything will work fine, I created a **crontab** to do the backup every day at 05:00. For this I use the command `crontab -e` and add the following line
+
+```bash
+0 5 * * * tar -zcf /var/backups/home.$(date -I).tar.gz /home/
+```
+
+- We can check everything is in place with `crontab -l`
+
+- Now we have to wait a couple of day to check if the backup files are being created under `/var/backup`
+
+#### Cleaning-up Old Backups
+
+- If we’re going to run the cron job indefinitely, a new backup file will be created every day. Over time, this could cause the disk to run out of space.
+- To avoid this, it’s a good idea to also automate the clean-up — meaning, delete backup files that are older than a certain number of days.
+
+- For this, I used the `find` command to search for all the backup files and delete any that are older than 7 days. Here’s the command:
+
+```bash
+find /var/backups -name "home.*.tar.gz" -mtime +7 -delete
+```
+
+> [!NOTE]
+> - The `-mtime +7` option indicates `find`to look for files with modified time more than 7 days 
+> - The `-delete`flag... I think you can guess 🙂
+
+- To automate this to run every day at 5:30AM I added this command as a cron job, as follows
+
+``` bash
+30 5 * * * find /var/backups -name "home.*.tar.gz" -mtime +7 -delete
+```
+
+- By now this is how it looks my **crontab**
+
+```bash
+# Daily Backup of user`s home directory
+0 5 * * * tar -zcf /var/backups/home.$(date -I).tar.gz /home/
+
+# Clean 7 days old backup files
+30 5 * * * find /var/backups -name "home.*.tar.gz" -mtime +7 -delete
+```
+
+- This approach of using `find` with `-delete` is very common among system administrators for scheduling the removal of old files. However, it’s also common to see more sophisticated _cron scripts_ that combine tools like `tar`, `find`, and `rsync` to handle complex backup and retention strategies used in real-world environments.
+
+## System crontab
+
+- Besides the user crontab, there's a global crontab file, which is used for system-wide tasks, it is located in  `/etc/crontab` 
+
+- The main difference is that each line must **specify the user** who should run the command.
+
+- It can be used by system administrators to define jobs for any user.
+
+This is my global crontab file:
+
+```bash
+❯ cat /etc/crontab
+# /etc/crontab: system-wide crontab
+# Unlike any other crontab you don't have to run the `crontab'
+# command to install the new version when you edit this file
+# and files in /etc/cron.d. These files also have username fields,
+# that none of the other crontabs do.
+
+SHELL=/bin/sh
+# You can also override PATH, but by default, newer versions inherit it from the environment
+#PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name command to be executed
+17 *    * * *   root    cd / && run-parts --report /etc/cron.hourly
+25 6    * * *   root    test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.daily; }
+47 6    * * 7   root    test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.weekly; }
+52 6    1 * *   root    test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.monthly; }
+#
+ ~   
+```
+
+- Notice the extra field `user-name` to specify the user that runs the task. 
 
 
 
 ---
-**Created:** [[2025-. 6-11]]
+**Created:** [[2025-06-11]]
+
 

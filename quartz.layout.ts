@@ -26,7 +26,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   afterBody: [
-  Component.RecentNotes({ showTags: false }),
+  //Component.RecentNotes({ showTags: false, limit: 5, }),
   Component.ConditionalRender({
     component: Component.Comments({
       provider: "giscus",
@@ -58,7 +58,8 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    //Component.Explorer(),
+    Component.RecentNotes({ showTags: false, limit: 5, }),
   ],
   right: [
     Component.Graph(),
