@@ -59,7 +59,7 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     //Component.Explorer(),
-    Component.RecentNotes({ showTags: false, limit: 5, }),
+    Component.RecentNotes({ showTags: false, limit: 10, }),
   ],
   right: [
     Component.Graph(),
