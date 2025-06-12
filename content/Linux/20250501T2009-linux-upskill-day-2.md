@@ -3,7 +3,7 @@ title: "Linux Upskill Challenge: Day 2"
 aliases:
   - "My Linux Upskill Challenge: Day 2"
 publish: true
-modified: 2025-05-28T22:41:15-06:00
+modified: 2025-06-11T16:30:22-06:00
 created: 2025-05-01T20:09:07-06:00
 tags:
   - linux
@@ -20,15 +20,15 @@ I’ve started following the [Linux Upskill Challenge](https://linuxupskillchall
 ---
 ## **RTFM**
 
-- In this lesson, I learned a new acronym: **RTFM** – “Read the F***ing Manual.” 😆  
+- In this lesson, I learned a new acronym: **RTFM** – “Read the F`***`*ing Manual*.” 😆  
 - When you're learning and using Linux (or anything else) and have questions, of course, you're always free to Google it or ask ChatGPT.  
 - However, the best system administrators are those who first **RTFM**.
 
-> **This is something we’re starting to forget nowadays!**
+> This is something we’re starting to forget nowadays!
 
 - Linux systems offer several ways to access documentation. But if—after searching—you still need help, you can always [ask a well-written question](https://opensource.com/life/16/10/how-ask-technical-questions) in forums, Reddit, Discord, or other communities.
 
-> **I think this is even more relevant today, especially when writing good prompts in the “GPT era.”**
+> I think this is even more relevant today, especially when writing good prompts in the “GPT era.
 
 ---
 ### **Looking for Documentation**
@@ -46,6 +46,7 @@ I’ve started following the [Linux Upskill Challenge](https://linuxupskillchall
 ---
 
 - `tldr` is another tool for viewing documentation. I installed it using `sudo apt install tldr`, but it didn’t work right away on my EC2 instance.  
+
 - I got the following error:
 
 ```sh
@@ -92,11 +93,12 @@ rm (1)               - remove files or directories
 
 ---
 
-## **Navigate the File Structure**
+## Navigate the File Structure
+[[20250611T1230-linux-essentials-exam-010-160-objectives#2.3 Using Directories and Listing Files (weight 2)|Linux Essentials Exam 010-160 Objectives - 2.3]]
 
 - I discovered a command that gives you documentation about the Linux file system: `man hier`.
 - `/` is the top-level directory (called **root**) for all other folders.
-- 🧭 To find out where you are in the file system, use `pwd`—this is like your GPS in Linux. 🛰
+- 🧭 To find out where you are in the file system, use `pwd`—this is like your GPS in Linux. 🛰 -->  [[20250611T1211-pwd]]
 - By default, you'll start in the `/home/<user>` directory, unless you're logged in as `root`, in which case you'll be in `/root`.
 
 - You can move between directories using `cd`:
@@ -117,28 +119,85 @@ ubuntu@ip-172-31-92-220:~/data/example$
 ```
 
 ---
-
-### **Listing Files in a Folder**
+## Listing Files in a Folder
 
 - I used `ls` with different options ("*switches*") to list files.  
-  For example: `ls`, `ls -l -L`, and `ls -l -t -r -a` (or just `ls -ltra`).
-
+- For example: `ls`, `ls -l -L`, and `ls -l -t -r -a` (or just `ls -ltra`).
 - Files or folders that start with a `.` are hidden. Use `ls -a` to see them.
-
-- You can combine switches and provide a folder path:  
+- You can combine switches and provide a folder path (argument):  
   e.g., `ls -ltra /var/log`
-
 - Entries that start with `d` are directories.  
 - Some terminals show these in a different color—if not, try `--color=auto`.
 
-```sh
-ubuntu@ip-172-31-92-220:~/data/example$ ls -ltra /var/log
-...
-```
+- Example:
+
+	```bash
+	ls -l /var/log/
+	total 2880
+	-rw-r--r--  1 root      root              1810 Jun 11 09:31 alternatives.log
+	-rw-r--r--  1 root      root             38322 May 21 21:10 alternatives.log.1
+	drwxr-x---  2 root      adm               4096 Jun 11 00:22 apache2
+	-rw-r-----  1 root      adm                  0 May  8 12:36 apport.log
+	drwxr-xr-x  2 root      root              4096 Jun 11 09:32 apt
+	-rw-r-----  1 syslog    adm              75999 Jun 11 12:45 auth.log
+	-rw-r-----  1 syslog    adm             103911 Jun  7 21:55 auth.log.1
+	-rw-r-----  1 syslog    adm              17215 May 31 23:55 auth.log.2.gz
+	-rw-r-----  1 syslog    adm              15940 May 24 23:17 auth.log.3.gz
+	-rw-r-----  1 syslog    adm               1728 May 17 19:35 auth.log.4.gz
+	-rw-r--r--  1 root      root             61237 Feb 16 14:53 bootstrap.log
+	-rw-rw----  1 root      utmp              3600 Jun 10 17:42 btmp
+	...
+	```
 
 ---
+###    `ls -l`output breakdown
 
-## **Basic Directory Manipulation**
+- Each line corresponds to a file or a directory, each field at the beginning of each line means something different.
+- The first field is the **file type & permissions**, contains 10 characters where:
+    - The first character  indicates the file type, as per the following table.
+    - The next nine characters (e.g., `rw-rw----`) corresponds to the file permissions, which is covered on this note:  [[20250611T1440-linux-file-permissions|Linux file permissions]]
+
+| Symbol | Type of file          | Description                                                                 |
+| ------ | --------------------- | --------------------------------------------------------------------------- |
+| `d`    | directory             | A container of another  files                                               |
+| `-`    | normal file           | A regular file like text, images, binaries or compressed files, etc..       |
+| `l`    | symbolic link         | A link to another file                                                      |
+| `s`    | socket file           | This is a special file used for inter-process communications (IPC)          |
+| `p`    | Named pipe (FIFO)     | A method for unidirectional communication between processes.                |
+| `b`    | block device file     | These are files that represent block devices (e.g. hard drives, USB drives) |
+| `c`    | character device file | These are character devices (e.g., keyboards, serial ports, sound cards)    |
+
+- The next field is the **Link Count**, it indicates the number of hard links to this file(e.g., `1`)
+- The next field is the **user** who owns the file (e.g,`root`)
+- The next field is the **group** who owns the file (e.g,`adm`)
+- The next one is **File Size** in bytes ((e.g,`4096`))
+- Then is the **Date modified** (e.g,`Jun 11 00:22`)
+- And the **Filename** (e.g,`apache2`)
+
+---
+### File list sort options
+
+- By default `ls`sort the results in alphabetical order
+
+- The option `-t`sort the files based on the timestamp
+
+```bash
+ls -lt /var/log
+```
+
+- The option `-S`will sort the files based on the file size.
+
+```bash
+ls -lS /var/log
+```
+
+- The option `-r` will revers the result or any other options.
+
+```bash
+ls -ltr /var/log
+ls -lSr /var/log
+```
+## Basic Directory Manipulation
 
 - I created a new folder with `mkdir test`, then moved into it with `cd test`.  
 - You can repeat this to build nested folder structures.
@@ -159,7 +218,7 @@ mv test/example test2
 
 ---
 
-## **Basic File Manipulation**
+## Basic File Manipulation
 
 - To create a new (empty) file: `touch newfile.txt`
 - To move it: `mv newfile.txt test2`
@@ -173,7 +232,7 @@ rm test2/newfile.txt
 
 ---
 
-## **A Bit More Advanced Directory Navigation (Stack-Based)**
+## A Bit More Advanced Directory Navigation (Stack-Based)
 
 - I learned about `pushd` and `popd`, which let you move between folders using a **stack** (LIFO order).
 - It's different from `cd ..`—with `pushd` you can hop to `/etc`, then `/var/log`, and then jump back in reverse order using `popd`.
@@ -205,6 +264,7 @@ popd
 ## Related notes
 - [[20250429T1854-linux-upskill-day-1|My Linux Upskill Challenge: Day 1]]
 - [[20250504T0416-linux-upskill-day-3|My Linux Upskill Challenge: Day 3]]
+
 
 ---
 **Nota diaria:** [[2025-05-01]]

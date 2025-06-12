@@ -1,6 +1,6 @@
 ---
 created: 2025-06-06T18:11:56
-modified: 2025-06-10T19:29:06-06:00
+modified: 2025-06-11T08:31:11-06:00
 publish: true
 tags:
   - linux
@@ -11,7 +11,11 @@ zettel-type:
 comments: true
 ---
 
-This lesson is about an introduction to networking controls, including securing ports and basic firewall configuration.
+_Following the [Linux Upskill Challenge: Day 9](https://linuxupskillchallenge.org/09/)_
+
+This are my notes for the Day 8 Lesson -  Diving into networking
+
+This lesson was about an introduction to networking controls, including securing ports and basic firewall configuration.
 
 ## Checking Open Ports
 
@@ -240,11 +244,23 @@ This lesson covered the basics of checking open ports and using firewalls to sec
 
 This is not an in-depth guide — for more advanced usage, consult the official documentation or community tutorials.
 
+## External Resources
 
+- [How to Log Linux IPTables Firewall Dropped Packets to a Log File](http://www.thegeekstuff.com/2012/08/iptables-log-packets/)
+- [Iptables How To](https://help.ubuntu.com/community/IptablesHowTo)
+- [12 ss Command Examples to Monitor Network Connections](https://www.tecmint.com/ss-command-examples-in-linux/)
+- [UFW - Uncomplicated Firewall](https://help.ubuntu.com/community/UFW)
+- [Collection of basic Linux Firewall iptables rules](http://linuxconfig.org/collection-of-basic-linux-firewall-iptables-rules)
+- [10 Netstat Command Example](http://www.thegeekstuff.com/2010/03/netstat-command-examples/)
+- [UFW Uncomplicated Firewall](http://www.youtube.com/watch?v=nc3A5Dy4xE0&feature=relmfu) (video)
+- [How to install nftables in Ubuntu](https://www.liquidweb.com/kb/how-to-install-nftables-in-ubuntu/)
+- [No, moving your ssh port isn’t security by obscurity](https://danielmiessler.com/blog/no-moving-your-ssh-port-isnt-security-by-obscurity/)
+- [Port knocking](https://wiki.archlinux.org/title/Port_knocking)
 
 ---
-
-
+## Related Notes
+- Previous Lesson: [[20250528T1022-my-linux-upskill-challenge-day-8|My Linux Upskill Challenge: Day 8]]
+- Next Lesson: [[20250611T0831-my-linux-upskill-challenge-day-10]]
 
 
 
