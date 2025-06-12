@@ -26,6 +26,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   afterBody: [
+  Component.RecentNotes({ showTags: false }),
   Component.ConditionalRender({
     component: Component.Comments({
       provider: "giscus",
