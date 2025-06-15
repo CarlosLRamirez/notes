@@ -26,7 +26,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   afterBody: [
-  //Component.RecentNotes({ showTags: false, limit: 5, }),
+  Component.RecentNotes({ showTags: false, limit: 5, }),
   Component.ConditionalRender({
     component: Component.Comments({
       provider: "giscus",
@@ -59,11 +59,15 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     //Component.Explorer(),
-    Component.RecentNotes({ showTags: false, limit: 10, }),
+    Component.DesktopOnly(Component.RecentNotes({ showTags: false, limit: 10, })),
+
   ],
   right: [
-    Component.Graph(),
+    
+    
     Component.DesktopOnly(Component.TableOfContents()),
+    Component.Graph(),
+
     Component.Backlinks(),
   ],
 }
