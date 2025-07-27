@@ -14,7 +14,7 @@ publish: true
 Ejemplo de implementación del método Zettlekasten en Obsidian de acuerdo con Mischa
 
 ## Contexto
-Implementación de Mischa autor del  [[20241227T1805 Course - The Zettlekasten Method in Obsidian|Curso: The Zettlecasten Method]]
+Implementación de Mischa autor del  [Curso: The Zettlecasten Method](20241227T1805%20Course%20-%20The%20Zettlekasten%20Method%20in%20Obsidian.md)
 
 ## Aspectos Clave
 - Iniciar Obsidian con el Daily Note siempre.
@@ -35,8 +35,8 @@ Implementación de Mischa autor del  [[20241227T1805 Course - The Zettlekasten M
 - Mischa utiliza tags directamente en la nota para sus  Notas Literarias como `#article`o  `#video`, etc..
 - Ademas de la vista de graph de Obisidan, podemos utilizar el Canva para explorar relaciones en nuestra notas, este método nos ayuda cuando queremos generar un output de nuestras notas, como un articulo o video.
 - Mischa tambien sugiere el plugin de Excalidraw
-- Implementación de Consumption Backlog o  [[20250104T0754-backlog-de-consumo-de-informacion|Backlog de Consumo de Información]]
-- [[20250106T1753-folders-vs-tags-vs-links-en-obsidian|Folders Vs Tags en Obsidian]]
+- Implementación de Consumption Backlog o  [Backlog de Consumo de Información](20250104T0754-backlog-de-consumo-de-informacion.md)
+- [Folders Vs Tags en Obsidian](20250106T1753-folders-vs-tags-vs-links-en-obsidian.md)
 
 
 ## Preguntas/Reflexiones
@@ -50,10 +50,10 @@ Implementación de Mischa autor del  [[20241227T1805 Course - The Zettlekasten M
 
 --- 
 ## Enlaces: 
-[[20241209T1805-my-obsidian-setup]]
+[20241209T1805-my-obsidian-setup](20241209T1805-my-obsidian-setup.md)
 
 
 ## Referencias:
 
 ---
-**Nota diaria:** [[2025-01-06]]
+**Nota diaria:** [2025-01-06](2025-01-06.md)

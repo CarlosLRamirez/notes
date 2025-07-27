@@ -10,7 +10,7 @@ publish: true
 
 #git 
 
-Imagina que tienes un directorio `.git` llamado "mi_proyecto_backup" en tu carpeta "Documentos". Para [[20250111T1235-git-clone|clonar]] este repositorio en una nueva carpeta llamada "mi_proyecto" en tu escritorio, seguirías estos pasos:
+Imagina que tienes un directorio `.git` llamado "mi_proyecto_backup" en tu carpeta "Documentos". Para [clonar](20250111T1235-git-clone.md) este repositorio en una nueva carpeta llamada "mi_proyecto" en tu escritorio, seguirías estos pasos:
 
 1. Abrir la terminal.
 2. Escribir `cd Escritorio` para navegar al escritorio.
@@ -27,4 +27,4 @@ Imagina que tienes un directorio `.git` llamado "mi_proyecto_backup" en tu carpe
  **Notas relacionadas:**
 
 ---
-**Nota diaria:** [[2024-12-18]]
+**Nota diaria:** [2024-12-18](2024-12-18.md)

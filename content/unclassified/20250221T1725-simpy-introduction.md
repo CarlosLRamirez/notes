@@ -23,4 +23,4 @@ An important event type is the [`Timeout`](https://simpy.readthedocs.io/en/late
 ## Referencias:
 
 ---
-**Nota diaria:** [[2025-02-21]]
+**Nota diaria:** [2025-02-21](2025-02-21.md)

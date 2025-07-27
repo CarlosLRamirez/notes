@@ -16,11 +16,11 @@ This is the Day 4 Journal on my [Linux Upskill Challenge](https://linuxupskillch
 
 ## Table of Contents
 
-- [[#Introduction|Introduction]]
-- [[#Installing packages in Ubuntu Linux|Installing packages in Ubuntu Linux]]
-- [[#The Linux File System|Linux File System]]
-- [[#Questions I asked myself 🤔|Questions I asked myself 🤔]]
-- [[#Related Notes|Related Notes]]
+- [Introduction](#Introduction)
+- [Installing packages in Ubuntu Linux](#Installing%20packages%20in%20Ubuntu%20Linux)
+- [Linux File System](#The%20Linux%20File%20System)
+- [Questions I asked myself 🤔](#Questions%20I%20asked%20myself%20🤔)
+- [Related Notes](#Related%20Notes)
 --- 
 ## Installing packages in Ubuntu Linux
 
@@ -227,14 +227,14 @@ Now that we've installed Midnight Commander, we can use its retro interface to e
 ---
 
 ## Questions I asked myself 🤔
-- [[20250516T1708-what-is-a-shell|What a Shell is?]]
-- [[20250516T1834-what-happens-when-you-connect-to-a-server-via-ssh-and-run-a-command|What Happens When You Connect to a Server via SSH and Run a Command?]]
-- [[20250519T2138-what-is-a-daemon-in-linux|What is a Daemon in Linux?]]
-- [[20250518T1034-what-is-a-binary-in-linux|What is a Binary in Linux?]]
+- [What a Shell is?](20250516T1708-what-is-a-shell.md)
+- [What Happens When You Connect to a Server via SSH and Run a Command?](20250516T1834-what-happens-when-you-connect-to-a-server-via-ssh-and-run-a-command.md)
+- [What is a Daemon in Linux?](20250519T2138-what-is-a-daemon-in-linux.md)
+- [What is a Binary in Linux?](20250518T1034-what-is-a-binary-in-linux.md)
 
 ## Related Notes
-- [[20250504T0416-linux-upskill-day-3|My Linux Upskill Challenge: Day 3]]
-- [[20250521T1822-linux-upskill-day-5|My Linux Upskill Challenge: Day 5]]
+- [My Linux Upskill Challenge: Day 3](20250504T0416-linux-upskill-day-3.md)
+- [My Linux Upskill Challenge: Day 5](20250521T1822-linux-upskill-day-5.md)
 
 ---
-**Nota diaria:** [[2025-05-08]]
+**Nota diaria:** [2025-05-08](2025-05-08.md)

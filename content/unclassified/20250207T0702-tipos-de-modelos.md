@@ -55,7 +55,7 @@ Para mayor profundidad podemos ver la nota de lección de la profesora Friedman.
 
 --- 
 ## Enlaces: 
-[[20250207T0741-modelos-de-simulacion]]
+[20250207T0741-modelos-de-simulacion](20250207T0741-modelos-de-simulacion.md)
 
 
 
@@ -64,4 +64,4 @@ Para mayor profundidad podemos ver la nota de lección de la profesora Friedman.
 - Notas de la Professor Linda Weiser Friedman  - Lecture 1 - Introduction to Simulation  and Modeling - https://sim.proffriedman.net/lectures
 
 ---
-**Nota diaria:** [[2025-02-07]]
+**Nota diaria:** [2025-02-07](2025-02-07.md)

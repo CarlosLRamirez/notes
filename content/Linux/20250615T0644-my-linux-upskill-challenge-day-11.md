@@ -6,32 +6,36 @@ tags:
   - linux
 comments: true
 created: 2025-06-15T06:44:15
-modified: 2025-06-19T08:00:19-06:00
+modified: 2025-06-19T20:08:49-06:00
 publish: true
 title: "My Linux Upskill Challenge: Day 11 - Finding Things"
 ---
 
-These is my notes following the Lesson No. 11 from the [Linux Upskill Challenge](https://linuxupskillchallenge.org/11/)
----
+These are my notes following the Lesson No. 11 from the [Linux Upskill Challenge](https://linuxupskillchallenge.org/11/)
 
 ## Table of Contents
 
----
+- [[#Introduction|Introduction]]
+- [[#locate|locate]]
+- [[#find|find]]
+- [[#grep -R|grep -R]]
+- [[#which|which]]
+- [[#Additional Tools: zless and zgrep|Additional Tools: zless and zgrep]]
+- [[#More tools: -exec option in find|More tools: -exec option in find]]
+- [[#Finding who is using a file|Finding who is using a file]]
+- [[#External Resources|External Resources]]
+- [[#Related Notes|Related Notes]]
 
 ## Introduction
-- How to find files and text inside these files
 
-- Finding a file or a setting that you know exists, but you can open it or track it's a common problem forsystem administrators:
+Following this lesson, I had the opportunity to review the main tools that we can use to find files and content within those files throughout the Linux file system.
 
-- Tools to cover:
-	- `locate`
-	- `find`
-	- `grep`
-	- `which`
+This is a very special skill for a system administrator when we are looking for configuration files and settings within those files.
+
+It’s also very useful when we want to explore log files and troubleshoot devices — at the end, on Linux, everything is a file!
 
 ---
-
-## Tool: `locate`
+## locate
 
 - `locate` is a tool used to quickly find the paths where a file or a directory is located on Linux.
 - My Ubuntu Linux VM didn't have '`locate` installed, so I had to install it with:
@@ -45,8 +49,8 @@ These is my notes following the Lesson No. 11 from the [Linux Upskill Challenge]
     ```bash
     sudo updatedb
     ```
----
 
+---
 ### Examples
 
 -  For instance, if you would like to find all the paths where a file called `access.log` is located, you could use:
@@ -67,11 +71,10 @@ These is my notes following the Lesson No. 11 from the [Linux Upskill Challenge]
 
     ```bash
     locate .conf
-
     ```
----
 
-## Tool: `find`
+---
+## find
 
 - With find you specify the directory where you want to search down, (that means it will begin search in the directory and all of its sub-directories)
 - You also specify *"what"* to search for using various criterias, such as:
@@ -83,7 +86,6 @@ These is my notes following the Lesson No. 11 from the [Linux Upskill Challenge]
     - and more..
 
 ---
-
 ### Examples
 
 - To search recursively inside`/var`for any file with name `access.log` I used:
@@ -115,9 +117,9 @@ These is my notes following the Lesson No. 11 from the [Linux Upskill Challenge]
     ```bash
     find /var -name access.log 2>&1 | grep -vi "Permission denied"
     ```
----
 
-## Tool: `grep -R`
+---
+## grep -R
 
 - We can also sue **grep** to search recursively throught a whole directory structure for a text within any text file.
 
@@ -132,7 +134,8 @@ grep -R -i "PermitRootLogin" /etc/*
 
 - This tool is specially usefull for the `/etc`and `/var/log` folders because it only works on plain text files.
 
-## Tool: which
+---
+## which
 
 - Sometimes we are not sure where a command is running from, for instance when you run `nano`, how do we know where `nano`binary is actually located? 
 
@@ -147,13 +150,15 @@ which nano
 echo $PATH
 ```
 
-## Additional Tools: `zless`and `zgrep`
+---
+## Additional Tools: zless and zgrep
 
 - `less`and `grep` works only for plain text files, however sometimes we might need to search under compressed files, in these cases we can use `zless`or `zgrep` commands.
 
+---
 ### Examples
 
-- The `apache2` access logs files are stored under `/etc/log/apache2/`, in Linux, regularly,  these files are compressed on daily basis to a `.gz` format, as we can see on this search:
+- The `apache2` access logs files are stored under `/etc/log/apache2/`, in Linux, regularly, these files are compressed on daily basis to a `.gz` format, as we can see on this search:
 
 ```bash
 ❯ find /var/log/apache2 -name "access*"
@@ -162,7 +167,6 @@ echo $PATH
 /var/log/apache2/access.log
 /var/log/apache2/access.log.1
 /var/log/apache2/access.log.2.gz
-
 ```
 
 - Let said we would like to look inside one of the compressed files, we can use `zless`
@@ -177,10 +181,12 @@ zless /var/log/apache2/access.log2.gz
  zgrep "Chrome" /var/log/apache2/access.log.2.gz
 ```
 
-## `-exec`option in `find`
+---
+## More tools: -exec option in find
 
 - With `-exec` we can execute a command for **each file** in the `find` results 
 
+---
 ### Basic Syntax
 
 ```bash
@@ -190,6 +196,7 @@ find [path] [conditions] -exec [command] {} \;
 - `{}` is replaced by each file name in the output of `find`
 - `\;` tell `find`where the command ends.
 
+---
 ### Examples
 
 - Delete all .tmp files in `/tmp`
@@ -232,10 +239,10 @@ find . -type f -name "*.log" -exec rm {} +
 ```
 > This deletes in batches instead of one by one.
 
-
+---
 ## Finding who is using a file
 
-### Tool: `lsof`
+### lsof
 
 - `lsof`stands ofr **List Open Files**
 
@@ -245,14 +252,108 @@ find . -type f -name "*.log" -exec rm {} +
 
 - `lsof` helps to inspect which processes are using those resources.
 
+---
+#### Examples
 
+- Show all open files by all processes
 
+```bash
+lsof
+```
 
+- See which process is using a specific file
 
-### Tool: `fuser`
+```bash
+lsof /var/log/syslog
+```
+
+- See all open files for a user
+
+```bash
+lsof -u carlos
+```
+
+- Check which process is using a TCP port
+
+```bash
+sudo lsof -i :80
+```
+
+- List network connections
+
+```bash
+sudo lsof -i
+```
+
+- Filter by protocol or port
+
+```bash
+sudo lsof -i TCP:22
+```
+ 
+---
+### fuser
+
+- Similarly to **lsof** , `fuser` identifies which processes are using a file, a directory, or a network port.
+- It's a simpler tool than `lsof`, but very handy for quickly identifying resources usage.
+- It returns the **PIDs (Process IDs)** of processes using the specified resource.
+
+---
+#### Basic Examples
+
+- Show processes using a file or directory
+```bash
+fuser /var/log/syslog
+```
+> This tells you which processes are currently accessing the file.
 
 ---
 
-## 
+- Show usernames of processes
+```bash
+fuser -u /var/log/syslog
+```
+> The `-u` flag also shows the user owning each process.
+
+---
+
+- Kill all processes using a file
+```bash
+fuser -k /mnt/usb
+```
+> Forcefully unmount a busy USB drive, for example. Be careful: this kills processes.
+
+---
+
+-  See what’s using a TCP or UDP port
+```bash
+sudo fuser -n tcp 80
+```
+> Shows which PID is using TCP port 80.
+
+---
+
+-  List all users/processes using a mount point
+```bash
+fuser -m /home
+```
+> Great for checking what is blocking an unmount.
+
+---
+
+## External Resources
+
+- [25 find command examples…](https://www.linuxtechi.com/25-find-command-examples-for-linux-beginners/)
+- [10 Tips for using “find”](https://www.linux.com/tutorials/10-tips-using-gnu-find/)
+- [Five simple recipes for “grep”](http://arstechnica.com/open-source/news/2009/05/command-line-made-easy-five-simple-recipes-for-grep.ars)
+- [How to use the lsof command to troubleshoot Linux](https://www.redhat.com/sysadmin/analyze-processes-lsof)
+- [Learn “fuser”, a little-known Linux workhorse command!](https://youtu.be/xF8uttDarG0)
+
+--- 
+## Related Notes
+
+- Previous Lesson: [[20250611T0831-my-linux-upskill-challenge-day-10|My Linux Upskill Challenge: Day 10]]
+- Next Lesson: [[20250619T2008-my-linux-upskill-challege-day-12]]
+
 
 ---

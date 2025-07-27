@@ -15,8 +15,8 @@ Incluso si no puedes escribir, puedes utilizar notas de voz en tu celular.
 La escritura activa y personal es el núcleo del método Zettelkasten. Al escribir con nuestras propias palabras, procesamos y recordamos mejor la información.
 
 ## Referencias
-[[20241118T1521 The FUN and EFFICIENT note-taking system I use in my PhD]]
-[[20241227T1834-chat-sobre-implementacion-de-zettelkasten-en-obsidian]]
+[20241118T1521 The FUN and EFFICIENT note-taking system I use in my PhD](20241118T1521%20The%20FUN%20and%20EFFICIENT%20note-taking%20system%20I%20use%20in%20my%20PhD.md)
+[20241227T1834-chat-sobre-implementacion-de-zettelkasten-en-obsidian](20241227T1834-chat-sobre-implementacion-de-zettelkasten-en-obsidian.md)
 
 ---
-**Nota diaria:** [[2024-11-18]]
+**Nota diaria:** [2024-11-18](2024-11-18.md)

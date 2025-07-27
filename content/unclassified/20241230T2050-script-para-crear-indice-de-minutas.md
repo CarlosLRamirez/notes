@@ -55,4 +55,4 @@ print("Meeting minutes index file created successfully.")
 ```
 
 ---
-**Nota diaria:** [[2024-12-30]]
+**Nota diaria:** [2024-12-30](2024-12-30.md)

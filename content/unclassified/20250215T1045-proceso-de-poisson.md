@@ -95,4 +95,4 @@ Este modelo es la base para la **Teoría de Colas**, donde analizamos cómo se c
 🚀 ¡Este concepto es clave para modelar sistemas como bancos, hospitales y tráfico en redes de comunicación!
 
 ---
-**Nota diaria:** [[2025-02-15]]
+**Nota diaria:** [2025-02-15](2025-02-15.md)

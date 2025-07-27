@@ -25,4 +25,4 @@ https://www.youtube.com/playlist?list=PLAl0gPKnL3V8s7dPXoo07mYnuErhWVk8b
 - Luego lei sobre un sistema más "nativo" llamado Zettlecasten para organizar información y gestionar el conocimiento, el cual planeo implementarlo en 2025 en un Vault que pienso llamar "My Knowledge Brain"
 
 ---
-**Nota diaria:** [[2024-12-09]]
+**Nota diaria:** [2024-12-09](2024-12-09.md)

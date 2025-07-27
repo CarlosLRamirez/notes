@@ -21,4 +21,4 @@ Debemos evitar cometer el error de personalizarlo demasiado y querer encontrar e
 [
 
 ---
-**Nota diaria:** [[2025-01-09]]
+**Nota diaria:** [2025-01-09](2025-01-09.md)

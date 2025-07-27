@@ -20,14 +20,14 @@ El método funciona como un "segundo cerebro" que permite capturar, procesar y c
 
 ## Componentes clave
 
-- [[20241118T1448-origen-del-metodo-zettlecasten]]
-- [[20241118T1917-principios-fundamentales-del-metodo-zettelkasten]]
-- [[20241228T0139-como-el-metodo-zettlekasten-aumenta-la-productividad]]
-- [[20241118T1834-tipos-de-notas-en-zettlekasten]]
-- [[20241118T1946-como-tomar-notas-con-el-metodo-zettlekasten]]
-- [[20250102T2225-que-debo-anotar-mediante-zettlekasten]]
-- [[20250103T1752-interconexion-de-notas-con-zettlekasten]]
-- [[20250104T0542-reflexiones-sobre-la-implementacion-de-zettelkasten]]
+- [20241118T1448-origen-del-metodo-zettlecasten](20241118T1448-origen-del-metodo-zettlecasten.md)
+- [20241118T1917-principios-fundamentales-del-metodo-zettelkasten](20241118T1917-principios-fundamentales-del-metodo-zettelkasten.md)
+- [20241228T0139-como-el-metodo-zettlekasten-aumenta-la-productividad](20241228T0139-como-el-metodo-zettlekasten-aumenta-la-productividad.md)
+- [20241118T1834-tipos-de-notas-en-zettlekasten](20241118T1834-tipos-de-notas-en-zettlekasten.md)
+- [20241118T1946-como-tomar-notas-con-el-metodo-zettlekasten](20241118T1946-como-tomar-notas-con-el-metodo-zettlekasten.md)
+- [20250102T2225-que-debo-anotar-mediante-zettlekasten](20250102T2225-que-debo-anotar-mediante-zettlekasten.md)
+- [20250103T1752-interconexion-de-notas-con-zettlekasten](20250103T1752-interconexion-de-notas-con-zettlekasten.md)
+- [20250104T0542-reflexiones-sobre-la-implementacion-de-zettelkasten](20250104T0542-reflexiones-sobre-la-implementacion-de-zettelkasten.md)
 
 ## Beneficios principales
 1. Mejora el pensamiento creativo
@@ -46,8 +46,8 @@ El método funciona como un "segundo cerebro" que permite capturar, procesar y c
 - Herramientas recomendadas: Obsidian, Notion
 
 ## Notas relacionadas
-- [[20241227T1805 Course - The Zettlekasten Method in Obsidian]]
-- [[20241118T1521 The FUN and EFFICIENT note-taking system I use in my PhD]]
+- [20241227T1805 Course - The Zettlekasten Method in Obsidian](20241227T1805%20Course%20-%20The%20Zettlekasten%20Method%20in%20Obsidian.md)
+- [20241118T1521 The FUN and EFFICIENT note-taking system I use in my PhD](20241118T1521%20The%20FUN%20and%20EFFICIENT%20note-taking%20system%20I%20use%20in%20my%20PhD.md)
 
 ## Referencias
 - Ahrens, S. (2017). How to Take Smart Notes
@@ -57,4 +57,4 @@ El método funciona como un "segundo cerebro" que permite capturar, procesar y c
 ---
 
 ---
-**Nota diaria:** [[2024-11-18]]
+**Nota diaria:** [2024-11-18](2024-11-18.md)

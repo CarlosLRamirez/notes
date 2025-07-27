@@ -40,8 +40,8 @@ Considero que como Project Manager a cargo de proyectos de desarrollo es fundame
 
 --- 
  **Notas relacionadas:**
-[[20241216T1903 Curso - Github Foundations de Microsoft]]
- [[20250107T0715 Proyecto Certificación Github Fundamentals|Proyecto: Certificación Github Fundamentals]]
+[20241216T1903 Curso - Github Foundations de Microsoft](20241216T1903%20Curso%20-%20Github%20Foundations%20de%20Microsoft.md)
+ [Proyecto: Certificación Github Fundamentals](20250107T0715%20Proyecto%20Certificación%20Github%20Fundamentals.md)
 
 ---
-**Nota diaria:** [[2024-12-16]]
+**Nota diaria:** [2024-12-16](2024-12-16.md)

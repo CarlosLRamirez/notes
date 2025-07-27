@@ -33,4 +33,4 @@ Decidí hacer este articulo, intentando ser lo mas prescriptivo posibles como un
 - Como se mezcla todo con Terraform Cloud
 
 ---
-**Nota diaria:** [[2024-12-30]]
+**Nota diaria:** [2024-12-30](2024-12-30.md)

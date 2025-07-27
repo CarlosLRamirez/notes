@@ -14,8 +14,8 @@ Estuve investigando como usar Obsidian para llevar un registro de habitos, encon
 
 Voy a seguir investigando y ver si lo implemento en Obsidian, aunque lo mejor es dejar de perder el tiempo en estas cosas y realmente hacer las cosas 🤣 🤡
 
-[[20250109T1226-obsidian-its-a-rabbit-hole|Obsidian it's a rabbit hole]]
-[[20241209T1805-my-obsidian-setup]]
+[Obsidian it's a rabbit hole](20250109T1226-obsidian-its-a-rabbit-hole.md)
+[20241209T1805-my-obsidian-setup](20241209T1805-my-obsidian-setup.md)
 
 ---
-**Nota diaria:** [[2025-01-13]]
+**Nota diaria:** [2025-01-13](2025-01-13.md)

@@ -105,4 +105,4 @@ Un **storyboard** representa la evolución del sistema en una serie de imágenes
 | **Storyboard**                 | Explicación visual sencilla, útil en presentaciones | Explicar sistemas de forma didáctica   |
 
 ---
-**Nota diaria:** [[2025-02-08]]
+**Nota diaria:** [2025-02-08](2025-02-08.md)

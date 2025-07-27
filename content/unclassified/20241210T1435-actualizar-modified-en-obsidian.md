@@ -23,4 +23,4 @@ https://github.com/platers/obsidian-linter
  **Notas relacionadas**
 
 ---
-**Nota diaria:** [[2024-12-10]]
+**Nota diaria:** [2024-12-10](2024-12-10.md)

@@ -11,9 +11,10 @@ tags:
 
 _Following the [Linux Upskill Challenge: Day 8](https://linuxupskillchallenge.org/08/)_
 
-This is my notes for the Day 8 Lesson -  Text Analysis Tools
+This is my notes for the Day 8 Lesson - Text Analysis Tools
 
 ---
+
 ## Introduction
 
 This lesson covers the most important Linux commands for viewing, exploring, and manipulating text files. These small but powerful tools are incredibly useful when you need to explore and analyze large text files created by applications, user logs, and other system files.
@@ -388,8 +389,10 @@ Remember: always test your commands on sample data before running them on import
 - [explainshell.com - write down a command-line to see the help text that matches each argument](https://explainshell.com/)
 
 ## Related Notes
-- Previous Lesson: [[20250527T0715-my-linux-upskill-challenge-day-7|My Linux Upskill Challenge: Day 7]]
-- Next Lesson: [[20250606T1811-my-linux-upskill-challenge-day-9|My Linux Upskill Challenge: Day 9]]
+
+- Previous Lesson: [My Linux Upskill Challenge: Day 7](20250527T0715-my-linux-upskill-challenge-day-7.md)
+- Next Lesson: [My Linux Upskill Challenge: Day 9](20250606T1811-my-linux-upskill-challenge-day-9.md)
 
 ---
-**Nota diaria:** [[2025-06-05]]
+
+**Nota diaria:** [2025-06-05](2025-06-05.md)

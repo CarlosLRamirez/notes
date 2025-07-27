@@ -36,10 +36,10 @@ Este es mi Octocat, creado el 17/01/2025 😀, asignado a mi cuenta secundaria d
 
 --- 
 ## Enlaces: 
-[[20250115T0609-github|Github]]
+[Github](20250115T0609-github.md)
 
 
 ## Referencias:
 
 ---
-**Nota diaria:** [[2025-01-17]]
+**Nota diaria:** [2025-01-17](2025-01-17.md)

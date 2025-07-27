@@ -43,4 +43,4 @@ Muchos sistemas de la vida real son tan complejos que modelarlos es virtualmente
 ## Referencias:
 
 ---
-**Nota diaria:** [[2025-01-31]]
+**Nota diaria:** [2025-01-31](2025-01-31.md)

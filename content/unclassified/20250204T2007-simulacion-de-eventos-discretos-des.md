@@ -23,7 +23,7 @@ Este método resulta especialmente útil para analizar sistemas sistemas en dond
 En otras palabras, se podría dar el caso (teóricamente) en que las variables de estado puedan tomar valores continuos , siempre y cuando que las actualizaciones a esas variables ocurran unicamente en eventos discretos. Por ejemplo, algunos modelos podrían rastrear una variable continua (como un nivel de inventario continuamente variable, como un liquido), que unicamente es actualizada cuando una orden es puesta or recibida, lo cual son eventos discretos.
 
 
-[[20250211T0643-conceptos-en-la-simulacion-de-eventos-discretos-des]]
+[20250211T0643-conceptos-en-la-simulacion-de-eventos-discretos-des](20250211T0643-conceptos-en-la-simulacion-de-eventos-discretos-des.md)
 
 
 
@@ -77,4 +77,4 @@ En otras palabras, se podría dar el caso (teóricamente) en que las variables d
 Banks, 1.11 Discrete -Event System Simulation, Pag. 14
 
 ---
-**Nota diaria:** [[2025-02-04]]
+**Nota diaria:** [2025-02-04](2025-02-04.md)

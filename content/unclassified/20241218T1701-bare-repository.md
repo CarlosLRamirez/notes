@@ -27,7 +27,7 @@ Podríamos comparar un *bare repository* con los planos de una casa, contiene la
 - Podemos crear un *bare repository* con el comando `git init --bare`
 
 ## Enlaces
- [[20241218T1715-procedimiento-de-restauracion-a-partir-de-un-bare-repository]]
+ [20241218T1715-procedimiento-de-restauracion-a-partir-de-un-bare-repository](20241218T1715-procedimiento-de-restauracion-a-partir-de-un-bare-repository.md)
 
 ---
-**Nota diaria:** [[2024-12-18]]
+**Nota diaria:** [2024-12-18](2024-12-18.md)

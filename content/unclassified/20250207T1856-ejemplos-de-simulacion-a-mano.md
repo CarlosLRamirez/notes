@@ -167,4 +167,4 @@ Algunos de estos ejemplos está basado en material de **Linda Weiser Friedman**,
 https://youtu.be/E4wt9oVHzhc?si=8h8QMrv7mjvaiOoA
 
 ---
-**Nota diaria:** [[2025-02-07]]
+**Nota diaria:** [2025-02-07](2025-02-07.md)

@@ -29,9 +29,9 @@ La tarjeta unicamente estaba escriba en la parte frontal, y tenia cierta infraes
 > - Las notas deben ser **cuidadosamente escritas**, lo que se busca es que tengan un estílo final, casí listas para publicaciónx
 
 ## Linked Notes
-[[20241228T0109-principio-de-atomicidad-en-zettelkasten]]
-[[20241227T1805 Course - The Zettlekasten Method in Obsidian]]
-[[20241228T0120-estructura-original-del-metodo-zettlekasten-utilizada-por-luhmen]]
+[20241228T0109-principio-de-atomicidad-en-zettelkasten](20241228T0109-principio-de-atomicidad-en-zettelkasten.md)
+[20241227T1805 Course - The Zettlekasten Method in Obsidian](20241227T1805%20Course%20-%20The%20Zettlekasten%20Method%20in%20Obsidian.md)
+[20241228T0120-estructura-original-del-metodo-zettlekasten-utilizada-por-luhmen](20241228T0120-estructura-original-del-metodo-zettlekasten-utilizada-por-luhmen.md)
 
 
 
@@ -42,4 +42,4 @@ La tarjeta unicamente estaba escriba en la parte frontal, y tenia cierta infraes
  ## Notas relacionadas
 
 ---
-**Nota diaria:** [[2024-11-18]]
+**Nota diaria:** [2024-11-18](2024-11-18.md)

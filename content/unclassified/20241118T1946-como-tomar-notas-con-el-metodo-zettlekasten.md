@@ -12,7 +12,7 @@ publish: true
 
 # Cómo tomar notas con el método Zettlekasten.
 ## Morgan
-Morgan (morganeua) en su [[20241118T1521 The FUN and EFFICIENT note-taking system I use in my PhD|video]] de YouTube describe el siguiente flujo de trabajo: #wip 
+Morgan (morganeua) en su [video](20241118T1521%20The%20FUN%20and%20EFFICIENT%20note-taking%20system%20I%20use%20in%20my%20PhD.md) de YouTube describe el siguiente flujo de trabajo: #wip 
 
 1. El primer paso en el metodo Zettlekasten es crear las Notas Fugases o Fleeting Notes.
 2. Luego a partir de las Fleeting Notes, ella crea las Notas Permanentes.
@@ -20,7 +20,7 @@ Morgan (morganeua) en su [[20241118T1521 The FUN and EFFICIENT note-taking syste
 No diferencia entre Notas Permanentes y Notas Literarias
 
 ## Mischa
-De manera similar Mischa en su [[20241227T1805 Course - The Zettlekasten Method in Obsidian|curso]] describe el siguiente proceso: #wip 
+De manera similar Mischa en su [curso](20241227T1805%20Course%20-%20The%20Zettlekasten%20Method%20in%20Obsidian.md) describe el siguiente proceso: #wip 
 
 1. Capturar ideas mientras estamos consumiendo el contenido
 2. Escribirlas en papel o el el inbox de Obsidian (estas son las **Fleeting Notes**)
@@ -31,7 +31,7 @@ Se hace énfasis en la importancia de **escribir** en el proceso pensamiento y d
 
 Este proceso no es cómodo, porque nos fuerza a pensar, es mucho mas cómodo solo copiar y pegar un texto.
 
-Ver [[20241118T1436-el-principio-de-escritura-constante-en-zettelkasten|Principio de escritura constante]]
+Ver [Principio de escritura constante](20241118T1436-el-principio-de-escritura-constante-en-zettelkasten.md)
 
 > [! NOTE]
 > - Zettlekasten se trata de Escribir, Escribir, Escribir!
@@ -40,7 +40,7 @@ Ver [[20241118T1436-el-principio-de-escritura-constante-en-zettelkasten|Principi
 
 
 # Enlaces
-[[20241118T1834-tipos-de-notas-en-zettlekasten]]
+[20241118T1834-tipos-de-notas-en-zettlekasten](20241118T1834-tipos-de-notas-en-zettlekasten.md)
 
 ---
-**Nota diaria:** [[2024-11-18]]
+**Nota diaria:** [2024-11-18](2024-11-18.md)

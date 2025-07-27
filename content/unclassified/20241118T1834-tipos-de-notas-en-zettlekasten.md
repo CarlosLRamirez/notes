@@ -14,13 +14,13 @@ El método Zettelkasten define una estructura clara de diferentes tipos de notas
 
 ## Tipos de notas en Zettlekasten
 
-- [[20241230T1836-notas-fugaces-fleeting-notes]]
-- [[20250525T0939-notas-de-literatura-literature-notes]]
-- [[20250102T2205-notas-permanentes]]
+- [20241230T1836-notas-fugaces-fleeting-notes](20241230T1836-notas-fugaces-fleeting-notes.md)
+- [20250525T0939-notas-de-literatura-literature-notes](20250525T0939-notas-de-literatura-literature-notes.md)
+- [20250102T2205-notas-permanentes](20250102T2205-notas-permanentes.md)
 
 ### 3. Notas Permanentes (Permanent Notes)
 - Ideas desarrolladas y refinadas
-- Autocontenidas ([[20241228T0109-principio-de-atomicidad-en-zettelkasten]])
+- Autocontenidas ([20241228T0109-principio-de-atomicidad-en-zettelkasten](20241228T0109-principio-de-atomicidad-en-zettelkasten.md))
 - Conectadas con el sistema existente
 - Características:
 	- Una idea por nota
@@ -49,4 +49,4 @@ graph TB
 ```
 
 ---
-**Nota diaria:** [[2024-11-18]]
+**Nota diaria:** [2024-11-18](2024-11-18.md)

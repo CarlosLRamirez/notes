@@ -30,11 +30,11 @@ Un modelo es un concepto muy abstracto, el reto es como representar un sistema r
 
 --- 
 ## Enlaces: 
-[[20250207T0702-tipos-de-modelos]]
+[20250207T0702-tipos-de-modelos](20250207T0702-tipos-de-modelos.md)
 
 ## Referencias:
 Banks - 1.9 Models of a System - Pag 13
 Law - 1.2 Systems, Models, and Simulation - Pag 3
 
 ---
-**Nota diaria:** [[2025-02-07]]
+**Nota diaria:** [2025-02-07](2025-02-07.md)

@@ -12,10 +12,10 @@ publish: true
 ---
 # My Note Taking System
 
-[[20241118T2019-metodo-zettelkasten]]
+[20241118T2019-metodo-zettelkasten](20241118T2019-metodo-zettelkasten.md)
 
 --- 
  **Notas relacionadas:**
 
 ---
-**Nota diaria:** [[2024-12-28]]
+**Nota diaria:** [2024-12-28](2024-12-28.md)

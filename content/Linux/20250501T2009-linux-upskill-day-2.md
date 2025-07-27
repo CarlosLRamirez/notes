@@ -9,19 +9,24 @@ tags:
   - linux
 comments: true
 ---
+
 ## Introduction
+
 I’ve started following the [Linux Upskill Challenge](https://linuxupskillchallenge.org/) to sharpen my Linux knowledge and hands-on skills. It’s a series of 21 lessons designed to be completed daily, but I’ll be going through them at my own pace. I’ll share my journey and notes here as I move forward.
 
 ---
+
 ## Day 2 - Basic navigation
+
 - **URL:** [https://linuxupskillchallenge.org/02/](https://linuxupskillchallenge.org/02/)
-- **Previous Lesson:**  [[20250429T1854-linux-upskill-day-1|My Linux Upskill Challenge: Day 1]]
+- **Previous Lesson:** [My Linux Upskill Challenge: Day 1](20250429T1854-linux-upskill-day-1.md)
 
 ---
+
 ## **RTFM**
 
-- In this lesson, I learned a new acronym: **RTFM** – “Read the F`***`*ing Manual*.” 😆  
-- When you're learning and using Linux (or anything else) and have questions, of course, you're always free to Google it or ask ChatGPT.  
+- In this lesson, I learned a new acronym: **RTFM** – “Read the F`***`_ing Manual_.” 😆
+- When you're learning and using Linux (or anything else) and have questions, of course, you're always free to Google it or ask ChatGPT.
 - However, the best system administrators are those who first **RTFM**.
 
 > This is something we’re starting to forget nowadays!
@@ -31,9 +36,10 @@ I’ve started following the [Linux Upskill Challenge](https://linuxupskillchall
 > I think this is even more relevant today, especially when writing good prompts in the “GPT era.
 
 ---
+
 ### **Looking for Documentation**
 
-- The `man` command is a great place to start—most installed applications have their own manual.  
+- The `man` command is a great place to start—most installed applications have their own manual.
 - For instance, you can find the manual for these commands:
   - `man cp`
   - `man mv`
@@ -45,7 +51,7 @@ I’ve started following the [Linux Upskill Challenge](https://linuxupskillchall
 
 ---
 
-- `tldr` is another tool for viewing documentation. I installed it using `sudo apt install tldr`, but it didn’t work right away on my EC2 instance.  
+- `tldr` is another tool for viewing documentation. I installed it using `sudo apt install tldr`, but it didn’t work right away on my EC2 instance.
 
 - I got the following error:
 
@@ -60,14 +66,14 @@ mkdir -p ~/.local/share/tldr
 tldr --update
 ```
 
-- The second command pulls the latest pages from the official GitHub repo (make sure your server has internet access!).  
+- The second command pulls the latest pages from the official GitHub repo (make sure your server has internet access!).
 - I tried `tldr` with the same commands as before, and yes—it showed me much more simplified info.
 
 ---
 
-- I also learned about the `apropos` command, which is equivalent to `man -k`.  
-- Both are useful when you kind of know what a command does and want to search for keywords in the manual.  
-- For example, if you search for the phrase *"remove file"* using `apropos "remove file"`, you’ll get results like this:
+- I also learned about the `apropos` command, which is equivalent to `man -k`.
+- Both are useful when you kind of know what a command does and want to search for keywords in the manual.
+- For example, if you search for the phrase _"remove file"_ using `apropos "remove file"`, you’ll get results like this:
 
 ```sh
 ubuntu@ip-172-31-92-220:~$ apropos "remove file"
@@ -80,12 +86,12 @@ rm (1)               - remove files or directories
 
 ---
 
-- Some commands—especially shell built-ins—don’t have `man` pages.  
-- For those, you can use the `help` command instead.  
-- Example: use `help export` instead of `man export`.  
+- Some commands—especially shell built-ins—don’t have `man` pages.
+- For those, you can use the `help` command instead.
+- Example: use `help export` instead of `man export`.
 - I found exceptions like `echo`, which works with both `man echo` and `help echo`.
 
-- The best way to check if a command is a shell *built-in* is to use the `type` command.
+- The best way to check if a command is a shell _built-in_ is to use the `type` command.
 
 ---
 
@@ -94,24 +100,25 @@ rm (1)               - remove files or directories
 ---
 
 ## Navigate the File Structure
-[[20250611T1230-linux-essentials-exam-010-160-objectives#2.3 Using Directories and Listing Files (weight 2)|Linux Essentials Exam 010-160 Objectives - 2.3]]
+
+[Linux Essentials Exam 010-160 Objectives - 2.3](<20250611T1230-linux-essentials-exam-010-160-objectives.md#2.3%20Using%20Directories%20and%20Listing%20Files%20(weight%202)>)
 
 - I discovered a command that gives you documentation about the Linux file system: `man hier`.
 - `/` is the top-level directory (called **root**) for all other folders.
-- 🧭 To find out where you are in the file system, use `pwd`—this is like your GPS in Linux. 🛰 -->  [[20250611T1211-pwd]]
+- 🧭 To find out where you are in the file system, use `pwd`—this is like your GPS in Linux. 🛰 --> [20250611T1211-pwd](20250611T1211-pwd.md)
 - By default, you'll start in the `/home/<user>` directory, unless you're logged in as `root`, in which case you'll be in `/root`.
 
 - You can move between directories using `cd`:
-	- `cd ..` takes you "up" one level.
-	  - `cd .` keeps you in the same folder. 🤔
+  - `cd ..` takes you "up" one level.
+    - `cd .` keeps you in the same folder. 🤔
 
 - You can use either **relative** or **absolute** paths to move around:
-	- For example, if you first do `cd /var`, then both `cd log` and `cd /var/log` will get you to the same place.
+  - For example, if you first do `cd /var`, then both `cd log` and `cd /var/log` will get you to the same place.
 
 - Just running `cd` returns you to your home directory, as does `cd ~`.
 
-- You can also use `~` as a shortcut to move into folders inside your home directory from anywhere.  
-	- For instance, if you’re in `/var/log` and want to go to `/home/ubuntu/data/example`, just use `cd ~/data/example`.
+- You can also use `~` as a shortcut to move into folders inside your home directory from anywhere.
+  - For instance, if you’re in `/var/log` and want to go to `/home/ubuntu/data/example`, just use `cd ~/data/example`.
 
 ```sh
 ubuntu@ip-172-31-92-220:/var/log$ cd ~/data/example/
@@ -119,47 +126,49 @@ ubuntu@ip-172-31-92-220:~/data/example$
 ```
 
 ---
+
 ## Listing Files in a Folder
 
-- I used `ls` with different options ("*switches*") to list files.  
+- I used `ls` with different options ("_switches_") to list files.
 - For example: `ls`, `ls -l -L`, and `ls -l -t -r -a` (or just `ls -ltra`).
 - Files or folders that start with a `.` are hidden. Use `ls -a` to see them.
 - You can combine switches and provide a folder path (argument):  
   e.g., `ls -ltra /var/log`
-- Entries that start with `d` are directories.  
+- Entries that start with `d` are directories.
 - Some terminals show these in a different color—if not, try `--color=auto`.
 
 - Example:
 
-	```bash
-	ls -l /var/log/
-	total 2880
-	-rw-r--r--  1 root      root              1810 Jun 11 09:31 alternatives.log
-	-rw-r--r--  1 root      root             38322 May 21 21:10 alternatives.log.1
-	drwxr-x---  2 root      adm               4096 Jun 11 00:22 apache2
-	-rw-r-----  1 root      adm                  0 May  8 12:36 apport.log
-	drwxr-xr-x  2 root      root              4096 Jun 11 09:32 apt
-	-rw-r-----  1 syslog    adm              75999 Jun 11 12:45 auth.log
-	-rw-r-----  1 syslog    adm             103911 Jun  7 21:55 auth.log.1
-	-rw-r-----  1 syslog    adm              17215 May 31 23:55 auth.log.2.gz
-	-rw-r-----  1 syslog    adm              15940 May 24 23:17 auth.log.3.gz
-	-rw-r-----  1 syslog    adm               1728 May 17 19:35 auth.log.4.gz
-	-rw-r--r--  1 root      root             61237 Feb 16 14:53 bootstrap.log
-	-rw-rw----  1 root      utmp              3600 Jun 10 17:42 btmp
-	...
-	```
+  ```bash
+  ls -l /var/log/
+  total 2880
+  -rw-r--r--  1 root      root              1810 Jun 11 09:31 alternatives.log
+  -rw-r--r--  1 root      root             38322 May 21 21:10 alternatives.log.1
+  drwxr-x---  2 root      adm               4096 Jun 11 00:22 apache2
+  -rw-r-----  1 root      adm                  0 May  8 12:36 apport.log
+  drwxr-xr-x  2 root      root              4096 Jun 11 09:32 apt
+  -rw-r-----  1 syslog    adm              75999 Jun 11 12:45 auth.log
+  -rw-r-----  1 syslog    adm             103911 Jun  7 21:55 auth.log.1
+  -rw-r-----  1 syslog    adm              17215 May 31 23:55 auth.log.2.gz
+  -rw-r-----  1 syslog    adm              15940 May 24 23:17 auth.log.3.gz
+  -rw-r-----  1 syslog    adm               1728 May 17 19:35 auth.log.4.gz
+  -rw-r--r--  1 root      root             61237 Feb 16 14:53 bootstrap.log
+  -rw-rw----  1 root      utmp              3600 Jun 10 17:42 btmp
+  ...
+  ```
 
 ---
-###    `ls -l`output breakdown
+
+### `ls -l`output breakdown
 
 - Each line corresponds to a file or a directory, each field at the beginning of each line means something different.
 - The first field is the **file type & permissions**, contains 10 characters where:
-    - The first character  indicates the file type, as per the following table.
-    - The next nine characters (e.g., `rw-rw----`) corresponds to the file permissions, which is covered on this note:  [[20250611T1440-linux-file-permissions|Linux file permissions]]
+  - The first character indicates the file type, as per the following table.
+  - The next nine characters (e.g., `rw-rw----`) corresponds to the file permissions, which is covered on this note: [Linux file permissions](20250611T1440-linux-file-permissions.md)
 
 | Symbol | Type of file          | Description                                                                 |
 | ------ | --------------------- | --------------------------------------------------------------------------- |
-| `d`    | directory             | A container of another  files                                               |
+| `d`    | directory             | A container of another files                                                |
 | `-`    | normal file           | A regular file like text, images, binaries or compressed files, etc..       |
 | `l`    | symbolic link         | A link to another file                                                      |
 | `s`    | socket file           | This is a special file used for inter-process communications (IPC)          |
@@ -175,6 +184,7 @@ ubuntu@ip-172-31-92-220:~/data/example$
 - And the **Filename** (e.g,`apache2`)
 
 ---
+
 ### File list sort options
 
 - By default `ls`sort the results in alphabetical order
@@ -197,9 +207,10 @@ ls -lS /var/log
 ls -ltr /var/log
 ls -lSr /var/log
 ```
+
 ## Basic Directory Manipulation
 
-- I created a new folder with `mkdir test`, then moved into it with `cd test`.  
+- I created a new folder with `mkdir test`, then moved into it with `cd test`.
 - You can repeat this to build nested folder structures.
 
 ```sh
@@ -213,7 +224,8 @@ cd test
 ```sh
 mv test/example test2
 ```
-- To remove an **empty** directory, use `rmdir`.  
+
+- To remove an **empty** directory, use `rmdir`.
 - To remove a **non-empty** one, use `rm -r`.
 
 ---
@@ -251,20 +263,23 @@ popd
 > So these are my notes for the [**Day 2 – Basic Navigation**](https://linuxupskillchallenge.org/02/#wrap) of the Linux Upskill Challenge.
 
 ---
+
 ## Additional Resources
 
-- [Difference between help, info and man command](https://unix.stackexchange.com/questions/19451/difference-between-help-info-and-man-command)  
-- [GNU Texinfo](https://www.gnu.org/software/texinfo/)  
-- [Explore the Linux File System](https://www.digitalocean.com/community/tutorials/how-to-use-cd-pwd-and-ls-to-explore-the-file-system-on-a-linux-server)  
-- [Linux File System – YouTube](https://www.youtube.com/watch?v=2qQTXp4rBEE)  
-- [Simple Terminal Commands on Ubuntu – YouTube](http://www.youtube.com/watch?v=CGBsurVdLGY)  
+- [Difference between help, info and man command](https://unix.stackexchange.com/questions/19451/difference-between-help-info-and-man-command)
+- [GNU Texinfo](https://www.gnu.org/software/texinfo/)
+- [Explore the Linux File System](https://www.digitalocean.com/community/tutorials/how-to-use-cd-pwd-and-ls-to-explore-the-file-system-on-a-linux-server)
+- [Linux File System – YouTube](https://www.youtube.com/watch?v=2qQTXp4rBEE)
+- [Simple Terminal Commands on Ubuntu – YouTube](http://www.youtube.com/watch?v=CGBsurVdLGY)
 - [Solaris Unix Commands](http://www.gsp.com/support/virtual/admin/unix/solaris/commands.html)
 
 ---
-## Related notes
-- [[20250429T1854-linux-upskill-day-1|My Linux Upskill Challenge: Day 1]]
-- [[20250504T0416-linux-upskill-day-3|My Linux Upskill Challenge: Day 3]]
 
+## Related notes
+
+- [My Linux Upskill Challenge: Day 1](20250429T1854-linux-upskill-day-1.md)
+- [My Linux Upskill Challenge: Day 3](20250504T0416-linux-upskill-day-3.md)
 
 ---
+
 **Nota diaria:** [[2025-05-01]]

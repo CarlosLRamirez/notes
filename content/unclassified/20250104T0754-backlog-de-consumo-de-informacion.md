@@ -17,7 +17,7 @@ El backlog de Consumo de Información es un listado con las fuentes de informaci
 Esto es importante porque nos plantea una forma de limitar la información que consumimos y que procesamos en nuestro sistema.
 
 ## Desarrollo
-En el [[20241227T1805 Course - The Zettlekasten Method in Obsidian|Curso: The Zettlecasten Method]] de Mischa, el autor propone crear un listado curado de la información que **intencionalmente** planifiquemos consumir la cual esté alineada con nuestros objetivos. En lugar de dejar que las aplicaciones decidan por nosotros mediante un algoritmo, la idea es que nosotros tengamos el **control** de lo que consumimos, ya sean videos, artículos, publicaciones en redes sociales, podcast, etc..
+En el [Curso: The Zettlecasten Method](20241227T1805%20Course%20-%20The%20Zettlekasten%20Method%20in%20Obsidian.md) de Mischa, el autor propone crear un listado curado de la información que **intencionalmente** planifiquemos consumir la cual esté alineada con nuestros objetivos. En lugar de dejar que las aplicaciones decidan por nosotros mediante un algoritmo, la idea es que nosotros tengamos el **control** de lo que consumimos, ya sean videos, artículos, publicaciones en redes sociales, podcast, etc..
 
 El autor plantea que esto puede ser implementado de diferentes formas, por ejemplo en Obsidian podemos crear una nota para cada articulo, video, etc, que queramos consumir con la URL de la fuente y colocar un tag como #consume o #read-later, para luego buscar por este tag.
 
@@ -48,4 +48,4 @@ Tambien es posible utilizar una aplicación separada para esto como aplicaciones
 ## Referencias:
 
 ---
-**Nota diaria:** [[2025-01-04]]
+**Nota diaria:** [2025-01-04](2025-01-04.md)

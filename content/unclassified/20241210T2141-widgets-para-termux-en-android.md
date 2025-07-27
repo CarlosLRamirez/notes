@@ -86,4 +86,4 @@ El siguiente paso es hacer una especie de crontab para que lo haga cierto tiempo
  **Notas relacionadas:**
 
 ---
-**Nota diaria:** [[2024-12-10]]
+**Nota diaria:** [2024-12-10](2024-12-10.md)

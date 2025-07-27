@@ -140,4 +140,4 @@ This structure allows for efficient event handling in **Discrete Event Simulatio
 ## Referencias:
 
 ---
-**Nota diaria:** [[2025-02-11]]
+**Nota diaria:** [2025-02-11](2025-02-11.md)

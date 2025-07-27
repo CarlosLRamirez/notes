@@ -20,7 +20,7 @@ En internet hay todo un hype de ese tema, yo he tomado algunas cosas y sigo mejo
 > [!NOTE]
 > The Bullet Journal method was developed by Ryder Carroll in the late 1990s and early 2000s, primarily as a tool to help him manage his ADHD and organize his thoughts. He began experimenting with different journaling techniques and systems, eventually creating the Bullet Journal method as a way to combine elements of calendars, to-do lists, and personal diaries.
 
-Tambien hay un libro del autor donde explica el método, esta en la lista de [[My Reading List|Libros que quisiera leer]]
+Tambien hay un libro del autor donde explica el método, esta en la lista de [Libros que quisiera leer](My%20Reading%20List.md)
 ## Como lo uso
 - En marzo de 2025 empece con la intención de escribir un diario físico personal, con un cuaderno de lineas que me dio Escala24x7 y que no había utilizado
 - En marzo compré un cuaderno Leuchtrum1917 en Tivoli, el cual no he empezado a utilizar, mi idea es mejorar mi técnica y crearme el hábito primero, y cuando termine el cuaderno actual este será mi nuevo diario
@@ -33,7 +33,7 @@ En internet hay todo un hype de ese tema, yo he tomado algunas cosas y sigo mejo
 > [!NOTE]
 > The Bullet Journal method was developed by Ryder Carroll in the late 1990s and early 2000s, primarily as a tool to help him manage his ADHD and organize his thoughts. He began experimenting with different journaling techniques and systems, eventually creating the Bullet Journal method as a way to combine elements of calendars, to-do lists, and personal diaries.
 
-Tambien hay un libro del autor donde explica el método, esta en la lista de [[My Reading List|Libros que quisiera leer]]
+Tambien hay un libro del autor donde explica el método, esta en la lista de [Libros que quisiera leer](My%20Reading%20List.md)
 ## Como lo uso
 - En marzo de 2025 empece con la intención de escribir un diario físico personal, con un cuaderno de lineas que me dio Escala24x7 y que no había utilizado
 - En marzo compré un cuaderno Leuchtrum1917 en Tivoli, el cual no he empezado a utilizar, mi idea es mejorar mi técnica y crearme el hábito primero, y cuando termine el cuaderno actual este será mi nuevo diario
@@ -49,4 +49,4 @@ z
 - Durante ese tiempo vi la seria Zero Day donde protagonista (interpretado por Robert DeNiro) era un ex-presidente de Estados Unidos que siempre llevaba consigo[ un cuaderno](https://www.reddit.com/r/notebooks/comments/1iulsnf/a_presidents_notebooks_as_portrayed_in_zero_day/) y anotaba todo lo que pensaba, hacia o se cuestionaba. En la serie se muestra una repisa llena de libros con las anotaciones de toda su vida política. De alguna manera esto tambien me inspiró.
 
 ---
-**Nota diaria:** [[2025-05-12]]
+**Nota diaria:** [2025-05-12](2025-05-12.md)

@@ -13,7 +13,7 @@ publish: true
 ---
 # Qué debo anotar mediante Zettlekasten
 
-Según [[20241227T1805 Course - The Zettlekasten Method in Obsidian|Mischa]] (Section 6.7), deberíamos capturar cualquier información que nos provoquen algún tipo de pensamiento, esto puede ser de cualquier fuente de información (libros, artículos, videos, podcast, etc..) ([[20241118T1437-la-democratizacion-del-conocimiento-en-zettelkasten|La democratización del conocimiento]]). Tambien debemos capturar nuestras propias ideas, pensamientos, reflexiones, preguntas, etc...
+Según [Mischa](20241227T1805%20Course%20-%20The%20Zettlekasten%20Method%20in%20Obsidian.md) (Section 6.7), deberíamos capturar cualquier información que nos provoquen algún tipo de pensamiento, esto puede ser de cualquier fuente de información (libros, artículos, videos, podcast, etc..) ([La democratización del conocimiento](20241118T1437-la-democratizacion-del-conocimiento-en-zettelkasten.md)). Tambien debemos capturar nuestras propias ideas, pensamientos, reflexiones, preguntas, etc...
 
 Debería ser un balance entre relevancia y valor potencial en los temas que tengamos interés, priorizando aquello que nos da un entendimiento mas profundo o ofrece nuevas perspectivas. Evitar contenido duplicado y buscar siempre la originalidad. Tambien es importante que anotemos nuestra propia visión, así como interrogantes o incluso las contradicciones o dudas que encontremos.
 
@@ -36,4 +36,4 @@ Tampoco desaconseja utilizar aplicaciones para capturar y clipar información di
  **Enlaces:**
 
 ---
-**Nota diaria:** [[2025-01-02]]
+**Nota diaria:** [2025-01-02](2025-01-02.md)

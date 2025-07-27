@@ -42,4 +42,4 @@ Yo ya tengo cuenta en Github, sin embargo voy a crear una nueva con mi cuenta de
 ## Referencias:
 
 ---
-**Nota diaria:** [[2025-01-15]]
+**Nota diaria:** [2025-01-15](2025-01-15.md)

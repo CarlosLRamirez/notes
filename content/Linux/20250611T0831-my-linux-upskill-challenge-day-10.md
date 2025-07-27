@@ -6,19 +6,21 @@ tags:
   - linux
 comments: true
 created: 2025-06-11T08:31:18
-modified: 2025-06-15T07:11:08-06:00
+modified: 2025-06-20T04:49:35-06:00
 publish: true
 title: "My Linux Upskill Challenge: Day 10 - Scheduling Task in Linux"
 ---
 
 These are my notes following the Lesson No. 10 from the [Linux Upskill Challenge: Day 10](https://linuxupskillchallenge.org/10)
+
 ## Table of Contents
+
 - [[#Introduction|Introduction]]
-- [[#Schedule one-time tasks with `at`|Schedule one-time tasks with `at`]]
-- [[#Schedule time-based jobs with **cron**|Schedule time-based jobs with **cron**]]
-- [[#Automating a backup creation with **cron**|Automating a backup creation with **cron**]]
+- [[#Schedule one-time tasks|Schedule one-time tasks]]
+- [[#Schedule time-based jobs with cron|Schedule time-based jobs with cron]]
+- [[#Automating a backup creation|Automating a backup creation]]
 - [[#System crontab|System crontab]]
-- [[#Scheduling task with `systemd`timers|Scheduling task with `systemd`timers]]
+- [[#Scheduling task with systemd timers|Scheduling task with systemd timers]]
 - [[#External Resources|External Resources]]
 - [[#Related Notes|Related Notes]]
 
@@ -28,7 +30,7 @@ Automating the execution of repetitive tasks is one of the main skills that ever
 
 In this lesson, we cover the main mechanism that Linux provides to schedule tasks at different frequencies depending on the situation and the nature of the task.
 
-## Schedule one-time tasks with `at`
+## Schedule one-time tasks
 
 - We'll use **at** to schedule one-time task to be run _at_ a certain time in the future
 
@@ -119,7 +121,7 @@ atrm <job_id>
 at -c <job_id>
 ```
 
-## Schedule time-based jobs with **cron**
+## Schedule time-based jobs with cron
 
 - **cron** is a Linux daemon — a background service — that automatically executes scheduled tasks.
     
@@ -266,7 +268,7 @@ Explanation
 
 There are also sites that help us to build crontab expressions, like this one: [crontab.guru](https://crontab.guru/)
 
-## Automating a backup creation with **cron**
+## Automating a backup creation
 
 ### Doing a manual backup first
 
@@ -444,7 +446,7 @@ Actually you can confirm this in the `/etc/crontab/`lines:
 47 6    * * 7   root    test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.weekly; }
 52 6    1 * *   root    test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.monthly; }
 ```
-## Scheduling task with `systemd`timers
+## Scheduling task with systemd timers
 
 Today's Linux distributions generally include `systemd`. Besides starting and stopping services, we can also use it to run task at specific times via the *"timers"* feature.
 
@@ -484,5 +486,5 @@ More information in the **External Resources**.
 
 ---
 ## Related Notes
-- Previous Lesson: [[20250606T1811-my-linux-upskill-challenge-day-9|My Linux Upskill Challenge: Day 9]]
-- Next Lesson: [[20250615T0644-my-linux-upskill-challenge-day-11|My Linux Upskill Challenge: Day 11]]
+- Previous Lesson: [My Linux Upskill Challenge: Day 9](20250606T1811-my-linux-upskill-challenge-day-9.md)
+- Next Lesson: [My Linux Upskill Challenge: Day 11](20250615T0644-my-linux-upskill-challenge-day-11.md)

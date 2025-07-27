@@ -8,7 +8,7 @@ publish: true
 ---
 # Servicios de Control de Versiones
 ## Qué son los Servicios de Control de Versiones (VC<u>S</u>)
-Son plataformas gestionadas en la nube que proveen alojamiento (*hosting*) de repositorios versionados. Es decir son servicios que te permiten tener un repositorio remoto en la nube utilizando un [[20241216T1919-sistema-de-control-de-versiones|Sistema de Control de Versiones]], el cual **generalmente** es [[Git]].
+Son plataformas gestionadas en la nube que proveen alojamiento (*hosting*) de repositorios versionados. Es decir son servicios que te permiten tener un repositorio remoto en la nube utilizando un [Sistema de Control de Versiones](20241216T1919-sistema-de-control-de-versiones.md), el cual **generalmente** es [[Git]].
 
 Estos servicios no solo proveen *hosting*, sino que ofrecen otras funcionalidades como seguimiento (*tracking*), automatizaciones y *pipelines* de CI/CD
 
@@ -19,7 +19,7 @@ Aunque **Git** no está diseñado intrínsecamente con una arquitectura cliente-
 > Los **Sistemas**  de Control de Versiones (como Git) manejan el versionamiento localmente,  mientras los **Servicios** de Control de Versiones proveen hosting remoto y funcionalidades extra
 
 ## Contexto
-[[20250115T0609-github]] es el Servicio de Control de Versiones más utilizado y esta basado en [[20241218T0949-git|Git]] 
+[20250115T0609-github](20250115T0609-github.md) es el Servicio de Control de Versiones más utilizado y esta basado en [Git](20241218T0949-git.md) 
 
 ## Ejemplos
 Los Servicios de Control de Versiones mas populares hoy en día son:
@@ -55,4 +55,4 @@ Los Servicios de Control de Versiones mas populares hoy en día son:
 ## Referencias:
 
 ---
-**Nota diaria:** [[2025-01-15]]
+**Nota diaria:** [2025-01-15](2025-01-15.md)

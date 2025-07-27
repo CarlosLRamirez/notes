@@ -23,4 +23,4 @@ Aprender sobre Single Sign On y Softoken en el contexto del proyecto que estoy l
  **Enlaces:**
 
 ---
-**Nota diaria:** [[2025-01-03]]
+**Nota diaria:** [2025-01-03](2025-01-03.md)

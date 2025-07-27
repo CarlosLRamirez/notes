@@ -61,4 +61,4 @@ print("Index file created successfully with year and month groupings, ordered by
 ```
 
 ---
-**Nota diaria:** [[2024-12-30]]
+**Nota diaria:** [2024-12-30](2024-12-30.md)

@@ -88,4 +88,4 @@ set -g mouse off
 - Toggle file tree with `<Space>e`
 
 ---
-**Nota diaria:** [[2025-05-27]]
+**Nota diaria:** [2025-05-27](2025-05-27.md)

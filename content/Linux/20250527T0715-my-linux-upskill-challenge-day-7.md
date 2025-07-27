@@ -1,16 +1,15 @@
 ---
 created: 2025-05-27T07:15:30
-modified: 2025-05-28T22:42:20-06:00
+modified: 2025-06-20T07:49:35-06:00
 publish: true
 tags:
   - linux
+  - blog
 title: "My Linux Upskill Challenge: Day 7"
 aliases:
   - "My Linux Upskill Challenge: Day 7"
 zettel-type:
   - permanent
-statuS:
-  - finished
 comments: true
 ---
 
@@ -300,8 +299,8 @@ less access.log
 
 ---
 ## Related Notes
-- Previous Lesson: [[20250526T1214-my-linux-upskill-challenge-day-6|My Linux Upskill Challenge: Day 6]]
-- Next Lesson: [[20250528T1022-my-linux-upskill-challenge-day-8|My Linux Upskill Challenge: Day 8]]
+- Previous Lesson: [My Linux Upskill Challenge: Day 6](20250526T1214-my-linux-upskill-challenge-day-6.md)
+- Next Lesson: [My Linux Upskill Challenge: Day 8](20250528T1022-my-linux-upskill-challenge-day-8.md)
 
 ---
 **Nota diaria:** [[2025-05-27]]

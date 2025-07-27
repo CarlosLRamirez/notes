@@ -20,10 +20,10 @@ Esto le permitía a Lhumen buscar una nota a partir de dicha estructura. Sin emb
 
 ![[Pasted image 20241228013113.png]]
 
-- Una única desventaja de utilizar un método digital es que no podemos colocar las notas fisicamente delante de nosotros,  y encontrar posibles relaciones entre ellas. Sin embargo según [[20241227T1805 Course - The Zettlekasten Method in Obsidian|Mischa en su curso]] las ventajas de utilizar un método digital, supera por mucho a las desventajas.
+- Una única desventaja de utilizar un método digital es que no podemos colocar las notas fisicamente delante de nosotros,  y encontrar posibles relaciones entre ellas. Sin embargo según [Mischa en su curso](20241227T1805%20Course%20-%20The%20Zettlekasten%20Method%20in%20Obsidian.md) las ventajas de utilizar un método digital, supera por mucho a las desventajas.
 
 --- 
  **Notas relacionadas:**
 
 ---
-**Nota diaria:** [[2024-12-28]]
+**Nota diaria:** [2024-12-28](2024-12-28.md)

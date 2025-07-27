@@ -1,6 +1,6 @@
 ---
 created: 2024-12-17T15:05:34
-modified: 2025-05-26T09:07:21-06:00
+modified: 2025-06-19T19:44:01-06:00
 type: 
 aliases:
   - Relación entre un VCS y un SCM
@@ -17,4 +17,4 @@ publish: true
  **Notas relacionadas:**
 
 ---
-**Nota diaria:** [[2024-12-17]]
+**Nota diaria:** [2024-12-17](2024-12-17.md)

@@ -217,8 +217,8 @@ u
 
 ---
 ## Related Notes
-- Previous Lesson: [[20250521T1822-linux-upskill-day-5|Linux Upskill Challenge: Day 5]]
-- Next Lesson: [[20250527T0715-my-linux-upskill-challenge-day-7|My Linux Upskill Challenge: Day 7]]
+- Previous Lesson: [Linux Upskill Challenge: Day 5](20250521T1822-linux-upskill-day-5.md)
+- Next Lesson: [My Linux Upskill Challenge: Day 7](20250527T0715-my-linux-upskill-challenge-day-7.md)
 
 ---
 ## External Resources
@@ -229,4 +229,4 @@ u
 - [How to Copy, Cut and Paste in Vim / Vi](https://linuxize.com/post/how-to-copy-cut-paste-in-vim/)
 
 ---
-**Nota diaria:** [[2025-05-26]]
+**Nota diaria:** [2025-05-26](2025-05-26.md)

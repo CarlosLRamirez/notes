@@ -36,16 +36,16 @@ Un sistema de control de versiones se utiliza principalmente la gestión de cód
  
  **Notas relacionadas:**
 
-[[20241217T1521-tipos-de-vsc]]
-[[20241217T1507-sistemas-de-control-de-versiones-distribuidos]]
-[[20241217T1524-sistemas-de-control-de-versiones-centralizados]]
-[[20241217T1511-ejemplos-de-sistemas-de-control-de-versiones]]
-[[20241217T1505-relacion-entre-un-vcs-y-un-scm]]
-[[20241218T0949-git]]
+[20241217T1521-tipos-de-vsc](20241217T1521-tipos-de-vsc.md)
+[20241217T1507-sistemas-de-control-de-versiones-distribuidos](20241217T1507-sistemas-de-control-de-versiones-distribuidos.md)
+[20241217T1524-sistemas-de-control-de-versiones-centralizados](20241217T1524-sistemas-de-control-de-versiones-centralizados.md)
+[20241217T1511-ejemplos-de-sistemas-de-control-de-versiones](20241217T1511-ejemplos-de-sistemas-de-control-de-versiones.md)
+[20241217T1505-relacion-entre-un-vcs-y-un-scm](20241217T1505-relacion-entre-un-vcs-y-un-scm.md)
+[20241218T0949-git](20241218T0949-git.md)
 
 
 **Referencias**
 https://learn.microsoft.com/en-us/training/modules/intro-to-git/1-what-is-vc
 
 ---
-**Nota diaria:** [[2024-12-16]]
+**Nota diaria:** [2024-12-16](2024-12-16.md)

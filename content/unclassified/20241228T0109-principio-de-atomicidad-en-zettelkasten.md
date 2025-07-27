@@ -40,11 +40,11 @@ publish: true
 - "Mis pensamientos sobre salud y bienestar"
 
 ## Enlaces
-- [[20241118T1439-principio-de-interconexion-en-zettlekasten]]
+- [20241118T1439-principio-de-interconexion-en-zettlekasten](20241118T1439-principio-de-interconexion-en-zettlekasten.md)
 
 ## Referencias
-[[20241118T1521 The FUN and EFFICIENT note-taking system I use in my PhD]]
-[[20241227T1834-chat-sobre-implementacion-de-zettelkasten-en-obsidian]]
+[20241118T1521 The FUN and EFFICIENT note-taking system I use in my PhD](20241118T1521%20The%20FUN%20and%20EFFICIENT%20note-taking%20system%20I%20use%20in%20my%20PhD.md)
+[20241227T1834-chat-sobre-implementacion-de-zettelkasten-en-obsidian](20241227T1834-chat-sobre-implementacion-de-zettelkasten-en-obsidian.md)
 
 ---
-**Nota diaria:** [[2024-12-28]]
+**Nota diaria:** [2024-12-28](2024-12-28.md)

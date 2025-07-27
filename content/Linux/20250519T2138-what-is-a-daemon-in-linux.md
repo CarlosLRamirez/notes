@@ -33,4 +33,4 @@ The term comes from the Greek “δαίμων” (daimon), meaning a **guiding s
 - `mysqld`,`postgres`: *Database servers*
 
 ---
-**Nota diaria:** [[2025-05-19]]
+**Nota diaria:** [2025-05-19](2025-05-19.md)

@@ -67,13 +67,13 @@ La simulación tiene aplicaciones en una gran vasta cantidad de áreas, como por
 
 --- 
 ## Enlaces: 
-[[20250131T1647-diferencia-entre-la-simulacion-y-la-solucion-analitica]]
+[20250131T1647-diferencia-entre-la-simulacion-y-la-solucion-analitica](20250131T1647-diferencia-entre-la-simulacion-y-la-solucion-analitica.md)
 [[Cuando es una buena herramienta la Simulación]]
 [[Cuando no es una buena herramienta la Simulación]]
 [[Ventajas y Desventajas de la Simulación]]
-[[20250131T1710-sistema]]
+[20250131T1710-sistema](20250131T1710-sistema.md)
 
 ## Referencias:
 
 ---
-**Nota diaria:** [[2025-01-30]]
+**Nota diaria:** [2025-01-30](2025-01-30.md)

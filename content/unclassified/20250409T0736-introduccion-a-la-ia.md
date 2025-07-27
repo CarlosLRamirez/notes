@@ -37,7 +37,7 @@ Areas de aplicación de la IA:
 
 ---
 ## Notas Relacionadas
-[[20250409T1644-history-of-ai]]
+[20250409T1644-history-of-ai](20250409T1644-history-of-ai.md)
 
 ---
-**Nota diaria:** [[2025-04-09]]
+**Nota diaria:** [2025-04-09](2025-04-09.md)

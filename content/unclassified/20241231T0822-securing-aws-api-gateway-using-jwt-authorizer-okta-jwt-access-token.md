@@ -20,4 +20,4 @@ https://awskarthik82.medium.com/part-3-securing-aws-api-gateway-using-jwt-author
  [[20250226T0912 AWS]]
 
 ---
-**Nota diaria:** [[2024-12-31]]
+**Nota diaria:** [2024-12-31](2024-12-31.md)

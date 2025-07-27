@@ -14,9 +14,9 @@ Como el método Zettlekasten nos ayuda a procesar la información que consumimos
 ## Contexto
 Beneficios del método Zettlekasten al aplicarlo a nuestra vida diaria.
 ## Desarrollo
-En el [[20241227T1805 Course - The Zettlekasten Method in Obsidian|Curso: The Zettlecasten Method]] de Mischa, en la sección 4.9,  el autor expone la idea de pensar en nosotros como una "fabrica" que procesa información, transformando todos los "inputs" recibidos en "outputs" de valor ya sea para nuestro trabajo, profesión,  o nuestro día a día.
+En el [Curso: The Zettlecasten Method](20241227T1805%20Course%20-%20The%20Zettlekasten%20Method%20in%20Obsidian.md) de Mischa, en la sección 4.9,  el autor expone la idea de pensar en nosotros como una "fabrica" que procesa información, transformando todos los "inputs" recibidos en "outputs" de valor ya sea para nuestro trabajo, profesión,  o nuestro día a día.
 
-Los inputs o entradas  puede ser cualquier cualquier fuente de información como artículos libros, videos, podcast, pero tambien pueden ser conversaciones casuales, reuniones de trabajo, etc. Esto se alinea con el principio de [[20241118T1437-la-democratizacion-del-conocimiento-en-zettelkasten|La democratización del conocimiento en Zettlekasten]]
+Los inputs o entradas  puede ser cualquier cualquier fuente de información como artículos libros, videos, podcast, pero tambien pueden ser conversaciones casuales, reuniones de trabajo, etc. Esto se alinea con el principio de [La democratización del conocimiento en Zettlekasten](20241118T1437-la-democratizacion-del-conocimiento-en-zettelkasten.md)
 
 Los outputs o salidas, en el caso del autor (quien se identifica como un Creador de Contenido) pueden ser publicaciones en redes sociales, artículos en blogs, videos, podcast, etc.. Sin embargo menciona que estos tambien pueden ser elementos informativos que nos ayuden en nuestro trabajo como Correos, Manuales Técnicos, Minutas de Reuniones, Informes, etc..
 
@@ -28,7 +28,7 @@ Es aquí donde entra el concepto de **intencionalidad**, es decir; debemos empez
 
 El autor recomienda que el 80% de la información que consumimos sea con **intención**, y dejemos un 20% para relajación y placer.
 
-Para este propósito el autor menciona mantener un [[20250104T0754-backlog-de-consumo-de-informacion]], el cual detalla en la siguiente sección del  curso.  
+Para este propósito el autor menciona mantener un [20250104T0754-backlog-de-consumo-de-informacion](20250104T0754-backlog-de-consumo-de-informacion.md), el cual detalla en la siguiente sección del  curso.  
 ## Conclusiones
 - Cualquier fuente de información podría ser un input a nuestro sistema, si esta esta alineada con nuestros intereses.
 - Solo procesar la información que tiene valor y esta alineada con nuestros intereses
@@ -46,9 +46,9 @@ Para este propósito el autor menciona mantener un [[20250104T0754-backlog-de-co
 
 --- 
 ## Enlaces: 
-[[20241118T1437-la-democratizacion-del-conocimiento-en-zettelkasten|La democratización del conocimiento en Zettlekasten]]
+[La democratización del conocimiento en Zettlekasten](20241118T1437-la-democratizacion-del-conocimiento-en-zettelkasten.md)
 ## Referencias:
 [The American Diet: 34 Gigabytes a Day](https://archive.nytimes.com/bits.blogs.nytimes.com/2009/12/09/the-american-diet-34-gigabytes-a-day/#:~:text=The%20report%20suggests%20the%20average,a%20single%2024%2Dhour%20period.)
 
 ---
-**Nota diaria:** [[2025-01-04]]
+**Nota diaria:** [2025-01-04](2025-01-04.md)

@@ -25,4 +25,4 @@ publish: true
 ## Notas relacionadas
 
 ---
-**Nota diaria:** [[2024-11-20]]
+**Nota diaria:** [2024-11-20](2024-11-20.md)

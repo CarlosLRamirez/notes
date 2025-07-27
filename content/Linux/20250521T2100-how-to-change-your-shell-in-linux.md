@@ -147,7 +147,7 @@ One of the most obvious differences between the different shells is the prompt
 
 
 ## Related Note
-[[20250521T2355-customizing-your-linux-shell-oh-my-zsh-oh-my-bash-and-prompt-styling|Customizing Your Linux Shell: Oh My Zsh, Oh My Bash, and Prompt Styling]]
+[Customizing Your Linux Shell: Oh My Zsh, Oh My Bash, and Prompt Styling](20250521T2355-customizing-your-linux-shell-oh-my-zsh-oh-my-bash-and-prompt-styling.md)
 
 ---
-**Nota diaria:** [[2025-05-20]]
+**Nota diaria:** [2025-05-20](2025-05-20.md)

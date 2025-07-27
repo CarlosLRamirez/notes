@@ -13,7 +13,7 @@ Proceso de instalación de Git en Windows
 
 ## Contexto
 - El proceso de instalación de Git en Windows difiere un poco del proceso en MacOS o Linux
-- El autor del curso [[20250108T0647 - Curso - Certificación Github Foundations, Temario completo y examen|Curso - Certificación Github Foundations, Temario completo y examen]] explica el proceso para instalarlo en Windows, sin embargo yo no estoy utilizando dicho sistema operativo.
+- El autor del curso [Curso - Certificación Github Foundations, Temario completo y examen](20250108T0647%20-%20Curso%20-%20Certificación%20Github%20Foundations,%20Temario%20completo%20y%20examen.md) explica el proceso para instalarlo en Windows, sin embargo yo no estoy utilizando dicho sistema operativo.
 ## Descripción
 - Descargar la version de Git para nuestro SO desde esta URL https://git-scm.com/
 - Luego de ejecutar el archivo descargado, nos lanza un instalador interactivo en donde la mayoría de pasos es darle Next o Siguiente, dejando las configuraciones por defecto, excepto en uno de los pasos el cual es la selección del editor de texto.
@@ -44,4 +44,4 @@ Es mucho mas fácil la instalación en MacOS y/o Linux.
 https://git-scm.com/
 
 ---
-**Nota diaria:** [[2025-01-08]]
+**Nota diaria:** [2025-01-08](2025-01-08.md)

@@ -34,10 +34,10 @@ Each shell aims to:
 
 
 ## Related notes
-- [[20250516T1849-list-of-shells|List of the most commonly used shells]]
-- [[20250516T1834-shells-timeline|History of Shells]]
-- [[20250521T2100-how-to-change-your-shell-in-linux|How to change your shell in Linux]]
-- [[20250516T1834-what-happens-when-you-connect-to-a-server-via-ssh-and-run-a-command|What Happens When You Connect to a Server via SSH and Run a Command?]]
+- [List of the most commonly used shells](20250516T1849-list-of-shells.md)
+- [History of Shells](20250516T1834-shells-timeline.md)
+- [How to change your shell in Linux](20250521T2100-how-to-change-your-shell-in-linux.md)
+- [What Happens When You Connect to a Server via SSH and Run a Command?](20250516T1834-what-happens-when-you-connect-to-a-server-via-ssh-and-run-a-command.md)
 
 ---
 **Nota diaria:** [[2025-05-16]]

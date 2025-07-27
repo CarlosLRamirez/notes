@@ -39,4 +39,4 @@ publish: true
 ## Referencias:
 
 ---
-**Nota diaria:** [[2025-01-31]]
+**Nota diaria:** [2025-01-31](2025-01-31.md)

@@ -1018,4 +1018,4 @@ https://aws.amazon.com/cloudwatch/faqs/
 -
 
 ---
-**Nota diaria:** [[2024-12-30]]
+**Nota diaria:** [2024-12-30](2024-12-30.md)

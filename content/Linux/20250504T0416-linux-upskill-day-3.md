@@ -20,7 +20,7 @@ In this lesson, I learned about the types of users that exist in a Linux system,
 ---
 ## Day 3 - Power trip!
 - **URL:** https://linuxupskillchallenge.org/03/
-- **Previous Lesson:** [[20250501T2009-linux-upskill-day-2|My Linux Upskill Challenge: Day 2]]
+- **Previous Lesson:** [My Linux Upskill Challenge: Day 2](20250501T2009-linux-upskill-day-2.md)
 
 ---
 ### 🚪 Introduction
@@ -276,8 +276,8 @@ Selecting the correct timezone for all your servers take importance when you nee
 
 --- 
 ## Related Notes:
-- [[20250501T2009-linux-upskill-day-2|My Linux Upskill Challenge: Day 2]]
-- [[20250508T1314-linux-upskill-day-4|My Linux Upskill Challenge - Day 4]]
+- [My Linux Upskill Challenge: Day 2](20250501T2009-linux-upskill-day-2.md)
+- [My Linux Upskill Challenge - Day 4](20250508T1314-linux-upskill-day-4.md)
 
 ---
-**Nota diaria:** [[2025-05-04]]
+**Nota diaria:** [2025-05-04](2025-05-04.md)

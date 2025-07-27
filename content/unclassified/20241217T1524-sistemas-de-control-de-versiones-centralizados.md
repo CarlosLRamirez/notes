@@ -22,12 +22,12 @@ Los VSC centralizados tienen un único servidor el cual contiene todos los archi
 
 --- 
  **Notas relacionadas:**
- [[20241217T1521-tipos-de-vsc]]  
- [[20241217T1511-ejemplos-de-sistemas-de-control-de-versiones]]
+ [20241217T1521-tipos-de-vsc](20241217T1521-tipos-de-vsc.md)  
+ [20241217T1511-ejemplos-de-sistemas-de-control-de-versiones](20241217T1511-ejemplos-de-sistemas-de-control-de-versiones.md)
 
 
 **Referencia**
 https://medium.com/@pm74367/types-of-vcs-version-control-system-f7af5594bd04
 
 ---
-**Nota diaria:** [[2024-12-17]]
+**Nota diaria:** [2024-12-17](2024-12-17.md)

@@ -80,10 +80,10 @@ Frecuentemente, los retardos son valores medidos y constituyen **resultados de l
 
 --- 
 ## Enlaces: 
-[[20250211T0713-algoritmo-de-programacion-de-eventos-avance-de-tiempo]]
+[20250211T0713-algoritmo-de-programacion-de-eventos-avance-de-tiempo](20250211T0713-algoritmo-de-programacion-de-eventos-avance-de-tiempo.md)
 
 ## Referencias:
 Banks - 3.1 Models of a System - Pag 91-93
 
 ---
-**Nota diaria:** [[2025-02-11]]
+**Nota diaria:** [2025-02-11](2025-02-11.md)

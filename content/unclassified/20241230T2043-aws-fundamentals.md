@@ -8,7 +8,7 @@ tags:
 title: AWS Fundamentals
 publish: true
 ---
-[[Elastic Compute Cloud (EC2) Basics]]
+[Elastic Compute Cloud (EC2) Basics](Elastic%20Compute%20Cloud%20(EC2)%20Basics.md)
 
 ## S3 Basics
 ### S3 101
@@ -103,4 +103,4 @@ publish: true
 - .COM, .ORG, .IO etc, TLD are the registry
 
 ---
-**Nota diaria:** [[2024-12-30]]
+**Nota diaria:** [2024-12-30](2024-12-30.md)

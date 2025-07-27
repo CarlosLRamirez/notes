@@ -259,8 +259,8 @@ This is not an in-depth guide — for more advanced usage, consult the official 
 
 ---
 ## Related Notes
-- Previous Lesson: [[20250528T1022-my-linux-upskill-challenge-day-8|My Linux Upskill Challenge: Day 8]]
-- Next Lesson: [[20250611T0831-my-linux-upskill-challenge-day-10]]
+- Previous Lesson: [My Linux Upskill Challenge: Day 8](20250528T1022-my-linux-upskill-challenge-day-8.md)
+- Next Lesson: [20250611T0831-my-linux-upskill-challenge-day-10](20250611T0831-my-linux-upskill-challenge-day-10.md)
 
 
 

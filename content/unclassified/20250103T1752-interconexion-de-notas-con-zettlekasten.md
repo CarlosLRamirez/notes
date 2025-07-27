@@ -17,10 +17,10 @@ Al encontrar patrones en nuestras notas nos permite descubrir como ciertos temas
 
 --- 
 ## Rererencias
- 1. [[20241227T1805 Course - The Zettlekasten Method in Obsidian]]
+ 1. [20241227T1805 Course - The Zettlekasten Method in Obsidian](20241227T1805%20Course%20-%20The%20Zettlekasten%20Method%20in%20Obsidian.md)
 
 ## Notas Relacionadas:
-[[20241118T1439-principio-de-interconexion-en-zettlekasten]]
+[20241118T1439-principio-de-interconexion-en-zettlekasten](20241118T1439-principio-de-interconexion-en-zettlekasten.md)
 
 ---
-**Nota diaria:** [[2025-01-03]]
+**Nota diaria:** [2025-01-03](2025-01-03.md)

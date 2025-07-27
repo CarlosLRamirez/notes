@@ -50,4 +50,4 @@ El proceso de instalación de Git en MacOS difiere un poco del proceso en Window
 ## Referencias:
 
 ---
-**Nota diaria:** [[2025-01-08]]
+**Nota diaria:** [2025-01-08](2025-01-08.md)

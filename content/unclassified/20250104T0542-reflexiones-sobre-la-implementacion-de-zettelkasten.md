@@ -23,13 +23,13 @@ Ideas sueltas que quiero explorar:
 
 Por cierto esta nota la tome de un [chat](https://claude.ai/chat/0465757e-b71b-4f6e-9fd2-dfd74f72fd7a) con Cloude9
 
-[[20241227T1834-chat-sobre-implementacion-de-zettelkasten-en-obsidian]]
+[20241227T1834-chat-sobre-implementacion-de-zettelkasten-en-obsidian](20241227T1834-chat-sobre-implementacion-de-zettelkasten-en-obsidian.md)
 
 #reflexiones #zettelkasten #pensamientos
 
 --- 
 ## Notas Relacionadas
-[[20241118T2019-metodo-zettelkasten]]
+[20241118T2019-metodo-zettelkasten](20241118T2019-metodo-zettelkasten.md)
 
 ---
-**Nota diaria:** [[2025-01-04]]
+**Nota diaria:** [2025-01-04](2025-01-04.md)

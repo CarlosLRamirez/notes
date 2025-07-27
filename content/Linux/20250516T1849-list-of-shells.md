@@ -44,8 +44,8 @@ cat /etc/shells
 
 ---
 ## Related Notes
-- [[20250516T1834-shells-timeline|History of Shells]]
-- [[20250516T1834-what-happens-when-you-connect-to-a-server-via-ssh-and-run-a-command|What Happens When You Connect to a Server via SSH and Run a Command?]]
+- [History of Shells](20250516T1834-shells-timeline.md)
+- [What Happens When You Connect to a Server via SSH and Run a Command?](20250516T1834-what-happens-when-you-connect-to-a-server-via-ssh-and-run-a-command.md)
 
 ---
 **Nota diaria:** [[2025-05-16]]

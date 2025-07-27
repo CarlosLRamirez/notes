@@ -128,4 +128,4 @@ Carlos Leonel Ramírez — [@CarlosLRamirez](https://github.com/CarlosLRamirez)
 Digital garden: [carloslramirez.com/notes](https://carloslramirez.com/notes)
 
 ---
-**Nota diaria:** [[2025-05-28]]
+**Nota diaria:** [2025-05-28](2025-05-28.md)

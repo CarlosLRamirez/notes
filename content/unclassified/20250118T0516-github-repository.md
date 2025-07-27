@@ -54,11 +54,11 @@ Github nos permite tener repositorios tanto públicos como privados.
 
 --- 
 ## Enlaces: 
-[[20250115T0609-github|Github]]
+[Github](20250115T0609-github.md)
 [[Limites de Github]]
 
 ## Referencias:
 https://docs.github.com/en/get-started/learning-about-github/githubs-plans
 
 ---
-**Nota diaria:** [[2025-01-18]]
+**Nota diaria:** [2025-01-18](2025-01-18.md)

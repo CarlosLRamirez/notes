@@ -31,10 +31,10 @@ publish: true
 6. Gestión de fuentes y referencias
 
 ## Ideas extraídas para notas permanentes
-- [[20241118T1917-principios-fundamentales-del-metodo-zettelkasten]]
-- [[20241228T0109-principio-de-atomicidad-en-zettelkasten]]
-- [[20241118T1439-principio-de-interconexion-en-zettlekasten]]
-- [[20241118T1834-tipos-de-notas-en-zettlekasten]]
+- [20241118T1917-principios-fundamentales-del-metodo-zettelkasten](20241118T1917-principios-fundamentales-del-metodo-zettelkasten.md)
+- [20241228T0109-principio-de-atomicidad-en-zettelkasten](20241228T0109-principio-de-atomicidad-en-zettelkasten.md)
+- [20241118T1439-principio-de-interconexion-en-zettlekasten](20241118T1439-principio-de-interconexion-en-zettlekasten.md)
+- [20241118T1834-tipos-de-notas-en-zettlekasten](20241118T1834-tipos-de-notas-en-zettlekasten.md)
 - [[202411181505 Balance entre atomicidad y practicidad en Zettelkasten]]
 
 ## Insights clave
@@ -50,9 +50,9 @@ publish: true
 - Desarrollar flujo de trabajo para procesar notas fugaces
 
 ## Notas relacionadas
-- [[20241118T2019-metodo-zettelkasten]]
+- [20241118T2019-metodo-zettelkasten](20241118T2019-metodo-zettelkasten.md)
 - [[Obsidian Setup]]
 - [[Templates en Obsidian]]
 
 ---
-**Nota diaria:** [[2024-12-27]]
+**Nota diaria:** [2024-12-27](2024-12-27.md)

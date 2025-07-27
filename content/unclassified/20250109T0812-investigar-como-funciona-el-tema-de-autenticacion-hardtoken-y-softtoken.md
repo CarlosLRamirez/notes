@@ -11,4 +11,4 @@ created: 2025-01-09T08:12:38-06:00
 # Investigar como funciona el tema de autenticacion hardtoken y softtoken
 
 ---
-**Nota diaria:** [[2025-01-09]]
+**Nota diaria:** [2025-01-09](2025-01-09.md)

@@ -15,14 +15,14 @@ En un sistema de control de versiones distribuido **todo el historial del proyec
 ## Principales ventajas
 - Permite que podamos editar los archivos sin tener conectividad con el servidor central, confirmar los cambios localmente y sincronizar con el servidor una vez esté en linea nuevamente, por lo anterior podemos decir que pueden trabajar completamente "offline".
 - Si ocurre algo en el servidor con el repositorio central, los clientes poseen una copia local del proyecto; por lo que son más tolerantes a fallas.
-- En general tienen mejor rendimiento que los [[20241217T1524-sistemas-de-control-de-versiones-centralizados|Sistemas de Control de Versiones Centralizados]] 
+- En general tienen mejor rendimiento que los [Sistemas de Control de Versiones Centralizados](20241217T1524-sistemas-de-control-de-versiones-centralizados.md) 
 - El *branching* y *merging* es mas eficiente y directo. 
 
 ![[Pasted image 20241217154607.png]]
 
 --- 
  **Notas relacionadas:**
-[[20241218T0949-git|Git]]
+[Git](20241218T0949-git.md)
 
 
 **Referencias:**
@@ -30,4 +30,4 @@ https://medium.com/@pm74367/types-of-vcs-version-control-system-f7af5594bd04
 https://learn.microsoft.com/en-us/training/modules/intro-to-git/1-what-is-vc
 
 ---
-**Nota diaria:** [[2024-12-17]]
+**Nota diaria:** [2024-12-17](2024-12-17.md)

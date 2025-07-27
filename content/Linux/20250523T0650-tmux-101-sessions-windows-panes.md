@@ -11,6 +11,7 @@ aliases:
   - "tmux 101: Sessions, Windows & Panes"
 comments: true
 ---
+
 ## Introduction
 
 Whether you're managing remote servers, working on long-running tasks, or just want a more efficient terminal workflow, **tmux** can be a game-changer.
@@ -18,6 +19,7 @@ Whether you're managing remote servers, working on long-running tasks, or just w
 This guide is a simple walkthrough of the basics — sessions, windows, panes — and how to navigate them. No fluff, just what you need to get started and feel more at home inside your terminal.
 
 Let’s dive in 🧠💻
+
 ## Getting Started
 
 First, check if `tmux` is installed on your system using:
@@ -29,15 +31,15 @@ tmux -V
 
 If it’s not installed, use one of the following commands depending on your operating system:
 
-| Platform               | Install Command           |
-| ---------------------- | ------------------------- |
-| Arch Linux             | `sudo pacman -S tmux`     |
-| Debian or Ubuntu       | `sudo apt install tmux`   |
-| Fedora                 | `sudo dnf install tmux`   |
-| RHEL or CentOS         | `sudo yum install tmux`   |
-| macOS (using Homebrew) | `brew install tmux`       |
-| macOS (using MacPorts) | `sudo port install tmux`  |
-| openSUSE               | `sudo zypper install tmux`|
+| Platform               | Install Command            |
+| ---------------------- | -------------------------- |
+| Arch Linux             | `sudo pacman -S tmux`      |
+| Debian or Ubuntu       | `sudo apt install tmux`    |
+| Fedora                 | `sudo dnf install tmux`    |
+| RHEL or CentOS         | `sudo yum install tmux`    |
+| macOS (using Homebrew) | `brew install tmux`        |
+| macOS (using MacPorts) | `sudo port install tmux`   |
+| openSUSE               | `sudo zypper install tmux` |
 
 To quickly get started with **tmux**, just run:
 
@@ -51,7 +53,7 @@ You’ll notice a status line at the bottom of the screen. This line displays us
 
 - `[0]`: The **tmux session number** — useful when multiple sessions exist.
 - `0`: The **window number** — this is the active tmux window you’re in.
-- `bash`: The **active shell or process** running in the current window (* = active pane).
+- `bash`: The **active shell or process** running in the current window (\* = active pane).
 - `"ubuntu"`: The **window name or title** — often derived from hostname or manually set.
 
 ![](https://i.imgur.com/gaisNLq.png)
@@ -189,6 +191,7 @@ man tmux
 ```
 
 ---
+
 ## Splitting the Screen with Panes
 
 Another cool feature of **tmux** is the use of panes. A **pane** is a **subdivision of a window** — like a split view inside your terminal.
@@ -240,8 +243,11 @@ This allows you to enlarge your main work area and keep side panes for monitorin
 To close a pane, simply type `exit` in that pane — it will disappear, and the remaining panes will adjust automatically.
 
 ---
+
 ## External Resources
-- [Video: Tmux Tutorial  for Begineers](https://youtu.be/U41BTVZLKB0?si=HNvyFL8CLzi1zb94)
+
+- [Video: Tmux Tutorial for Begineers](https://youtu.be/U41BTVZLKB0?si=HNvyFL8CLzi1zb94)
 
 ---
+
 **Nota diaria:** [[2025-05-23]]

@@ -37,7 +37,7 @@ Es el área en donde están todos los archivos y estructura de carpetas que form
  **Notas relacionadas:**
  [[Staging Area]]
  [[Local Repository]]
- [[20241218T1314-git-commits]]
+ [20241218T1314-git-commits](20241218T1314-git-commits.md)
 
 ---
-**Nota diaria:** [[2024-12-18]]
+**Nota diaria:** [2024-12-18](2024-12-18.md)

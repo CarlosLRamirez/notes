@@ -44,7 +44,7 @@ publish: true
 
 ## VSC Distribuidos
 
-- [[20241218T0949-git|Git]] 🫅
+- [Git](20241218T0949-git.md) 🫅
 - Mercurial
 - Team Foundation Server
 - Bazaar
@@ -57,8 +57,8 @@ https://medium.com/@pm74367/types-of-vcs-version-control-system-f7af5594bd04
 
 
 ### Notas relacionadas
-[[20241218T0949-git|Git]]
-[[20241216T1919-sistema-de-control-de-versiones]]
+[Git](20241218T0949-git.md)
+[20241216T1919-sistema-de-control-de-versiones](20241216T1919-sistema-de-control-de-versiones.md)
 
 ---
-**Nota diaria:** [[2024-12-17]]
+**Nota diaria:** [2024-12-17](2024-12-17.md)

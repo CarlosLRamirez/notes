@@ -61,4 +61,4 @@ Explora libremente, sigue los hilos de las ideas, y si quieres contactarme o env
 -  [Git](/tags/git)
 
 ---
-**Nota diaria:** [[2025-04-09]]
+**Nota diaria:** [2025-04-09](2025-04-09.md)

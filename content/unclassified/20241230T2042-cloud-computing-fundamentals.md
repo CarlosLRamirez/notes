@@ -79,4 +79,4 @@ publish: true
 	- i.e. Office 365, Google Workspace, Netflix, etc..
 
 ---
-**Nota diaria:** [[2024-12-30]]
+**Nota diaria:** [2024-12-30](2024-12-30.md)

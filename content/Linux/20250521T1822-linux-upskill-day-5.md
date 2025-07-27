@@ -171,7 +171,7 @@ nano lessons_summary.txt
 
 - I wrote a separate note to describe the process of installing and switching shells:
 
-- [[20250521T2100-how-to-change-your-shell-in-linux|How to change your shell in Linux]]
+- [How to change your shell in Linux](20250521T2100-how-to-change-your-shell-in-linux.md)
 
 ---
 
@@ -192,12 +192,12 @@ A **terminal multiplexer** is a command-line tool that lets you run and manage *
 
 I wrote a separate note with a quick introduction to tmux basics:
 
-- [[20250523T0650-tmux-101-sessions-windows-panes|tmux 101: Sessions, Windows & Panes]]
+- [tmux 101: Sessions, Windows & Panes](20250523T0650-tmux-101-sessions-windows-panes.md)
 
 
 ## Related Notes
-- Previous Lesson: [[20250508T1314-linux-upskill-day-4|My Linux Upskill Challenge: Day 4]]
-- Next Lesson: [[20250526T1214-my-linux-upskill-challenge-day-6|My Linux Upskill Challenge: Day 6]]
+- Previous Lesson: [My Linux Upskill Challenge: Day 4](20250508T1314-linux-upskill-day-4.md)
+- Next Lesson: [My Linux Upskill Challenge: Day 6](20250526T1214-my-linux-upskill-challenge-day-6.md)
 
 
 ---

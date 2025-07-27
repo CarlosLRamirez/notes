@@ -25,4 +25,4 @@ publish: true
 	- Used in CloudFormation and Policy Documents n
 
 ---
-**Nota diaria:** [[2024-12-30]]
+**Nota diaria:** [2024-12-30](2024-12-30.md)
