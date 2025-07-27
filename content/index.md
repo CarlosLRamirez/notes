@@ -53,7 +53,6 @@ Explora libremente, sigue los hilos de las ideas, y si quieres contactarme o env
 %% Begin Waypoint %%
 - **Automation**
 - **AWS**
-- [[index|My Notes on Networking, Cloud & Learning in Public]]
 - **Linux**
 	- [[20250429T1854-linux-upskill-day-0|Linux Upskill Challenge: Day 0]]
 	- [[20250429T1854-linux-upskill-day-1|Linux Upskill Challenge: Day 1]]
