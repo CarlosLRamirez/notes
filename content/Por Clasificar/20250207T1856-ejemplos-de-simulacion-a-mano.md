@@ -131,7 +131,7 @@ Una vez que generamos estos tiempos, nuestro problema se reduce a **un ejercicio
 A continuación, se muestra un **ejemplo de simulación** con 20 clientes. (Se asume que la simulación comienza en el momento en que llega el primer cliente al sistema).
 
 
-![[6 Digital Garden/unclassified/_attachments/Pasted image 20250215045530.png|4 Zettlekasten/_attachments/Pasted image 20250215045530.png]]
+![[Garden/Por Clasificar/_attachments/Pasted image 20250215045530.png|4 Zettlekasten/_attachments/Pasted image 20250215045530.png]]
 
 ### Métricas del sistema
 
