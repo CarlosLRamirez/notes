@@ -53,6 +53,7 @@ Explora libremente, sigue los hilos de las ideas, y si quieres contactarme o env
 %% Begin Waypoint %%
 - **Automation**
 - **AWS**
+- [[index|My Notes on Networking, Cloud & Learning in Public]]
 - **Linux**
 	- [[20250429T1854-linux-upskill-day-0|Linux Upskill Challenge: Day 0]]
 	- [[20250429T1854-linux-upskill-day-1|Linux Upskill Challenge: Day 1]]
@@ -80,6 +81,7 @@ Explora libremente, sigue los hilos de las ideas, y si quieres contactarme o env
 - **Neovim**
 	- [[20250727T0144-correccion-ortografica-en-espanol-en-neovim|Corrección Ortográfica En Español en Neovim]]
 - **Networking**
+	- [[Testing the creation of a new note]]
 - **PKM**
 	- [[20250527T1217--neovim-tmux-markdown-power-setup|🧰 Neovim + Tmux Markdown Power Setup]]
 	- [[20250527T1800-how-to-integrate-giscus-comments-in-quartz-v4|How to Integrate Giscus Comments in Quartz v4]]

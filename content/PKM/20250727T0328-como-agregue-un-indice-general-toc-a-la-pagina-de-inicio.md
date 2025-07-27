@@ -7,7 +7,7 @@ tags:
   - short
 comments: true
 created: 2025-07-27T03:28:27
-modified: 2025-07-27T03:59:59-06:00
+modified: 2025-07-27T04:18:44-06:00
 publish: true
 title: Como agregue un indice general TOC a la Pagina de Inicio
 ---
@@ -36,7 +36,8 @@ y automaticamente el plugin de Waypoint genera la tabla de contenido con todos l
 
 3. El problema: la carpeta del folder note se llama `Garden.md`, sin embargo Quartz espera que la pagina principal sea `index.md` y yo queria que estuviera en la pagina principal (el home de mi Digital Garden)
 
-- Como lo solucione: 
+- Como lo solucione:  --> Update: me funcionon localmente pero al sincronizar el repositorio, no me funciono, estoy probando la alternativa de copiar el archivo Garden.md hacia index.md, cada que se se intente desplegar el sitio.
+
 	- creé un symlink del archivo real en mi vault (`~/vault/Garden/Garden.md`) hacia el folder `content` de donde Quartz toma el contenido para general el sitio web.
 
 
