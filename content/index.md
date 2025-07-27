@@ -1,1 +1,0 @@
-/Users/carlos.ramirez/projects/CerebroDigital2025/Garden/Garden.md
