@@ -1,9 +1,9 @@
 ---
-modified: 2025-07-27T03:24:17-06:00
+modified: 2025-07-29T07:04:10-06:00
 created: 2025-07-27T02:56:11-06:00
 title: My Notes on Networking, Cloud & Learning in Public
 tags: 
-publish: true
+publish: false
 ---
 # My Notes on Networking, Cloud & Learning in Public
 
@@ -79,7 +79,7 @@ Explora libremente, sigue los hilos de las ideas, y si quieres contactarme o env
 	- [[20250615T0644-my-linux-upskill-challenge-day-11|My Linux Upskill Challenge: Day 11 - Finding Things]]
 	- [[20250619T2008-my-linux-upskill-challenge-day-12|My Linux Upskill Challenge: Day 12]]
 - **Neovim**
-	- [[20250727T0144-correccion-ortografica-en-espanol-en-neovim|Corrección Ortográfica En Español en Neovim]]
+	- [[DigitalGarden/Neovim/20250727T0144-correccion-ortografica-en-espanol-en-neovim|Corrección Ortográfica En Español en Neovim]]
 - **Networking**
 	- [[Testing the creation of a new note]]
 - **PKM**

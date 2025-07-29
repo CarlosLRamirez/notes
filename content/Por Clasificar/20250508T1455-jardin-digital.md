@@ -1,6 +1,6 @@
 ---
 created: 2025-05-08T14:55:56
-modified: 2025-05-28T23:04:05-06:00
+modified: 2025-07-29T07:13:11-06:00
 aliases:
   - Jardín Digital
 title: Jardín Digital
