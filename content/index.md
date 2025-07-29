@@ -11,7 +11,7 @@ title: Welcome
 
 ## Welcome
 
-Hi, I’m Carlos — welcome to my [digital garden](https://maggieappleton.com/garden-history), which I’ve named **🌿💻 *The Packets Garden*** (yes, because I love computer networks 💻).
+Hi, I’m Carlos — welcome to my [digital garden](https://maggieappleton.com/garden-history), which I’ve named 🌿💻 **The Packets Garden** (yes, because I love computer networks 💻).
 
 Here I share my personal notes and thoughts on a variety of topics — mostly related to technology infrastructure, but also including knowledge management, productivity, and anything else my mind happens to wander into.
 

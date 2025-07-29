@@ -65,10 +65,10 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     
     
-    Component.DesktopOnly(Component.TableOfContents()),
-    //Component.DesktopOnly(Component.RecentNotes({ showTags: true, limit: 5, })),  
     Component.Graph(),
-    Component.Backlinks(),
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.DesktopOnly(Component.RecentNotes({ showTags: true, limit: 5, })),  
+    //Component.Backlinks(),
   ],
 }
 
