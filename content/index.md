@@ -1,15 +1,18 @@
 ---
 id: index
-aliases: []
-tags: []
+aliases: 
+tags:
+  - home
+  - index
 comments: false
 created: 2025-07-29T06:54:46-06:00
-modified: 2025-07-29T07:44:15-06:00
+modified: 2025-07-29T16:01:05-06:00
 publish: true
 title: Welcome
+cssclasses:
+  - home
 ---
-
-## Welcome
+![[home_banner1400x350.jpg]]
 
 Hi, I’m Carlos — welcome to my [digital garden](https://maggieappleton.com/garden-history), which I’ve named 🌿💻 **The Packets Garden** (yes, because I love computer networks 💻).
 

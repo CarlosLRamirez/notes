@@ -21,31 +21,41 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
     }),
+
     Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
-  ],
-  afterBody: [
-  Component.RecentNotes({ showTags: false, limit: 5, }),
-  Component.ConditionalRender({
-    component: Component.Comments({
-      provider: "giscus",
-      options: {
-        repo: "CarlosLRamirez/notes",
-        repoId: "R_kgDOOXCNEw",
-        category: "Comments",
-        categoryId: "DIC_kwDOOXCNE84Cqt0z",
-        mapping: "pathname",
-        strict: true,
-        reactionsEnabled: true,
-        inputPosition: "bottom",
-        lightTheme: "light",
-        darkTheme: "dark",
-      },
+
+    Component.ConditionalRender({
+      component: Component.ContentMeta(),
+      condition: (page) => page.fileData.slug !== "index",
     }),
-    condition: (page) => page.fileData.frontmatter?.comments === true,
-  }),
-],
+
+    Component.ConditionalRender({
+      component: Component.TagList(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+  ],
+
+  afterBody: [
+    //Component.RecentNotes({ showTags: false, limit: 5 }),
+    Component.ConditionalRender({
+      component: Component.Comments({
+        provider: "giscus",
+        options: {
+          repo: "CarlosLRamirez/notes",
+          repoId: "R_kgDOOXCNEw",
+          category: "Comments",
+          categoryId: "DIC_kwDOOXCNE84Cqt0z",
+          mapping: "pathname",
+          strict: true,
+          reactionsEnabled: true,
+          inputPosition: "bottom",
+          lightTheme: "light",
+          darkTheme: "dark",
+        },
+      }),
+      condition: (page) => page.fileData.frontmatter?.comments === true,
+    }),
+  ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -60,14 +70,11 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer(),
     //Component.DesktopOnly(Component.RecentNotes({ showTags: false, limit: 10, })),
-
   ],
   right: [
-    
-    
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.DesktopOnly(Component.RecentNotes({ showTags: true, limit: 5, })),  
+    Component.RecentNotes({ showTags: false, limit: 5 }),
     //Component.Backlinks(),
   ],
 }

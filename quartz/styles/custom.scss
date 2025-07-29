@@ -21,3 +21,27 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Centrar solo el contenido principal del home */
+body:has(#quartz-body > div.center > article.home)
+  #quartz-body > div.center > article.home {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 700px;
+
+  /* Centrar títulos dentro del artículo */
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+
+}/* Centrar popover-hint solo en páginas con cssclasses: home */
+body:has(#quartz-body > div.center > article.home) .popover-hint {
+  text-align: center;
+}
+
+/* Centrar título dentro del popover */
+body:has(#quartz-body > div.center > article.home) .popover-hint .article-title {
+  text-align: center;
+}
