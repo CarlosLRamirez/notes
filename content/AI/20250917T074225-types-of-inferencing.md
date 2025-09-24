@@ -4,7 +4,8 @@ aliases:
   - Types of inferencing
 tags: []
 created: 2025-09-17 07:42
-modified: 2025-09-24 07:50
+folder: AI
+modified: 2025-09-24 07:55
 publish: true
 title: Types of inferencing
 ---

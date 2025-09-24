@@ -4,7 +4,8 @@ aliases:
   - Data type and formats in AI
 tags: []
 created: 2025-09-17 10:34
-modified: 2025-09-24 07:50
+folder: AI
+modified: 2025-09-24 07:55
 publish: true
 title: Data types and formats in AI
 ---

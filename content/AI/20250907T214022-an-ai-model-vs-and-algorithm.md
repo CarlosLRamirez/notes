@@ -7,7 +7,8 @@ tags:
   - ai-generated
   - toreview
 created: 2025-09-07 21:40
-modified: 2025-09-24 07:49
+folder: AI
+modified: 2025-09-24 07:56
 publish: true
 title: An AI Model vs and Algorithm
 ---

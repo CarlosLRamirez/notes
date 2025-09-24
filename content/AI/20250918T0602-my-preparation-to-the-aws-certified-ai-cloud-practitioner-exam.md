@@ -8,7 +8,7 @@ tags:
 comments: true
 created: 2025-09-18 06:02
 folder: AI
-modified: 2025-09-18 12:13
+modified: 2025-09-24 07:52
 publish: true
 title: My preparation to the AWS Certified AI Cloud Practitioner Exam
 ---
@@ -17,7 +17,7 @@ title: My preparation to the AWS Certified AI Cloud Practitioner Exam
 
 ## Notes
 
-This are my notes extracted during my preparation journey to the AWS Certified AI Cloud Practitioner Exam
+This are my notes extracted during my preparation journey to the AWS Certified AI Cloud Practitioner Exam. This is a work in progress and the notes could be updated.
 
 - [[20250409T0736-introduction-to-ai|Introduction to AI]]
 - [[20250907T110418-relation-between-ai-ml-dl|Relation between AI, ML, DL and other disciplines]]
@@ -29,9 +29,6 @@ This are my notes extracted during my preparation journey to the AWS Certified A
 - [[20250917T073805-large-language-models|Large Language Models]]
 - [[20250917T074225-types-of-inferencing|Types of inferencing]]
 - [[20250917T103414-data-types-and-formats-in-ai|Data type and formats in AI]]
-
----
-
 - [[20250907T100953-amazon-bedrock-overview|Amazon Bedrock Overview]]
 
 ---
