@@ -1,16 +1,18 @@
 ---
-created: 2025-09-18 06:02
-modified: 2025-09-18 06:08
+id: 20250918T0602-my-preparation-to-the-aws-certified-ai-cloud-practitioner-exam
+aliases:
+  - My preparation to the AWS Certified AI Cloud Practitioner Exam
 tags:
   - AWS
   - certification
-title: My preparation to the AWS Certified AI Cloud Practitioner Exam
-publish: true
 comments: true
+created: 2025-09-18 06:02
 folder: AI
-aliases:
-  - My preparation to the AWS Certified AI Cloud Practitioner Exam
+modified: 2025-09-18 12:13
+publish: true
+title: My preparation to the AWS Certified AI Cloud Practitioner Exam
 ---
+
 # My preparation to the AWS Certified AI Cloud Practitioner Exam
 
 ## Notes
@@ -28,5 +30,8 @@ This are my notes extracted during my preparation journey to the AWS Certified A
 - [[20250917T074225-types-of-inferencing|Types of inferencing]]
 - [[20250917T103414-data-types-and-formats-in-ai|Data type and formats in AI]]
 
+---
+
+- [[20250907T100953-amazon-bedrock-overview|Amazon Bedrock Overview]]
 
 ---

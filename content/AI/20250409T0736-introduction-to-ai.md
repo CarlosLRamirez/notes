@@ -8,7 +8,7 @@ tags:
 created: 2025-04-09 07:36
 folder: AI
 language: en
-modified: 2025-09-17 15:36
+modified: 2025-09-24 07:26
 publish: true
 title: Introduction to Artificial Intelligence
 ---
@@ -48,7 +48,7 @@ Artificial Intelligence involves the following elements and processes:
 ## Example
 
 - A basic example of an AI model could be a classification algorithm, which contains a collection of fruit images classified according to the corresponding fruit, the model was previously trained with a large number of images of different fruits.
-  - A user can enter a new image of a fruit, and the model would be able to classify what type of fruit it is, without having had that exact image before.
+- A user can enter a new image of a fruit, and the model would be able to classify what type of fruit it is, without having had that exact image before.
 
 ## Applications
 
@@ -57,8 +57,7 @@ Areas of application of AI:
 - Medical Industry: AI can read medical images such as X-rays to make diagnoses
 - Pandemic Prediction: Agencies such as the Center for Disease Control, CDC, use AI to predict pandemics and outbreaks around the world and dispatch necessary medical personnel and resources.
 - Manufacturing Industry: Using AI with computer vision to monitor assembly lines to maintain product quality, and sensor data to predict when equipment needs maintenance.
-- Customer service: Chat solutions and search systems using AI for lan
-  guage recognition
+- Customer service: Chat solutions and search systems using AI for language recognition
 - Retail: Using AI to use customer purchase history to make product recommendations.
 - Image recognition
 - Speech-to-text conversion
@@ -67,7 +66,7 @@ Areas of application of AI:
 ## Reflection Questions
 
 - What is human intelligence?
-- What are the cognitive problems?
+- What is a cognitive problems?
 
 ---
 
