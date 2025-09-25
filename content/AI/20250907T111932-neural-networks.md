@@ -7,7 +7,7 @@ tags:
   - toexpand
 created: 2025-09-07 11:20
 folder: AI
-modified: 2025-09-24 07:57
+modified: 2025-09-24 21:01
 publish: true
 title: Neural Networks
 ---
