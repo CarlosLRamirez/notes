@@ -1,16 +1,15 @@
 ---
-id: 20250917T074225-types-of-inferencing
 aliases:
-  - Types of inferencing
-tags: []
+- Types of inferencing
 created: 2025-09-17 07:42
 folder: AI
+id: 20250917T074225-types-of-inferencing
 modified: 2025-09-24 07:55
 publish: true
+tags: []
 title: Types of inferencing
 ---
 
-# Types of inferencing
 
 - Batch inferencing
   - Involves processing multiple inputs simultaneously

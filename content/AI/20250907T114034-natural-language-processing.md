@@ -1,17 +1,16 @@
 ---
-id: 20250907T114034-natural-language-processing
 aliases:
-  - Natural Language Processing
-tags:
-  - ai
+- Natural Language Processing
 created: 2025-09-07 11:40
 folder: AI
+id: 20250907T114034-natural-language-processing
 modified: 2025-09-18 07:53
 publish: true
+tags:
+- ai
 title: Natural Language Processing
 ---
 
-# Natural Language Processing
 
 ## Main Concept
 

@@ -1,18 +1,17 @@
 ---
-id: 20250907T113120-computer-vision
 aliases:
-  - Computer Vision
-tags:
-  - toextend
-  - AI
+- Computer Vision
 created: 2025-09-07 11:31
 folder: AI
+id: 20250907T113120-computer-vision
 modified: 2025-09-17 15:32
 publish: true
+tags:
+- toextend
+- AI
 title: Computer Vision
 ---
 
-# Computer Vision
 
 ## Main Concept
 

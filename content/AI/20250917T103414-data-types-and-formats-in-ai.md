@@ -1,16 +1,15 @@
 ---
-id: 20250917T103414-data-types-and-formats-in-ai
 aliases:
-  - Data type and formats in AI
-tags: []
+- Data type and formats in AI
 created: 2025-09-17 10:34
 folder: AI
+id: 20250917T103414-data-types-and-formats-in-ai
 modified: 2025-09-24 07:55
 publish: true
+tags: []
 title: Data types and formats in AI
 ---
 
-# Data types and formats in AI
 
 In AI, we can classify data according to how it is structured, labeled, type or purpose
 

@@ -1,19 +1,18 @@
 ---
-id: 20250918T0602-my-preparation-to-the-aws-certified-ai-cloud-practitioner-exam
 aliases:
-  - My preparation to the AWS Certified AI Cloud Practitioner Exam
-tags:
-  - AWS
-  - certification
+- My preparation to the AWS Certified AI Cloud Practitioner Exam
 comments: true
 created: 2025-09-18 06:02
 folder: AI
+id: 20250918T0602-my-preparation-to-the-aws-certified-ai-cloud-practitioner-exam
 modified: 2025-09-24 07:52
 publish: true
+tags:
+- AWS
+- certification
 title: My preparation to the AWS Certified AI Cloud Practitioner Exam
 ---
 
-# My preparation to the AWS Certified AI Cloud Practitioner Exam
 
 ## Notes
 

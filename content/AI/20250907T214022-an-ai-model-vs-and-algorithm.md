@@ -1,19 +1,18 @@
 ---
-id: 20250907T214022-an-ai-model-vs-and-algorithm
 aliases:
-  - An AI Model vs and Algorithm
-tags:
-  - AI
-  - ai-generated
-  - toreview
+- An AI Model vs and Algorithm
 created: 2025-09-07 21:40
 folder: AI
+id: 20250907T214022-an-ai-model-vs-and-algorithm
 modified: 2025-09-24 07:56
 publish: true
+tags:
+- AI
+- ai-generated
+- toreview
 title: An AI Model vs and Algorithm
 ---
 
-# An AI Model vs and Algorithm
 
 ## **Traditional Complex Algorithm**:
 

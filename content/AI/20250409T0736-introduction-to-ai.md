@@ -1,19 +1,18 @@
 ---
-id: 20250409T0736-introduction-to-ai
 aliases:
-  - Introduction to Artificial Intelligence
-tags:
-  - AI
-  - inteligencia-artificial
+- Introduction to Artificial Intelligence
 created: 2025-04-09 07:36
 folder: AI
+id: 20250409T0736-introduction-to-ai
 language: en
 modified: 2025-09-24 07:26
 publish: true
+tags:
+- AI
+- inteligencia-artificial
 title: Introduction to Artificial Intelligence
 ---
 
-# Introduction to Artificial Intelligence
 
 ## Main Concepts
 

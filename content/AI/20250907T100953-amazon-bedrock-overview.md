@@ -8,12 +8,10 @@ tags:
   - AI
 created: 2025-09-07 10:09
 folder: AI
-modified: 2025-09-24 06:28
+modified: 2025-09-25 07:42
 publish: true
 title: Amazon Bedrock Overview
 ---
-
-# Amazon Bedrock Overview
 
 ## What is Amazon Bedrock?
 
