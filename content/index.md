@@ -11,7 +11,7 @@ cssclasses:
 folder: index
 modified: 2025-09-17 14:39
 publish: true
-title: Welcome
+title: Carlos's Notes
 ---
 
 ![[homebanner.jpg]]
