@@ -36,7 +36,8 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 
   afterBody: [
-    //Component.RecentNotes({ showTags: false, limit: 5 }),
+
+
     Component.ConditionalRender({
       component: Component.Comments({
         provider: "giscus",
@@ -72,11 +73,28 @@ export const defaultContentPageLayout: PageLayout = {
     //Component.DesktopOnly(Component.RecentNotes({ showTags: false, limit: 10, })),
   ],
   right: [
-    Component.Graph(),
+
+    Component.ConditionalRender({
+      component:
+        Component.Graph({
+          localGraph: {
+            showTags: false, // whether to show tags in the graph
+          },
+          globalGraph: {
+            showTags: false, // whether to show tags in the graph
+          },
+        }),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+
+    Component.ConditionalRender({
+      component: Component.RecentNotes({ showTags: false, limit: 8 }),
+      condition: (page) => page.fileData.slug === "index",
+    }),
+
+
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    //Component.RecentNotes({ showTags: false, limit: 5 }),
-    //Component.Backlinks(),
   ],
 }
 

@@ -4,11 +4,11 @@ aliases:
   - Amazon Bedrock Overview
 tags:
   - aws
-  - bedrock
+  - amazon-bedrock
   - AI
 created: 2025-09-07 10:09
 folder: AI
-modified: 2025-09-30 08:09
+modified: 2025-09-30 11:32
 publish: true
 title: Amazon Bedrock Overview
 ---
@@ -34,7 +34,7 @@ You can use automatic evaluation using metrics like accuracy and toxicity
 
 #### Manual (human) Evaluation
 
-You ca also use human evaluation for things like style, brand and domain knowledge (subjective criteria)
+You can also use human evaluation for things like style, brand and domain knowledge (subjective criteria)
 
 ### Model Customization
 
@@ -117,8 +117,6 @@ left arm. ECG showed ST-segment elevation. Troponin levels were
 elevated at 2.5 ng/mL..."
 ```
 
----
-
 ## Related Notes
 
-[[Fine-tunning in Amazon Bedrock]]
+- [[20250930T080015-fine-tunning-in-amazon-bedrock|Fine-tunning in Amazon Bedrock]]
