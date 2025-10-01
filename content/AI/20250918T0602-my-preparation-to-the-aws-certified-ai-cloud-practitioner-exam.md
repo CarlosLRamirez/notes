@@ -8,7 +8,7 @@ tags:
 comments: true
 created: 2025-09-18 06:02
 folder: AI
-modified: 2025-09-30 08:32
+modified: 2025-09-30 20:31
 publish: true
 title: My preparation to the AWS Certified AI Cloud Practitioner Exam
 ---
@@ -29,5 +29,6 @@ This are my notes extracted during my preparation journey to the AWS Certified A
 - [[20250917T103414-data-types-and-formats-in-ai|Data type and formats in AI]]
 - [[20250907T100953-amazon-bedrock-overview|Amazon Bedrock Overview]]
 - [[20250930T080015-fine-tunning-in-amazon-bedrock|Fine-tunning in Amazon Bedrock]]
+- [[20250930T203103-generative-ai-overview|Generative AI Overview]]
 
 ---

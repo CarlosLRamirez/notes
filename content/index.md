@@ -9,9 +9,9 @@ created: 2025-07-29 06:54
 cssclasses:
   - home
 folder: index
-modified: 2025-09-17 14:39
+modified: 2025-09-30 13:56
 publish: true
-title: Carlos's Notes
+title: Carlos' public notes
 ---
 
 ![[homebanner.jpg]]

@@ -8,7 +8,7 @@ tags:
   - AI
 created: 2025-09-07 10:09
 folder: AI
-modified: 2025-09-30 11:32
+modified: 2025-09-30 20:28
 publish: true
 title: Amazon Bedrock Overview
 ---
@@ -22,7 +22,7 @@ title: Amazon Bedrock Overview
 - You can **experiment** and **evaluate** this top models and customize with your own data, then you can build agents which can run tasks for you, and even integrate with you business systems.
 - It's serverless, so you don't have infrastructure to manage, and you can use familiar AWS services to integrate to applications.
 
-## Benefits or features
+## Benefits
 
 ### Model evaluation
 
@@ -51,6 +51,7 @@ You can customize foundation models for your specific needs, different approache
 - You connect the model to your external knowledge base (you own data)
 - External data could be documents, databases, wikis, etc.
 - The external data is pre-indexed and controlled (you decide what information the model can access)
+- You external data is converted to vectors (embeddings), and stored in databases like Amazon OpeSearch
 - The model retrieves relevant information, then generate responses.
 - Example: Customer service chat for a company
   - Knowledge base: Company's products manuals, FAQ documents, policy guides stored in Amazon S3.
@@ -93,6 +94,9 @@ You can customize foundation models for your specific needs, different approache
 - You continue training the model with your domain-specific text
 - You need to provide large amount of unlabeled text of your own topics
 - The goal is to improve the general knowledge in your specific field.
+- Only certain Amazon models support Continued Pre-training in Amazon Bedrock
+  - Amazon Titan Text G1 - Express
+  - Amazon Titan Text G1 - Lite
 - Example: You're building an AI assistant for doctors, but foundation models don't have deep medical knowledge or use proper medical terminology consistently.
 
 ```text
@@ -116,6 +120,31 @@ Patient case studies (anonymized):
 left arm. ECG showed ST-segment elevation. Troponin levels were
 elevated at 2.5 ng/mL..."
 ```
+
+---
+
+> [!IMPORTANT]
+> When you customize a model using fine-tuning or continued pre-training, Amazon Bedrock makes a separate copy of the base Foundation Model to create a private model
+
+## Features
+
+### Security and Privacy
+
+- Your data is encrypted at rest in the same AWS Region and is not shared outside of it.
+- It supports compliance standards like SOC, ISO, HIPPA and GDRP
+- You can use AWS Private Links to connect resources on VPCs to the Amazon Bedrock endpoints.
+
+### Guardrails
+
+- You can implement guardrails via corporate policies to configure things such as:
+  - Filters for inappropriate content
+  - Monitor violations
+  - Redact Personal Identifiable Information (PII)
+
+### Agents
+
+- With Amazon Bedrock agents you can run multi-step tasks and interact with other AWS Services and Data Source (like S3 or DynamoDB, etc..
+- With agents you can automate task like API Calls, Engineering Prompts, and general Orchestration of you Gen AI pipelines.
 
 ## Related Notes
 

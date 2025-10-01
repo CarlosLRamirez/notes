@@ -7,7 +7,7 @@ tags:
   - amazon-bedrock
 created: 2025-09-30 08:00
 folder: AI
-modified: 2025-09-30 10:57
+modified: 2025-09-30 19:50
 publish: true
 title: Fine-tunning in Amazon Bedrock
 ---
