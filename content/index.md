@@ -1,15 +1,13 @@
 ---
-id: index
+id: 20250729T065400-bienvenido
 aliases: []
 tags:
   - digital-garden
   - index
-comments: false
 created: 2025-07-29 06:54
-cssclasses:
-  - home
+modified: 2025-10-09 14:38
+comments: false
 folder: index
-modified: 2025-09-30 13:56
 publish: true
 title: Carlos' public notes
 ---
@@ -31,3 +29,9 @@ Hola, soy Carlos — bienvenido a mi [jardín digital](https://maggieappleton.co
 Aquí publico mis notas y apuntes personales, los cuales pueden abarcar diversos temas — principalmente relacionados con infraestructura tecnológica, pero también sobre gestión del conocimiento, productividad y cualquier otro tema por donde mi mente divague.
 
 Este sitio **no es un blog tradicional**: no encontrarás artículos publicados en orden cronológico. En su lugar, es una colección de _notas vivas e interconectadas_, en constante evolución. Encontrarás desde ideas sueltas o apenas esbozadas (_bits_), notas con mayor estructura y dirección (_frames_), hasta textos más elaborados, con propósito claro y listos para ser compartidos (_packets_).
+
+---
+
+## Main Index
+
+- [[20250918T0602-my-preparation-to-the-aws-certified-ai-cloud-practitioner-exam|My preparation to the AWS Certified AI Cloud Practitioner Exam]]

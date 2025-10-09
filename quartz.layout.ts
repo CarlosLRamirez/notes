@@ -24,6 +24,8 @@ export const defaultContentPageLayout: PageLayout = {
 
     Component.ArticleTitle(),
 
+
+
     Component.ConditionalRender({
       component: Component.ContentMeta(),
       condition: (page) => page.fileData.slug !== "index",
@@ -56,6 +58,20 @@ export const defaultContentPageLayout: PageLayout = {
       }),
       condition: (page) => page.fileData.frontmatter?.comments === true,
     }),
+    Component.ConditionalRender({
+      component: Component.Graph({
+        globalGraph: {
+          showTags: false, // whether to show tags in the graph
+        },
+        localGraph: {
+          showTags: false, // whether to show tags in the graph
+          depth: 5, // how many hops of notes to display
+        },
+      }),
+      condition: (page) => page.fileData.slug === "index",
+    }),
+
+
   ],
   left: [
     Component.PageTitle(),
