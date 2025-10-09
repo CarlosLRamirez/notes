@@ -33,5 +33,5 @@ This are my notes extracted during my preparation journey to the AWS Certified A
 - [[20251001T170057-amazon-sagemaker-overview|Amazon SageMaker Overview]]
 - [[20251009T063120-amazon-q-developer|Amazon Q Developer]]
 - [[20251009T064252-aws-genai-computing-infrastructure|AWS ML Computing Infrastructure]]
-
+- [[Training and Fine-Tuning AI Models]]
 
