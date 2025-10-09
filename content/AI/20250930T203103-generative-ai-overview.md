@@ -7,8 +7,8 @@ tags:
   - fundamentals
   - GenAI
 created: 2025-09-30 20:31
+modified: 2025-10-09 06:49
 folder: AI
-modified: 2025-09-30 21:44
 publish: true
 title: Generative AI Overview
 ---
@@ -21,9 +21,14 @@ title: Generative AI Overview
   - Stories
   - Music
   - Videos
-- It relies on large machine learning models known as [[20250907T2102-ai-model#foundation-models|Foundation Models]] which has huge amount of parameters (+500 billions nowadays)
+- It relies on large machine learning models known as [[20250907T2102-ai-model#Foundation Models|Foundation Models]] which has huge amount of parameters (+500 billions nowadays)
+
 
 ## Amazon offering on GenAI
 
 - [[20250907T100953-amazon-bedrock-overview|Amazon Bedrock]]
-- [[20250930T214320-machine-learning-hub|Machine Learning Hub]]
+- [[20251001T170057-amazon-sagemaker-overview|Amazon Sagemaker]]
+- [[20251009T063120-amazon-q-developer|Amazon Q Developer]]
+- [[20251009T064252-aws-genai-computing-infrastructure|AWS ML Computing Infrastructure]]
+
+

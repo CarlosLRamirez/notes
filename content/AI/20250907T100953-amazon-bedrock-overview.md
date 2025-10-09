@@ -8,7 +8,7 @@ tags:
   - AI
 created: 2025-09-07 10:09
 folder: AI
-modified: 2025-09-30 20:28
+modified: 2025-10-09 05:37
 publish: true
 title: Amazon Bedrock Overview
 ---
@@ -145,6 +145,24 @@ elevated at 2.5 ng/mL..."
 
 - With Amazon Bedrock agents you can run multi-step tasks and interact with other AWS Services and Data Source (like S3 or DynamoDB, etc..
 - With agents you can automate task like API Calls, Engineering Prompts, and general Orchestration of you Gen AI pipelines.
+
+## Foundation Models Supported in Bedrock
+
+- Amazon Bedrock supports a extensive list of foundation models from multiple providers, you can see the full list [here](https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html).
+- Main FM providers in Amazon Bedrock
+  - AI21 Labs
+  - Amazon
+  - Anthropic
+  - [Cohere](https://docs.cohere.com/docs/the-cohere-platform)
+  - DeepSeek
+  - Luma AI
+  - Meta
+  - Mistral AI
+  - OpenAI
+  - Qwen
+  - Stability AI
+  - TwelveLabs
+  - Writer
 
 ## Related Notes
 
