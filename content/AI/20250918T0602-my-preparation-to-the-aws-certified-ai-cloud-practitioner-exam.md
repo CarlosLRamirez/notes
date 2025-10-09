@@ -5,10 +5,10 @@ aliases:
 tags:
   - AWS
   - certification
-comments: true
 created: 2025-09-18 06:02
+modified: 2025-10-09 06:52
+comments: true
 folder: AI
-modified: 2025-10-02 09:13
 publish: true
 title: My preparation to the AWS Certified AI Cloud Practitioner Exam
 ---
@@ -31,5 +31,7 @@ This are my notes extracted during my preparation journey to the AWS Certified A
 - [[20250930T080015-fine-tunning-in-amazon-bedrock|Fine-tunning in Amazon Bedrock]]
 - [[20250930T203103-generative-ai-overview|Generative AI Overview]]
 - [[20251001T170057-amazon-sagemaker-overview|Amazon SageMaker Overview]]
+- [[20251009T063120-amazon-q-developer|Amazon Q Developer]]
+- [[20251009T064252-aws-genai-computing-infrastructure|AWS ML Computing Infrastructure]]
 
----
+
