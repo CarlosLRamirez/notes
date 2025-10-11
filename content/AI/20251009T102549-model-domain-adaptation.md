@@ -12,26 +12,16 @@ title: Model Domain Adaptation
 
 ## Main Concept
 
+Domain Adaptation is a specific type of [[20251011T071957-transfer-learning|Transfer Learning]]
+
+- It is used in scenarios where **task is the same**, but the data distribution has shifted between the source and target datasets.
 - The OBJECTIVE of transferring on model from one domain to other
-- It can be achieved with different methods
-
-## Classification
-
-- Domain Adaptation is not a method but an objective
-- You can achieve Domain Adaptation by:
-  - Continues pre-training - preferred method
-  - Fine-tuning with labeled data
-  - RAG (without change the model)
-  - A combination of them
+- Domain adaptation can be achieved thought fine-tuning, where the model is retrained on labeled or unlabeled data from the target domain to align its feature representation.
 
 ## Example
 
-- **OBJECTIVE**: Adapt a general model -> Healthcare domain
-- **METHODS**:
-  1. Continued Pre-training on medical texts
-  2. Fine-tune with medical Q&A
-  3. RAG with a medical knowledge base
-  4. A combination of the above
+For example, a model trained to detect cars in sunny weather (input), might need to be adapted to detect cars in rainy conditions (target domain)
+
 
 ## Type of Domain Adaptation:
 

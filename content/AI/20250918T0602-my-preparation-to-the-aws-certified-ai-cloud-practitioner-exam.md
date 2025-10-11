@@ -28,10 +28,14 @@ This are my notes extracted during my preparation journey to the AWS Certified A
 - [[20250917T074225-types-of-inferencing|Types of inferencing]]
 - [[20250917T103414-data-types-and-formats-in-ai|Data type and formats in AI]]
 - [[20250907T100953-amazon-bedrock-overview|Amazon Bedrock Overview]]
+- [[20251009T073427-retrieval-augmented-generation-rag|Retrieval-Augmented Generation (RAG)]]
+- [[20251009T102549-model-domain-adaptation|Model Domain Adaptation]]
+- [[20251009T072400-prompt-engineering|Prompt Engineering]]
 - [[20250930T080015-fine-tunning-in-amazon-bedrock|Fine-tunning in Amazon Bedrock]]
 - [[20250930T203103-generative-ai-overview|Generative AI Overview]]
 - [[20251001T170057-amazon-sagemaker-overview|Amazon SageMaker Overview]]
 - [[20251009T063120-amazon-q-developer|Amazon Q Developer]]
 - [[20251009T064252-aws-genai-computing-infrastructure|AWS ML Computing Infrastructure]]
-- [[Training and Fine-Tuning AI Models]]
+- [[20251009T073200-model-fine-tuning|Model Fine-Tunning]]
+
 

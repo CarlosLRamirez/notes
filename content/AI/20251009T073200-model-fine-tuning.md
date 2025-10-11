@@ -5,7 +5,7 @@ aliases:
 tags:
   - AI
 created: 2025-10-09 07:32
-modified: 2025-10-09 12:14
+modified: 2025-10-11 07:54
 folder: AI
 publish: true
 title: Model Fine-Tuning
@@ -17,24 +17,29 @@ title: Model Fine-Tuning
 
 **Key principle:** You're NOT training from scratch -you're adjusting and exiting model
 
+---
+
 ## Why is needed?
 
-- Problems solved with fine-tuning
-  - The model doesn't understand your domain-specific terminology
-  - The model doesn't follow your company's tone/style
-  - The model isn't accurate enough for your specific task
-  - The model needs to learn proprietary knowledge
-  - You need consistent, specialized behavior
+### Problems solved with fine-tuning
 
-- When NOT to do fine-tuning
-  - You just need access to current information -> Use [[20251009T073427-retrieval-augmented-generation-rag|RAG]] instead
-  - Simple instruction changes -> Use prompt Engineering
-  - You don't have training data 🤷‍♂️
-  - Pre-training model already works well enough
+- The model doesn't understand your domain-specific terminology
+- The model doesn't follow your company's tone/style
+- The model isn't accurate enough for your specific task
+- The model needs to learn proprietary knowledge
+- You need consistent, specialized behavior
 
-## Fine Tuning Classification
+### When not to do fine-tuning
 
-### Primary classification: Based on Label Requirements
+- You just need access to current information
+  - Use [[20251009t073427-retrieval-augmented-generation-rag|RAG]] instead
+- Simple instruction changes -> use prompt engineering
+- You don't have training data 🤷‍♂️
+- Pre-trained model already works well enough
+
+## Fine tuning classification tree
+
+Primary classification: Based on Label Requirements
 
 ```
 FINE-TUNING
@@ -42,7 +47,7 @@ FINE-TUNING
 ├─── WITH LABELS (Supervised)
 │    └─ Traditional Fine-tuning
 │       • Input-output pairs
-│       • Instruction Tuning
+│       • Instruction tuning
 │       • Task-specific training
 │       • Examples: Classification, Q&A, Style transfer
 │
@@ -53,7 +58,9 @@ FINE-TUNING
         • Examples: Domain adaptation, terminology learning
 ```
 
-## Fine Tuning Methods
+---
+
+## Fine Tuning Detailed Methods
 
 ### Fine-tuning WITH Labels (Supervised)
 
@@ -98,21 +105,21 @@ FINE-TUNING
 - The objective is made the model be good on follow any instructions, and not only an specific task.
 - Example of dataset:
 
-```json
-{"instruction": "Tranlsate the following English sentence to Spanish",
- "input": "Hello, how are you?",
- "output": "Hola, ¿cómo estás?"}
+  ```json
+  {"instruction": "Tranlsate the following English sentence to Spanish",
+  "input": "Hello, how are you?",
+  "output": "Hola, ¿cómo estás?"}
 
-{"instruction": "Summary the following text",
- "input": "[long text...]",
- "output": "brief summary"}
+  {"instruction": "Summary the following text",
+  "input": "[long text...]",
+  "output": "brief summary"}
 
-{"instruction": "Answer the question?",
- "input": "¿What is the capital of France?",
- "output": "The capital of France is París"}
-```
+  {"instruction": "Answer the question?",
+  "input": "¿What is the capital of France?",
+  "output": "The capital of France is París"}
+  ```
 
-- Famous models
+- Famous Instruction models
   - InstructGPT (OpeAI)
   - FLAN (Google)
   - Alpaca (Standoford)
@@ -127,19 +134,26 @@ FINE-TUNING
   - Amazon Titan Text G1 - Lite
 - Example: You're building an AI assistant for doctors, but foundation models don't have deep medical knowledge or use proper medical terminology consistently.
 
-```text
-Medical textbooks (no labels needed - just raw text):
-"Myocardial infarction occurs when blood flow to the heart muscle is blocked, typically due to coronary artery thrombosis. The left anterior descending artery is most commonly affected..."
+  ```md
+  Medical textbooks (no labels needed - just raw text):
+  "Myocardial infarction occurs when blood flow to the heart muscle is blocked,
+  typically due to coronary artery thrombosis. The left anterior descending artery
+  is most commonly affected..."
 
-Clinical guidelines:
-"For acute management of ST-elevation myocardial infarction,immediate reperfusion therapy is indicated. Primary percutaneous coronary intervention should be performed within 90 minutes..."
+  Clinical guidelines:
+  "For acute management of ST-elevation myocardial infarction,immediate reperfusion
+  therapy is indicated. Primary percutaneous coronary intervention should be
+  performed within 90 minutes..."
 
-Research papers:
-"The pathophysiology of atherosclerosis involves endothelial dysfunction, lipid accumulation, and inflammatory responses. Macrophages play a crucial role in plaque formation..."
+  Research papers:
+  "The pathophysiology of atherosclerosis involves endothelial dysfunction,
+  lipid accumulation, and inflammatory responses. Macrophages play a crucial
+  role in plaque formation..."
 
-Patient case studies (anonymized):
-"A 58-year-old male presented with chest pain radiating to the left arm. ECG showed ST-segment elevation. Troponin levels were elevated at 2.5 ng/mL..."
-```
+  Patient case studies (anonymized):
+  "A 58-year-old male presented with chest pain radiating to the left arm.
+  ECG showed ST-segment elevation. Troponin levels were elevated at 2.5 ng/mL..."
+  ```
 
 ---
 
@@ -223,7 +237,7 @@ Patient case studies (anonymized):
 - **Symptom**: Great on training, poor on new data
 - **Solution**: More data, regularization, early stopping
 
-### Catastrophic Forgetting:\*\*
+### Catastrophic Forgetting:
 
 - **Problem**: Model loses general capabilities
 - **Symptom**: Good at new task, bad at everything else
@@ -245,50 +259,27 @@ Patient case studies (anonymized):
 
 ## Key Takeaways
 
-1. **Fine-tuning = Specialized training on pre-trained model**
-2. **Two main types: WITH labels vs. WITHOUT labels**
-3. **WITH labels = Task specialization (supervised)**
-4. **WITHOUT labels = Domain knowledge (unsupervised)**
-5. **NOT the same as training from scratch**
-6. **More expensive than RAG/prompts but more powerful**
-7. **Changes the model permanently**
-8. **Requires retraining for updates**
+> [!IMPORTANT]
+>
+> - **Fine-tuning**: Specialized training on pre-trained model
+> - **Two main types**: WITH labels vs. WITHOUT labels
+> - **WITH labels** = Task specialization (supervised)
+> - **WITHOUT labels** = Domain knowledge (unsupervised)
+> - NOT the same as training from scratch\_
+> - More expensive than RAG/prompts but more powerful
+> - Changes the model permanently
+> - Requires retraining for updates
 
 ---
 
 ## 🔗 Related Concepts
 
-- **Transfer Learning**: Broader concept (fine-tuning is one type)
-- **Prompt Engineering**: Simpler alternative
-- **RAG**: Complementary technique
+- [[20251011T071957-transfer-learning|Transfer Learning]]: Broader concept (fine-tuning is one type)
+- [[20251009T072400-prompt-engineering|Prompt Engineering]]: Simpler alternative
+- [[20251009T073427-retrieval-augmented-generation-rag|Retrieval Augmented Generation (RAG)]]: Complementary technique
 - [[20251009T102549-model-domain-adaptation|Model Domain Adaptation]]: not a method, but an objective
 - **Model Distillation**: Creating smaller versions
 - **Few-shot Learning**: Learning from few examples (in prompts)
 - **Zero-shot Learning**: No examples needed (base model)
-
----
-
-## 📝 Quick Reference
-
-```
-NEED TO REMEMBER:
-
-Fine-tuning = Adjusting pre-trained model
-
-TWO TYPES:
-1. WITH labels → Task specialization
-2. WITHOUT labels → Domain knowledge
-
-ALWAYS CONSIDER FIRST:
-1. Prompt engineering (simplest)
-2. RAG (for information access)
-3. Fine-tuning (for behavior change)
-
-FINE-TUNING WHEN:
-• Have training data
-• Need consistent behavior
-• Task-specific requirements
-• Domain expertise needed
-```
 
 ---

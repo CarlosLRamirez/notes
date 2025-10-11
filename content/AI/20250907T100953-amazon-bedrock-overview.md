@@ -47,6 +47,7 @@ You can also use human evaluation for things like style, brand and domain knowle
 > [!IMPORTANT]
 > When you customize a model using fine-tuning or continued pre-training, Amazon Bedrock makes a separate copy of the base Foundation Model to create a private model
 
+
 ## Features
 
 ### Security and Privacy
