@@ -7,9 +7,9 @@ tags:
   - amazon-bedrock
 created: 2025-12-08 14:03
 folder: ai
-modified: 2025-12-09 10:59
+modified: 2025-12-10 09:13
 publish: true
-title: Amazon Bedrock Foundation Models
+title: Amazon Bedrock - Base Foundation Models
 ---
 
 ## Main concept
@@ -25,11 +25,18 @@ Amazon Bedrock supports a extensive list of Foundation Models (FM) from multiple
 - Luma AI
 - Meta
 - Mistral AI
-- OpenAI
 
 You can see the full list [here](https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html).
+
+---
 
 ## Key points
 
 - Amazon Bedrock makes a copy of the FM, available only to you, which you can further fine-tune with your own data.
 - None of your data is used to train the original Foundation Model.
+
+---
+
+## Related Notes
+
+- [[20251210T072927-chossing-a-foundation-model|Choosing a Foundation Model]]

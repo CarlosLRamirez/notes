@@ -6,10 +6,10 @@ tags:
   - certification
   - course
 created: 2025-04-09 07:29
-modified: 2025-12-10 05:55
-title: "Curso: NEW Ultimate AWS Certified AI Practitioner AIF-C01"
-publish: true
 folder: Courses
+modified: 2025-12-10 06:57
+publish: true
+title: "Curso: NEW Ultimate AWS Certified AI Practitioner AIF-C01"
 ---
 
 # Curso: NEW Ultimate AWS Certified AI Practitioner AIF-C01
@@ -47,8 +47,6 @@ Notas generadas o complementadas por sección del curso
   - [[20251208T140329-amazon-bedrock-foundation-models|Amazon Bedrock Foundation Models]]
   - [[20251208T143427-amazon-bedrock-first-steps-en|Amazon Bedrock First Steps (EN)]]
   - [[20251208T143427-amazon-bedrock-first-steps-es|Amazon Bedrock First Steps (ES)]]
-  
-
 
 ## Bitacora
 
@@ -57,5 +55,6 @@ Notas generadas o complementadas por sección del curso
 - 27 Nov 06:12 - sesion de estudio
 - 8 Dic 1:40pm - Sesión de Estudio
 - 9 Dic: Bedrock Hands-on lab, Guide published
-- 10 Dic: 
+- 10 Dic: Sesión de estudio
+
 ---

@@ -1,11 +1,12 @@
 ---
 id: 20250907T110418-relation-between-ai-ml-dl
+aliases: []
 tags:
   - AI
   - machine-learning
 created: 2025-09-07 11:05
-modified: 2025-10-28 05:47
 folder: AI
+modified: 2025-12-10 06:57
 publish: true
 title: Relation between AI, ML, DL and others disciplines
 ---
@@ -34,7 +35,7 @@ title: Relation between AI, ML, DL and others disciplines
 ---
 
 - **Deep Learning (DL):**
-  - It's an advanced form of _Machine Learning_ that uses multiple layers of [[T111932-neural-networks|Neural Networks]] for processing data.
+  - It's an advanced form of _Machine Learning_ that uses multiple layers of [[20250907T111932-neural-networks|Neural Networks]] for processing data.
   - DL requires large amounts of data for training, often millions of examples to work well.
   - It also requires significant computing power to train many layers of neural networks, for this purpose GPUs, works better than CPUs.
   - DL is better for complex tasks like image recognition, language understanding, and so on.
