@@ -1,13 +1,11 @@
 ---
 id: 20250930T203103-generative-ai-overview
-aliases:
-  - Generative AI Overview
 tags:
   - AI
   - fundamentals
   - GenAI
 created: 2025-09-30 20:31
-modified: 2025-10-09 06:49
+modified: 2025-10-28 07:07
 folder: AI
 publish: true
 title: Generative AI Overview
@@ -15,14 +13,18 @@ title: Generative AI Overview
 
 ## Main Concept
 
-- Generative AI or GenAI is a form of artificial intelligence that has the ability to create content like:
+- Generative AI (Gen-AI) is a subset of Deep Learning
+- Used to **generate new data** that is similar to the data it was trained on
+- It has the ability to create content like:
   - Conversations
   - Images
-  - Stories
+  - Code
   - Music
   - Videos
-- It relies on large machine learning models known as [[20250907T2102-ai-model#Foundation Models|Foundation Models]] which has huge amount of parameters (+500 billions nowadays)
+- Generative AI use Generative Model, which in turn could be a [[20251029T060940-foundation-model|Foundation Model]] or a smaller specialized model.
 
+- Example of the dog + cartoon = cartoon dog:
+  - ![[Pasted image 20251028070604.png]]
 
 ## Amazon offering on GenAI
 
@@ -31,4 +33,6 @@ title: Generative AI Overview
 - [[20251009T063120-amazon-q-developer|Amazon Q Developer]]
 - [[20251009T064252-aws-genai-computing-infrastructure|AWS ML Computing Infrastructure]]
 
+## Related Notes
+- [[20251029T060940-foundation-model|Foundation Model]]
 
