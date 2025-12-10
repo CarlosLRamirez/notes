@@ -11,12 +11,12 @@ created: 2025-12-08 14:34
 folder: AI
 lang:
   - en
-modified: 2025-12-09 11:32
+modified: 2025-12-09 19:53
 publish: true
 title: Amazon Bedrock First Steps (EN)
 ---
-
-[[20251208T143427-amazon-bedrock-first-steps-es|Spanish Version of this note]]
+[[]]
+> [[20251208T143427-amazon-bedrock-first-steps-es|Spanish Version of this note]]
 
 ## Introduction
 
