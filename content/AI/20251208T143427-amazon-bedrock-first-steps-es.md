@@ -1,5 +1,5 @@
 ---
-id: 20251208T143427-amazon-bedrock-first-steps
+id: 20251208T143427-amazon-bedrock-first-steps-es
 aliases:
   - Amazon Bedrock First Steps (es)
 tags:

@@ -1,5 +1,5 @@
 ---
-id: 20251208T143427-amazon-bedrock-first-steps
+id: 20251208T143427-amazon-bedrock-first-steps-en
 aliases:
   - Amazon Bedrock First Steps (en)
 tags:
@@ -16,7 +16,7 @@ publish: true
 title: Amazon Bedrock First Steps (EN)
 ---
 
-> **[[20251208T143427-amazon-bedrock-first-steps|Spanish Version]]**
+[[20251208T143427-amazon-bedrock-first-steps-es|Spanish Version of this note]]
 
 ## Introduction
 
