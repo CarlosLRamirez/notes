@@ -11,12 +11,11 @@ created: 2025-12-08 14:34
 folder: AI
 lang:
   - en
-modified: 2025-12-09 19:53
+modified: 2026-01-23 17:49
 publish: true
 title: Amazon Bedrock First Steps (EN)
+url publicacion: https://carloslramirez.com/blog/posts/amazon-bedrock-first-steps/
 ---
-[[]]
-> [[20251208T143427-amazon-bedrock-first-steps-es|Spanish Version of this note]]
 
 ## Introduction
 
@@ -173,7 +172,6 @@ _All paths walked as one_
 ![[Pasted image 20251209182747.png]]
 
 - The result was quite decent. Although it didn't generate anything that referred to AWS or the GenAI practitioner exam, the scenes were consistent with what the prompt indicated.
-
 - The image was generated in a matter of seconds; however, I couldn't find exact metrics on tokens or latency.
 
 ## Results and Conclusions
@@ -184,3 +182,4 @@ _All paths walked as one_
 - To use Anthropic models from Amazon Bedrock, there is an easy-to-meet pre-requisite.
 
 -----
+> [[20251208T143427-amazon-bedrock-first-steps-es|Spanish Version of this note]]

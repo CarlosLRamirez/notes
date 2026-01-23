@@ -1,13 +1,14 @@
 ---
 id: 20250409T072900-aws-certified-ai-practitioner-mareek
-aliases: []
+aliases:
+  - "Curso: NEW Ultimate AWS Certified AI Practitioner AIF-C01"
 tags:
   - AI
   - certification
   - course
 created: 2025-04-09 07:29
 folder: Courses
-modified: 2025-12-10 06:57
+modified: 2026-01-23 17:13
 publish: true
 title: "Curso: NEW Ultimate AWS Certified AI Practitioner AIF-C01"
 ---
@@ -51,10 +52,5 @@ Notas generadas o complementadas por sección del curso
 ## Bitacora
 
 - Lo retomé en Octubre de 2025, ahora si con el objetivo de sacar la certificación este año, o en Enero de 2026
-- 18 Nov: 20 minutos de estudio (lección 21)
-- 27 Nov 06:12 - sesion de estudio
-- 8 Dic 1:40pm - Sesión de Estudio
-- 9 Dic: Bedrock Hands-on lab, Guide published
-- 10 Dic: Sesión de estudio
-
+- 
 ---

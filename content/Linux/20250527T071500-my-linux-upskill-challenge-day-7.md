@@ -4,11 +4,10 @@ aliases:
   - My Linux Upskill Challenge Day 7
 tags:
   - linux
-  - blog
 comments: true
 created: 2025-05-27 07:15
 folder: Linux
-modified: 2025-12-11 06:07
+modified: 2026-01-23 17:51
 publish: true
 title: My Linux Upskill Challenge - Day 7
 ---

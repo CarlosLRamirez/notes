@@ -34,4 +34,4 @@ Este sitio **no es un blog tradicional**: no encontrarás artículos publicados 
 
 ## Main Index
 
-- [[20250918T0602-my-preparation-to-the-aws-certified-ai-cloud-practitioner-exam|My preparation to the AWS Certified AI Cloud Practitioner Exam]]
+- [[20250918T0602-aws-certified-ai-cloud-practitioner-certification|My preparation to the AWS Certified AI Cloud Practitioner Exam]]

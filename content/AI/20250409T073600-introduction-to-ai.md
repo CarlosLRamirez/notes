@@ -3,10 +3,12 @@ id: 20250409T073600-introduction-to-ai
 tags:
   - AI
 created: 2025-04-09 07:36
-modified: 2025-10-24 14:34
+modified: 2026-01-23 17:04
 folder: AI
 publish: true
 title: Introduction to Artificial Intelligence
+aliases:
+  - Introduction to Artificial Intelligence
 ---
 
 ## Main Concepts
