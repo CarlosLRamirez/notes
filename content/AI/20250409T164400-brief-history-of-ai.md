@@ -3,10 +3,12 @@ id: 20250409T164400-brief-history-of-ai
 tags:
   - AI
 created: 2025-04-09 16:44
-modified: 2025-10-24 10:37
+modified: 2026-01-29 11:15
 folder: AI
 publish: true
 title: History of AI
+aliases:
+  - History of AI
 ---
 
 ## Brief history of AI
@@ -17,7 +19,7 @@ title: History of AI
   - AI was mostly a dream without practical implementation
 - 1970s: Expert Systems
   - MYCIN: Rule-based AI system to detect bacteria.
-- 1990s: Machine Learning and Data Mining
+- 1990s: Machine Learning & Data Mining
   - Computers became powerful enough to collect and organize data
   - Enabling statistical advances and algorithm design.
 - 1997: Deep Blue
