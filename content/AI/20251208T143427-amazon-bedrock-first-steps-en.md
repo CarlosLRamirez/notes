@@ -11,7 +11,7 @@ created: 2025-12-08 14:34
 folder: AI
 lang:
   - en
-modified: 2026-01-23 17:49
+modified: 2026-02-04 06:46
 publish: true
 title: Amazon Bedrock First Steps (EN)
 url publicacion: https://carloslramirez.com/blog/posts/amazon-bedrock-first-steps/

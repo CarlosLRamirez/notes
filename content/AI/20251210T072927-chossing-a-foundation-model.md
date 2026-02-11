@@ -1,14 +1,14 @@
 ---
 id: 20251210T072927-chossing-a-foundation-model
 aliases:
-  - Choosing a Foundation Model
+  - Criteria for Choosing a Foundation Model
 tags:
   - AI
 created: 2025-12-10 07:29
 folder: AI
-modified: 2025-12-10 09:13
+modified: 2026-02-04 06:55
 publish: true
-title: Choosing a Foundation Model
+title: Criteria for Choosing a Foundation Model
 ---
 
 ## Main Concept

@@ -1,14 +1,14 @@
 ---
 aliases:
-- Computer Vision
+  - Computer Vision
 created: 2025-09-07 11:31
 folder: AI
 id: 20250907T113120-computer-vision
-modified: 2025-09-17 15:32
+modified: 2026-02-10 22:56
 publish: true
 tags:
-- toextend
-- AI
+  - AI
+  - ML
 title: Computer Vision
 ---
 

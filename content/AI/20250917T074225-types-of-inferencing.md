@@ -1,12 +1,14 @@
 ---
 aliases:
-- Types of inferencing
+  - Types of inferencing
 created: 2025-09-17 07:42
 folder: AI
 id: 20250917T074225-types-of-inferencing
-modified: 2025-09-24 07:55
+modified: 2026-02-10 22:56
 publish: true
-tags: []
+tags:
+  - AI
+  - ML
 title: Types of inferencing
 ---
 

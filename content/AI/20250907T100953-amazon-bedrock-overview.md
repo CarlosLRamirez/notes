@@ -9,7 +9,7 @@ tags:
   - draft
 created: 2025-09-07 10:09
 folder: AI
-modified: 2025-12-10 06:56
+modified: 2026-02-01 06:17
 publish: true
 title: Amazon Bedrock Overview
 ---
@@ -17,8 +17,6 @@ title: Amazon Bedrock Overview
 ## Main Concept
 
 Amazon Bedrock is a fully managed AWS service that is used to build Generative AI applications, providing access to several [[20251029T060940-foundation-model|Foundation Models]] from different providers.
-
----
 
 ## Key Points
 
@@ -48,7 +46,7 @@ Amazon Bedrock is a fully managed AWS service that is used to build Generative A
 
 ### Agents
 
-- With Amazon Bedrock agents you can run multi-step tasks and interact with other AWS Services and Data Source (like S3 or DynamoDB, etc..
+- With Amazon Bedrock agents you can run multi-step tasks and interact with other AWS Services and Data Source (like S3 or DynamoDB, etc.)
 - With agents you can automate task like API Calls, Engineering Prompts, and general Orchestration of you Gen AI pipelines.
 
 ---
