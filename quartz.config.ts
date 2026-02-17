@@ -13,7 +13,10 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      // provider: "plausible",
+      provider: "umami",
+      websiteId: "f4f03d75-f1ec-47f9-ad02-c4fd06d4400b",
+      host: "https://cloud.umami.is",
     },
     locale: "en-US",
     baseUrl: "carloslramirez.com/notes",
@@ -99,4 +102,4 @@ const config: QuartzConfig = {
   },
 }
 
-export default config
+enalyxport default config
