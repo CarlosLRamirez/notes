@@ -8,7 +8,7 @@ tags:
   - course
 created: 2025-04-09 07:29
 folder: Courses
-modified: 2026-02-10 22:42
+modified: 2026-02-13 21:23
 publish: true
 title: "Curso: NEW Ultimate AWS Certified AI Practitioner AIF-C01"
 ---
@@ -68,7 +68,13 @@ Notas generadas o complementadas por sección del curso
 	- [[20260204T0656-amazon-bedrock-models-when-to-use-what|Amazon Bedrock Models - When to Use What]]
 	- [[20260209T1740-model-customization|Model Customization]]
 	- [[20251210T065400-model-customization-with-amazon-bedrock|Model Customization with Amazon Bedrock]]
-
+	- [[20251009T073200-model-fine-tuning|Model Fine-Tuning]]
+	- [[20260206T1004-supervised-fine-tuning|Supervised Fine-Tuning]]
+	- [[20260206T1026-reinforcement-fine-tuning|Reinforcement Fine-Tuning]]
+	- [[20260210T2249-model-distillation|Model Distillation]]
+	- [[20260211T1754-model-evaluation|Model Evaluation]]
+	- [[20260212T0612-model-evaluation-in-amazon-bedrock|Model Evaluation in Amazon Bedrock]]
+	- 
 
 
 ---

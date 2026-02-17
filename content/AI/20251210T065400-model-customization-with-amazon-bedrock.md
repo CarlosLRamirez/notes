@@ -7,7 +7,7 @@ tags:
   - amazon-bedrock
   - AWS
 created: 2025-12-10 06:54
-modified: 2026-02-10 22:50
+modified: 2026-02-11 17:50
 title: Model Customization with Amazon Bedrock
 publish: true
 folder: AI
@@ -18,13 +18,16 @@ folder: AI
 Amazon Bedrock offers three ways to customize a model. Strictly speaking, only the first two are forms of fine-tuning (this is where it gets confusing!):
 - **Reinforcement fine-tuning**
 - **Supervision fine-tuning**
-- **Distillation** - is not a form of fine-tuning; in fact, some sources mention that they are [opposite methods](https://medium.com/@jsmith0475/a-detailed-technical-comparison-of-fine-tuning-and-distillation-in-large-language-models-cccbe629dcba).
+- **Distillation** 
 
 ![[Pasted image 20260206080111.png]]
 
+
+> [!IMPORTANT]
+> Even though Bedrock shows Distillation as a Customization technique, strictly speaking Distillation is not a Customization method but a separate technique.
+
 ### Reinforcement fine-tuning:
 It works with a reward-based learning, it requires less manual effort. Ideal for complex, multi-step, reasoning tasks.
-	
 ### Supervision fine-tuning:
 Adapts a pre-trained model to specific tasks using labeled data to improve performance in specific domain. *Input and output data is stored in Amazon S3.*
 
@@ -35,9 +38,13 @@ It requires a teacher model to train the specialized (student) model. it creaste
 - This is made by changing the weights of a base foundation model.
 - In order to be able to customize a model, the training data must adhere to a specific format
 - The training data must be stores in Amazon S3
+- Running a custom model is more expensive in Amazon Bedrock, you have different options:
+	- Option 1: Run the custom model "on-demand" (price per token)
+	- Option 2: Puchase provisioned throughput (billed per month)
 
 > [!NOTE]
 > Not all the models can be customized in Amazon Bedrock
+
 
 ## Graphical Example
 

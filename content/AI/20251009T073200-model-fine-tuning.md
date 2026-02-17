@@ -5,7 +5,7 @@ aliases:
 tags:
   - AI
 created: 2025-10-09 07:32
-modified: 2026-02-09 17:18
+modified: 2026-02-11 17:39
 folder: AI
 publish: true
 title: Model Fine-Tuning
@@ -20,7 +20,7 @@ title: Model Fine-Tuning
 - Different methods of fine-tuning exist; we can classify them into these **two main categories**:
     - Supervised Fine-Tuning (uses labeled data)
     - Reinforcement Fine-Tuning
-- Fine-tuning is more expensive than other customization methods (prompt engineering, few-shot learning, and RAG)
+- Fine-tuning is more **expensive** than other customization methods (prompt engineering, few-shot learning, and RAG)
 - Sometimes people  present **Distillation** as a fine-tuning method; however, strictly speaking, it is more considered a model compression method.
 - There is also a technique called **Continued pre-training**; however, this is NOT a fine-tuning method.
 ---

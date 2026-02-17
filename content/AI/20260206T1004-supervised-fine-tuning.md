@@ -1,6 +1,6 @@
 ---
 created: 2026-02-06 10:04
-modified: 2026-02-10 22:44
+modified: 2026-02-11 17:45
 tags:
   - AI
   - amazon-bedrock
@@ -19,18 +19,11 @@ It allows you to use an existing well pre-trained model and train it even better
 ## Key Aspects
 - You obtain a model better trained for a particular field or area of knowledge.
 - The labeled examples are input-output pairs, for instance:
+	- ![[Pasted image 20260206101637.png]]
+- Supervised Fine-Tunning is usually cheaper because requires less computational power and less data is usually required.
+- However it requires experienced ML engineers to run the task
+- You must prepare the data, do fine-tuning and then **evaluate** the model.
 
-```json
-[{"prompt": "Customer: My credit card was declined",
-    "completion": "I apologize for the inconvenience. Let me help you resolve this. First, please verify that: 1) Your card hasn't expired, 2) You have sufficient funds, 3) There are no holds on your account. If everything looks correct, I can escalate this to our payment team. Would you like me to do that?"},
-    
-{"prompt": "Customer: How long does international transfer take?", "completion": "International transfers through our system typically take 2-3 business days. However, due to banking regulations in Guatemala, transfers to certain countries may take up to 5 business days. I can check the specific timeline for your destination country if you'd like?"}
-  // ... hundreds or thousands more examples
-]
-```
-
-
-![[Pasted image 20260206101637.png]]
 
 
 ## Applications
