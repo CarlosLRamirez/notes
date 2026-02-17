@@ -1,6 +1,6 @@
 ---
 created: 2026-02-16 17:18
-modified: 2026-02-16 17:49
+modified: 2026-02-16 19:18
 tags:
   - AI
   - amazon-bedrock
@@ -39,6 +39,6 @@ It is a more or less objective way of measuring how "good" a model is (although 
 ## Related Concepts:
 - [[20260216T1718-human-based-model-evaluation-with-amazon-bedrock|Human-based Model Evaluation with Amazon Bedrock]]
 - [[20260216T1643-benchmark-dataset|Benchmark Dataset]]
-
+- [[20260216T1918-metrics-used-for-foundation-model-evaluation|Metrics used for Foundation Model Evaluation]]
 ## Links
 - [Creating an automatic model evaluation job in Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/evaluation-automatic.html)

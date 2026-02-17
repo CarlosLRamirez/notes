@@ -1,6 +1,6 @@
 ---
 created: 2026-02-16 17:18
-modified: 2026-02-16 17:50
+modified: 2026-02-16 19:11
 tags:
   - AI
   - amazon-bedrock
@@ -20,9 +20,10 @@ Some models of certain industries should be evaluated by a real human.
 	- Thumbs up/down
 	- Ranking
 	- etc.
-- You can also choose for built-in task types, similarly to automatic evaluation, but you can add your own custom task, because at the end you have human evaluating it.
+- You can also choose for built-in task types, similarly to automatic evaluation, but you can also add your own custom task, because at the end you have human evaluating it.
+- In human-based evaluation you are a little more free.
 
-## Critical Questions
+## Reflexion Questions
 - Does this require more time? 
 - Is this more expensive because you need human hours?
 
