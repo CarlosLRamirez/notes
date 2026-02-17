@@ -1,6 +1,6 @@
 ---
 created: 2026-02-16 19:18
-modified: 2026-02-17 08:03
+modified: 2026-02-17 10:01
 tags:
   - AI
   - amazon-bedrock
@@ -55,5 +55,3 @@ Overview of the main automated metrics for evaluating foundational models:
 ---
 ## Links:
 *References*
-
-
