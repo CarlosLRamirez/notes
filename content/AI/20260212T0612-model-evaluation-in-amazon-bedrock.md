@@ -1,6 +1,6 @@
 ---
 created: 2026-02-12 06:12
-modified: 2026-02-16 17:44
+modified: 2026-02-17 11:51
 tags:
   - AI
   - amazon-bedrock
@@ -30,6 +30,8 @@ With Amazon Bedrock, it is possible to evaluate language models both automatical
 ## Related Concepts
 - [[20260216T1718-automatic-model-evaluation-with-amazon-bedrock|Automatic Model Evaluation with Amazon Bedrock]]
 - [[20260216T1718-human-based-model-evaluation-with-amazon-bedrock|Human-based Model Evaluation with Amazon Bedrock]]
+- [[20260216T1643-benchmark-dataset|Benchmark Dataset]]
+- [[20260216T1918-metrics-used-for-foundation-model-evaluation|Metrics used for Foundation Model Evaluation]]
 
 ## Links:
 - [Evaluate the performance of Amazon Bedrock resources](https://docs.aws.amazon.com/bedrock/latest/userguide/evaluation.html)
