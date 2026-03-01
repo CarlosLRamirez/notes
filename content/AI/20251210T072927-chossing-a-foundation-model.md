@@ -92,6 +92,5 @@ Foundation Models are large pre-trained language models available through variou
 ---
 
 ## Related Notes
-
 - [[20250907T100953-amazon-bedrock-overview|Amazon Bedrock Overview]]
 - [[20251208T140329-amazon-bedrock-foundation-models|Amazon Bedrock Foundation Models]]

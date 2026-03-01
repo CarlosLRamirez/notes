@@ -1,6 +1,6 @@
 ---
 created: 2026-02-12 06:12
-modified: 2026-02-17 11:51
+modified: 2026-02-25 16:48
 tags:
   - AI
   - amazon-bedrock
@@ -13,7 +13,7 @@ folder: AI
 	
 ## Definition
 
-With Amazon Bedrock, it is possible to evaluate language models both automatically and with human intervention, it also has the capability to evaluate knowledge bases uses as  Retrieval Augmented Generation (RAG) sources. That includes models and knowledge bases that are inside Bedrock but also outside of the service.
+With Amazon Bedrock, it is possible to evaluate language models both automatically and with human intervention, it also has the capability to evaluate knowledge bases used as Retrieval Augmented Generation (RAG) sources. That includes models and knowledge bases that are inside Bedrock but also outside of the service.
 ## Key Points
 - We can use Amazon Bedrock to compute  performance metrics of a model such as semantic robustness.
 - We can also calculate the correctness of a knowledge base in retrieving information and generating responses.
@@ -32,6 +32,7 @@ With Amazon Bedrock, it is possible to evaluate language models both automatical
 - [[20260216T1718-human-based-model-evaluation-with-amazon-bedrock|Human-based Model Evaluation with Amazon Bedrock]]
 - [[20260216T1643-benchmark-dataset|Benchmark Dataset]]
 - [[20260216T1918-metrics-used-for-foundation-model-evaluation|Metrics used for Foundation Model Evaluation]]
+- [[20260220T0735-retrieval-augmented-generation-rag|Retrieval-Augmented Generation (RAG)]]
 
 ## Links:
 - [Evaluate the performance of Amazon Bedrock resources](https://docs.aws.amazon.com/bedrock/latest/userguide/evaluation.html)
