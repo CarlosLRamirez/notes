@@ -5,7 +5,7 @@ tags:
   - AI
   - amazon-bedrock
 created: 2026-02-20 07:51
-modified: 2026-03-10 05:40
+modified: 2026-03-10 06:03
 title: RAG and Knowledge Bases with Amazon Bedrock
 publish: true
 folder: AI
@@ -28,7 +28,7 @@ Amazon Bedrock has the capacity to manage knowledge bases used to apply RAG and 
 - The model uses both the retrieved context and its general knowledge (or only the context, depending on the configuration) to generate the response, for instance:
   `John is working with Jessie Smith and Sara Ronald as part of the ERP product team`
 
-![[Pasted image 20260226070002.png]]
+![[Pasted image 20260226070002.png|600]]
 
 ## Key Aspects
 - With RAG, the foundation model gains access to up-to-date or proprietary data without requiring retraining. The freshness of that data depends on how frequently the knowledge base is synced.
@@ -50,9 +50,8 @@ In Amazon Bedrock, you can feed a knowledge base in several ways: by uploading d
 ---
 
 ## Related Notes
-- [[20260226T0818-rag-vector-databases-in-amazon-bedrock|RAG Vector Databases in Amazon Bedrock]]
+- [[20260226T0818-vector-databases-in-amazon-bedrock|RAG Vector Databases in Amazon Bedrock]]
 - [[Chunking]]
 - [[20260217T1155-embeddings|Embeddings]]
 - [[20260226T0616-domain-3-task-statement-3-1-describe-design-considerations-for-applications-that-use-foundation-models|Domain 3 - Task Statement 3.1 - Describe design considerations for applications that use foundation models]]
-- [[20260226T0818-rag-vector-databases-in-amazon-bedrock]]
 
