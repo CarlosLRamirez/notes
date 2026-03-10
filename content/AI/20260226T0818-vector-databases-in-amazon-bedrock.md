@@ -1,6 +1,6 @@
 ---
 created: 2026-02-27 18:24
-modified: 2026-03-05 18:13
+modified: 2026-03-10 06:13
 tags:
   - AI
   - RAG
@@ -45,10 +45,25 @@ Cost-effective and durable vector storage with sub-second query performance. Thi
 
 MongoDB, Redis, and Pinecone are also supported by Amazon Bedrock but are not listed in the exam guide.
 
+## 📊 Comparison: AWS Vector Databases for RAG
+
+| Service | Primary Strength | Engine / Extension | Best for... | Exam Tip (AI Practitioner) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Amazon OpenSearch** | Scale & Performance | k-Nearest Neighbor (kNN) | Large-scale, real-time similarity search. | The "default" choice for high-scale RAG. |
+| **Amazon Aurora** | SQL Integration | PostgreSQL + `pgvector` | Teams already using Aurora who want to avoid new services. | Look for "Relational" + "Vector search". |
+| **Amazon Neptune** | GraphRAG | Graph Analytics + Vectors | When the *relationship* between data points is key. | Keywords: "Knowledge Graphs", "Relationships". |
+| **Amazon RDS** | Familiarity | PostgreSQL + `pgvector` | Standard managed PostgreSQL workloads. | Similar to Aurora but for standard RDS. |
+| **Amazon DocumentDB** | JSON Flexibility | MongoDB compatibility | Document-oriented data and MongoDB-style queries. | Keywords: "Document-oriented", "MongoDB". |
+| **Amazon S3** | Cost-Efficiency | Object Storage Vectors | Durable, low-cost vector storage. | Supplementary context (newer option). |
+
+> [!abstract] Key Takeaway for the Exam
+> Focus on **identifying** these services as valid "Vector Stores" for Amazon Bedrock Knowledge Bases. You don't need to be a DBA, just know which AWS tools can hold your "embeddings."
+
 ## Key Aspects
 
 - The exam expects you to _identify_ which AWS services can serve as vector databases for RAG, not to decide when to use each one.
 - The level of detail in this note (kNN, GraphRAG, pgvector) goes beyond what the exam requires, but it is useful context for understanding what differentiates each option.
+
 
 ## Summary/Conclusion
 

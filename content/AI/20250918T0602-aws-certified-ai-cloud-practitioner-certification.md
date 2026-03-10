@@ -1,6 +1,6 @@
 ---
 created: 2025-09-18T06:02:00
-modified: 2026-03-10 05:31
+modified: 2026-03-10 06:10
 tags:
   - AI
   - AWS
@@ -91,7 +91,7 @@ These are my notes generated following the course lesson structure.
   - [[20260217T1154-business-metrics-used-for-model-evaluation|Business Metrics used for Model Evaluation]]
 - Amazon Bedrock - RAG & Knowledge Bases
   - [[20260220T0735-retrieval-augmented-generation-rag|Retrieval-Augmented Generation (RAG)]] 📆
-  - [[20260220T0733-rag-and-knowledge-bases-with-amazon-bedrock|RAG and Knowledge Bases with Amazon Bedrock]]
+  - [[20260220T0733-rag-and-knowledge-bases-with-amazon-bedrock|RAG and Knowledge Bases with Amazon Bedrock]] 📆
   - [[20260226T0818-vector-databases-in-amazon-bedrock|Vector Databases in Amazon Bedrock]]
 - Amazon Bedrock - RAG & Knowledge Base - Hands On
   - In this lecture, the author makes a quick demo of the feature "chat with your document" within Amazon Bedrock. He does this by simulating a complete knowledge base (because creating an actual KB takes time). The author uses a document called "The Evolution of Internet," asks relevant questions and also irrelevant questions to show that the model only answers the information retrieved from the document and nothing else. No notes taken
