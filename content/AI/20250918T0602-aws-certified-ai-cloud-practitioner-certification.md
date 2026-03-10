@@ -1,6 +1,6 @@
 ---
 created: 2025-09-18T06:02:00
-modified: 2026-03-06 06:31
+modified: 2026-03-10 05:31
 tags:
   - AI
   - AWS
@@ -20,7 +20,10 @@ I am following Stephane Maarek's course as my main source to prepare for the exa
 - Platform: Udemy
 - Start date: October 2025
 
-## Notes by Section
+## Exam Domains
+[[20260306T1736-aws-certified-ai-practitioner-aif-c01-exam-domains|AWS Certified AI Practitioner (AIF-C01) - Exam Domains]]
+
+## Notes by Section of the course
   
 These are my notes generated following the course lesson structure.
 ### Section 1: Artificial Intelligence & Course Introduction
@@ -50,25 +53,24 @@ These are my notes generated following the course lesson structure.
 
 ### Section 5: Amazon Bedrock and Generative AI (GenAI)
 
-- **Generative AI Overview**
-  - [[20250930T203103-generative-ai-overview|What is Generative AI (GenAI)?]]
-  - [[20260129T1255-generative-model|Generative Model]]
-  - [[20251029T060940-foundation-model|Foundation Model]]
-  - [[20250917T073805-large-language-models|Large Language Models (LLM)]]
-  - [[20251103T213300-interacting-with-llms-to-generate-content|Interacting with LLMs to Generate Content]]
-  - [[20251108T092803-non-deterministic-nature-of-llms|Non-Deterministic Nature of LLMs]]
-  - [[20251108T094300-generative-ai-for-images|Generative AI for Images]]
-  - [[20251118T072141-diffusion-models|Diffusion Models]]
-
+- **What is Generative AI?**
+	- [[20250930T203103-generative-ai-overview|What is Generative AI (GenAI)?]]
+	- [[20260129T1255-generative-model|Generative Model]]
+	- [[20251029T060940-foundation-model|Foundation Model]]
+	- [[20250917T073805-large-language-models|Large Language Models (LLM)]]
+	- [[20251103T213300-interacting-with-llms-to-generate-content|Interacting with LLMs to Generate Content]]
+	- [[20251108T092803-non-deterministic-nature-of-llms|Non-Deterministic Nature of LLMs]]
+	- [[20251108T094300-generative-ai-for-images|Generative AI for Images]]
+	- [[20251118T072141-diffusion-models|Diffusion Models]]
 - **Amazon Bedrock Overview**
-  - [[20250907T100953-amazon-bedrock-overview|Amazon Bedrock Overview]]
-  - [[20251208T140329-amazon-bedrock-foundation-models|Amazon Bedrock Foundation Models]]
+	- [[20250907T100953-amazon-bedrock-overview|Amazon Bedrock Overview]]
+	- [[20251208T140329-amazon-bedrock-foundation-models|Amazon Bedrock Foundation Models]]
 - Amazon Bedrock Hands On
-  - [[20251208T143427-amazon-bedrock-first-steps-en|Lab Guide: Amazon Bedrock First Steps (EN)]]
-  - [[20251208T143427-amazon-bedrock-first-steps-es|Lab Guide: Amazon Bedrock First Steps (ES)]]
+	- [[20251208T143427-amazon-bedrock-first-steps-en|Lab Guide: Amazon B]]
+	- [[20251208T143427-amazon-bedrock-first-steps-es|Lab Guide: Amazon Bedro]]
 - Amazon Bedrock Foundation Model
-  - [[20251210T072927-chossing-a-foundation-model|Choosing a Foundation Model]]
-  - [[20260201T0712-amazon-titan-models|Amazon Titan Models]]
+	- [[20251210T072927-chossing-a-foundation-model|Criteria for Choosing a Foundation Model]]
+	- [[20260201T0712-amazon-titan-models|Amazon Titan Models]]
 - Amazon Bedrock Foundation Models Hands On
   - [[20260204T0656-amazon-bedrock-models-when-to-use-what|Amazon Bedrock Models - When to Use What]]
   - [[20260209T1740-model-customization|Model Customization]] 🚀
@@ -88,7 +90,7 @@ These are my notes generated following the course lesson structure.
   - [[20260216T1918-metrics-used-for-foundation-model-evaluation|Metrics used for Foundation Model Evaluation]]
   - [[20260217T1154-business-metrics-used-for-model-evaluation|Business Metrics used for Model Evaluation]]
 - Amazon Bedrock - RAG & Knowledge Bases
-  - [[20260220T0735-retrieval-augmented-generation-rag|Retrieval-Augmented Generation (RAG)]]
+  - [[20260220T0735-retrieval-augmented-generation-rag|Retrieval-Augmented Generation (RAG)]] 📆
   - [[20260220T0733-rag-and-knowledge-bases-with-amazon-bedrock|RAG and Knowledge Bases with Amazon Bedrock]]
   - [[20260226T0818-vector-databases-in-amazon-bedrock|Vector Databases in Amazon Bedrock]]
 - Amazon Bedrock - RAG & Knowledge Base - Hands On
@@ -104,9 +106,40 @@ These are my notes generated following the course lesson structure.
 	- [[20260226T0947-tokenization|Tokenization]]
 	- [[20260226T1314-context-window|Context Window]]
 	- [[20260217T1155-embeddings|Embeddings]]
-- Amazon Bedrock GuardRails
+- Amazon Bedrock - GuardRails
 	- [[20260306T0347-guardrails-in-amazon-bedrock|GuardRails in Amazon Bedrock]]
-	- 
+- Amazon Bedrock - GuardRails - Hands On
+	-  Demonstration of the creation, configuration, and subsequent testing of a Guardrail in Amazon Bedrock. A topic denial (cooking recipes) and a PII filter (email masking) are created. Then, using a prompt, it is validated that the model does not respond with cooking recipes, and when sent a prompt with emails, it masks them in its final response. #tolab
+- Amazon Bedrock - Agents
+	- [[20260306T0700-ai-agent|AI Agent]]
+	- [[20260306T0719-agents-for-amazon-bedrock|Agents for Amazon Bedrock]]
+	- [[20260306T1305-agent-loop|Agent Loop]]
+	- [[20260306T1303-chain-of-thought-cot|Chain of Thought (CoT)]]
+- Amazon Bedrock - CloudWatch Integration
+	- [[20260306T1621-amazon-bedrock-cloudwatch|Amazon Bedrock & CloudWatch]]
+- Amazon Bedrock - CloudWatch Integration Hands On
+	- Demo on Cloudwatch logs and metrics integration (not so interesting!)
+- Amazon Bedrock Pricing
+	- [[20260306T1715-amazon-bedrock-pricing|Amazon Bedrock Pricing]]
+	- [[20260306T1835-amazon-bedrock-cost-tradeoffs-cheatsheet|Amazon Bedrock - Cost & Tradeoffs Cheatsheet]]
+- Amazon Bedrock - AI Stylist - Hands On
+	- https://aistylist.awsplayer.com/
+- Amazon Nova
+	- [[20260306T2118-amazon-nova-models|Amazon Nova Models]]
+	- [[20260306T2137-amazon-nova-2-models|Amazon Nova 2 Models]]
+
+### Section 6: Prompt Engineering
+- Section Introduction
+- What is Prompt Engineering?
+	- [[20251009T072400-prompt-engineering|Prompt Engineering]]
+- Prompt Engineering Hands On
+- Prompt Performance Optimization
+- Prompt Performance Optimization Hans On
+- Prompt Engineering Techniques
+- Prompt Templates
+
+
+
 ---
 
 ## Bitacora
@@ -122,8 +155,6 @@ These are my notes generated following the course lesson structure.
 - [[20250917T074225-types-of-inferencing|Types of inferencing]]
 - [[20250917T103414-data-types-and-formats-in-ai|Data type and formats in AI]]
 - [[20251009T102549-model-domain-adaptation|Model Domain Adaptation]]
-- [[20251009T072400-prompt-engineering|Prompt Engineering]]
-- [[20250930T080015-fine-tunning-in-amazon-bedrock|Fine-tunning in Amazon Bedrock]]
 - [[20251001T170057-amazon-sagemaker-overview|Amazon SageMaker Overview]]
 - [[20251009T063120-amazon-q-developer|Amazon Q Developer]]
 - [[20251009T064252-aws-genai-computing-infrastructure|AWS ML Computing Infrastructure]]
