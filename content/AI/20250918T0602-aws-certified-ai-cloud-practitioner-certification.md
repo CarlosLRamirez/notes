@@ -1,6 +1,6 @@
 ---
 created: 2025-09-18T06:02:00
-modified: 2026-03-10 06:10
+modified: 2026-03-27 03:56
 tags:
   - AI
   - AWS
@@ -92,7 +92,7 @@ These are my notes generated following the course lesson structure.
 - Amazon Bedrock - RAG & Knowledge Bases
   - [[20260220T0735-retrieval-augmented-generation-rag|Retrieval-Augmented Generation (RAG)]] 📆
   - [[20260220T0733-rag-and-knowledge-bases-with-amazon-bedrock|RAG and Knowledge Bases with Amazon Bedrock]] 📆
-  - [[20260226T0818-vector-databases-in-amazon-bedrock|Vector Databases in Amazon Bedrock]]
+  - [[20260226T0818-vector-databases-in-amazon-bedrock|Vector Databases in Amazon Bedrock]] 📆
 - Amazon Bedrock - RAG & Knowledge Base - Hands On
   - In this lecture, the author makes a quick demo of the feature "chat with your document" within Amazon Bedrock. He does this by simulating a complete knowledge base (because creating an actual KB takes time). The author uses a document called "The Evolution of Internet," asks relevant questions and also irrelevant questions to show that the model only answers the information retrieved from the document and nothing else. No notes taken
   - ToDo: Create and document my own demo.
@@ -114,7 +114,7 @@ These are my notes generated following the course lesson structure.
 	- [[20260306T0700-ai-agent|AI Agent]]
 	- [[20260306T0719-agents-for-amazon-bedrock|Agents for Amazon Bedrock]]
 	- [[20260306T1305-agent-loop|Agent Loop]]
-	- [[20260306T1303-chain-of-thought-cot|Chain of Thought (CoT)]]
+	- [[20260306T1303-chain-of-thought-cot-prompting|Chain of Thought (CoT)]]
 - Amazon Bedrock - CloudWatch Integration
 	- [[20260306T1621-amazon-bedrock-cloudwatch|Amazon Bedrock & CloudWatch]]
 - Amazon Bedrock - CloudWatch Integration Hands On
@@ -132,11 +132,25 @@ These are my notes generated following the course lesson structure.
 - Section Introduction
 - What is Prompt Engineering?
 	- [[20251009T072400-prompt-engineering|Prompt Engineering]]
+	- [[20260306T2234-negative-prompting|Negative Prompting]]
 - Prompt Engineering Hands On
+	- Demo in Bedrock about using a good prompto to organize a 4 day travel in Paris, including negative prompting.
 - Prompt Performance Optimization
+	- [[20260322T0557-system-prompts|System Prompts]]
+	- [[20260322T0509-inference-parameters|Inference Parameters]]
+	- [[20260322T0605-prompt-latency|Prompt Latency]]
 - Prompt Performance Optimization Hans On
+	- The author created a demo using Amazon Bedrock and an Anthropic model to generate a short story about robots cooking. He limited the length to ~550 words and first ran the experiment with the temperature, top P, and top K set to their minimum values, which in theory produced a more conservative and boring story, and then changed them to maximum values, where the output is supposed to be more creative and imaginative. 
 - Prompt Engineering Techniques
+	- [[20251011T095400-zero-shot-prompting|Zero-Shot Prompting]]
+	- [[20260323T0727-few-shots-prompting|Few-Shots Prompting]]
+	- [[20260306T1303-chain-of-thought-cot-prompting|Chain of Thought (CoT) Prompting]]
+	- [[20260220T0735-retrieval-augmented-generation-rag|Retrieval-Augmented Generation (RAG)]]
+	- [[20260324T0714-rag-vs-fine-tuning|RAG vs. Fine-Tuning]]
 - Prompt Templates
+	- [[20260325T1721-prompt-templates|Prompt Templates]]
+- Amazon Q Deep Dive
+	- [[20260326T0734-amazon-q-business|Amazon Q Business]]
 
 
 

@@ -11,9 +11,7 @@ folder: AI
 ---
 ## Main Concept
 
-Negative prompting is a prompt engineering technique that explicitly tells the model what **not** to do, produce, or include in its response. Instead of only defining the desired behavior, you also define the boundaries — what is out of scope, unwanted, or forbidden.
-
-It complements positive instructions the same way a job description not only lists responsibilities but also clarifies what is outside the role.
+Negative prompting is a prompt engineering technique that explicitly tells the model what **not** to do, produce, or include in its response. Instead of only defining the desired behavior, you also define the boundaries — what is out of scope, unwanted, or forbidden. It complements positive instructions in the prompt.
 
 ---
 
