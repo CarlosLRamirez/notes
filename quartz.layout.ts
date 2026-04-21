@@ -65,7 +65,7 @@ export const defaultContentPageLayout: PageLayout = {
         },
         localGraph: {
           showTags: false, // whether to show tags in the graph
-          depth: 5, // how many hops of notes to display
+          depth: 4, // how many hops of notes to display
         },
       }),
       condition: (page) => page.fileData.slug === "index",
