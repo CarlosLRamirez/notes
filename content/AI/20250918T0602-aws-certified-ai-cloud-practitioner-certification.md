@@ -7,7 +7,7 @@ tags:
   - certification
   - course
   - toc
-title: AWS Certified AI Cloud Practitioner - Exam Prep
+title: 20250918T0602-aws-certified-ai-cloud-practitioner-certification
 aliases:
   - My preparation to the AWS Certified AI Cloud Practitioner Exam
 publish: true
@@ -188,10 +188,21 @@ These are my notes generated following the course lesson structure.
   - [[20250907T111932-neural-networks|Neural Networks]]
   - [[20250930T203103-generative-ai-overview|Generative AI (GenAI)]]
   - [[20251016T040137-transformer-architecture|Transformer Model]]
+  - [[20251118T072141-diffusion-models|Diffusion Models]]
+  - [[20251103T203200-multimodal-foundation-models|Multimodal Foundation Models]]
 
 - ML Terms You May Encounter in the Exam
+  - [[20260421T000000-gpt-generative-pretrained-transformer|GPT]]
+  - [[20260421T000100-bert-bidirectional-encoder-representations|BERT]]
+  - [[20260421T000200-rnn-recurrent-neural-network|RNN]]
+  - [[20260421T000300-resnet-residual-network|ResNet]]
+  - [[20260421T000400-svm-support-vector-machine|SVM]]
+  - [[20260421T000500-wavenet-audio-synthesis|WaveNet]]
+  - [[20260421T000600-gan-generative-adversarial-network|GAN]]
+  - [[20260421T000700-xgboost-extreme-gradient-boosting|XGBoost]]
 
 - Training Data
+ - [[20260420T2331-training-data|Training Data]]
 
 - Supervised Learning
 

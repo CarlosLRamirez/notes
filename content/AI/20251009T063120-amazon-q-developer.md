@@ -8,7 +8,7 @@ created: 2025-10-09 06:31
 modified: 2026-04-15 16:04
 folder: AI
 publish: true
-title: 20251009T063120-amazon-q-developer
+title: Amazon Q Developer
 ---
 
 ## Concepto Principal

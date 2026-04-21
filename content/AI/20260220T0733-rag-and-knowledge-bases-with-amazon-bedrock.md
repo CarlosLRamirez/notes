@@ -7,7 +7,7 @@ tags:
   - amazon-bedrock
 created: 2026-02-20 07:51
 modified: 2026-03-27 05:48
-title: 20260220T0733-rag-and-knowledge-bases-with-amazon-bedrock
+title: RAG and Knowledge Bases with Amazon Bedrock
 publish: true
 folder: AI
 ---

@@ -10,7 +10,7 @@ tags:
   - ML
   - deep-learning
   - AIF-C01
-title: 20250907T111932-neural-networks
+title: Neural Networks
 ---
 
 ## Main Concept

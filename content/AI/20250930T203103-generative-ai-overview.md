@@ -8,7 +8,7 @@ created: 2025-09-30 20:31
 modified: 2026-04-20 22:38
 folder: AI
 publish: true
-title: 20250930T203103-generative-ai-overview
+title: Generative AI (GenAI)
 aliases:
   - Generative AI (GenAI)
 ---
