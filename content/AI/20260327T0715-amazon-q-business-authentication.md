@@ -36,7 +36,7 @@ Si un pasante pregunta por los reportes financieros trimestrales, la IA le dirá
 
 ## Related Concepts:
 - [[Identity and Access Management (IAM) Basics]]
-- [[20260326T0734-amazon-q-business|Amazon Q Business Introduction]] 
+- [[20260326T0734-amazon-q-business-introduction|Amazon Q Business Introduction]] 
 
 ---
 

@@ -1,52 +1,47 @@
 ---
 id: 20251016T052900-transformer-architecture-components
-aliases: []
+aliases:
+  - Transformer Architecture Components
 tags:
   - AI
   - Transformers
+  - AIF-C01
 created: 2025-10-16 05:29
+modified: 2026-04-20 22:46
 folder: AI
-modified: 2025-12-10 06:36
 publish: true
 title: Transformer Architecture Components
 ---
 
-# Transformer Architecture Components
+## Main Concept
 
-The core components of a deep-learning transformer architecture are:
+A quick reference to the internal components of a Transformer. For AIF-C01, the two most important to understand conceptually are **Self-Attention** and **Positional Encoding** — the rest exist and matter for implementation, but are unlikely to be tested.
 
-## 1. Self-Attention Layer
+## Components
 
-- **What**: Compares each word to every other word
-- **Why**: Understands relationships and context
-- **Example**: Links pronouns to their referents
+### Self-Attention
+The core innovation of the Transformer. Each word (token) looks at every other word in the sequence and decides how much attention to pay to it. This is how the model understands context — for example, linking a pronoun ("it") back to the noun it refers to several sentences earlier.
 
-## 2. Multi-Head Attention
+### Positional Encoding
+Transformers process all tokens in parallel, which means they have no built-in sense of word order. Positional encoding adds information about each token's position in the sequence so the model knows "this word came first, that one came third."
 
-- **What**: Multiple attention mechanisms in parallel
-- **Why**: Captures different types of relationships
-- **Example**: One head for syntax, another for semantics
+### Multi-Head Attention
+Runs multiple self-attention processes in parallel, each potentially capturing a different type of relationship (e.g., one focused on grammar, another on meaning). The results are combined.
 
-## 3. Feed-Forward Networks
+### Feed-Forward Networks
+Standard neural network layers applied after the attention step to further process the information.
 
-- **What**: Standard neural network layers
-- **Why**: Process attended information
-- **Position**: After attention layers
+### Residual Connections & Layer Normalization
+Technical mechanisms that stabilize training and allow the model to be very deep (many layers) without degrading performance. Not exam-relevant at the conceptual level.
 
-## 4. Positional Encoding
+---
 
-- **What**: Adds position information to words
-- **Why**: Transformers don't inherently know word order
-- **How**: Mathematical encoding of position
+> **For AIF-C01:** Know that Self-Attention is what makes Transformers powerful, and that Positional Encoding solves the word-order problem created by parallel processing. The other components are supporting infrastructure.
 
-## 5. Layer Normalization
+---
 
-- **What**: Normalizes activations
-- **Why**: Stabilizes training
-- **Where**: Throughout the network
+## Related Notes
 
-## 6. Residual Connections
-
-- **What**: Skip connections between layers
-- **Why**: Helps gradient flow, enables deep networks
-- **Benefit**: Can train very deep models (100+ layers)
+- [[20251016T040137-transformer-architecture|Transformer Architecture]]
+- [[20251029T060940-foundation-model|Foundation Model]]
+- [[20250907T111932-neural-networks|Neural Networks]]

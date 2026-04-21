@@ -1,20 +1,20 @@
 ---
 created: 2026-03-26 07:34
-modified: 2026-03-27 04:44
+modified: 2026-03-27 17:07
 tags:
   - ai-practitioner
   - aws
   - amazon-q
   - gen-ai
-title: 20260326T0734-amazon-q-business
+title: Amazon Q Business Introduction
 aliases:
-  - Amazon Q Business
+  - Amazon Q Business Introduction
 publish: true
 folder: AI
 ---
 
-## Main Concept **
-Amazon Q Business** is a fully managed generative AI assistant designed specifically for work or business. Unlike general-purpose models, this assistant bases its responses entirely on your company’s internal knowledge and private data.
+## Main Concept
+**Amazon Q Business** is a fully managed generative AI assistant designed specifically for work or business. Unlike general-purpose models, this assistant bases its responses entirely on your company’s internal knowledge and private data.
 
 ## Key Features -
 - **Built on Bedrock**: It uses multiple foundation models (FMs) via Amazon Bedrock at the backend. However, as a high-level service, the user/administrator **does not** choose the specific underlying model.

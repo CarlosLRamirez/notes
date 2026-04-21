@@ -7,9 +7,10 @@ tags:
   - ai-practitioner
   - amazon-q
   - rag
+  - AIF-C01
 created: 2026-03-27 05:29
 modified: 2026-03-27 07:12
-title: 20260327T0529-amazon-q-business-data-connectors
+title: Amazon Q Business Data Connectors
 publish: true
 folder: AI
 ---

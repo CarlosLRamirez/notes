@@ -212,6 +212,30 @@ Generative AI Security Scoping Matrix, transparency standards, team training
 requirements).
 
 ---
+
+## GenAI Tools & Playgrounds
+
+| Note | Target User | Key Differentiator |
+|---|---|---|
+| [[20260417T0900-partyrock-amazon-bedrock-playground\|PartyRock]] | Anyone (no AWS account) | Public playground on Bedrock — learning & prototyping only |
+
+---
+
+## Amazon Q Services Index
+
+| Note | Primary User | Key Use Case |
+|---|---|---|
+| [[20251009T063120-amazon-q-developer\|Amazon Q Developer]] | Developers | Code generation, IDE assistant, CLI |
+| [[20260326T0734-amazon-q-business-introduction\|Amazon Q Business]] | Enterprise employees | Q&A over internal company knowledge (RAG) |
+| [[20260327T1721-amazon-q-apps-introduction\|Amazon Q Apps]] | Business users (no-code) | Build GenAI mini-apps from internal data |
+| [[20260416T1829-amazon-q-for-aws-chatbot\|Amazon Q for AWS Chatbot]] | Cloud/DevOps teams | Manage and troubleshoot AWS from Slack/Teams |
+| [[20260416T1802-amazon-q-for-ec2\|Amazon Q for EC2]] | Cloud architects | Instance type selection guidance |
+| [[20260415T1736-amazon-q-for-quicksight\|Amazon Q for QuickSight]] | Business analysts | Natural language BI and data visualization |
+| [[20260417T0725-amazon-q-for-glue\|Amazon Q for Glue]] | Data engineers | ETL script generation and debugging |
+| [[20260417T0800-amazon-q-for-amazon-connect\|Amazon Q for Amazon Connect]] | Contact center agents | Real-time assist during customer interactions |
+
+---
+
 ## Links:
 *References*
 
