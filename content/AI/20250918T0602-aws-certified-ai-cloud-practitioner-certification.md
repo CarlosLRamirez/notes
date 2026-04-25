@@ -1,6 +1,6 @@
 ---
 created: 2025-09-18T06:02:00
-modified: 2026-04-20 22:55
+modified: 2026-04-21 06:10
 tags:
   - AI
   - AWS
@@ -99,12 +99,11 @@ These are my notes generated following the course lesson structure.
 - Amazon Bedrock - RAG & Knowledge Base - Hands On
   - In this lecture, the author makes a quick demo of the feature "chat with your document" within Amazon Bedrock. He does this by simulating a complete knowledge base (because creating an actual KB takes time). The author uses a document called "The Evolution of Internet," asks relevant questions and also irrelevant questions to show that the model only answers the information retrieved from the document and nothing else. No notes taken
   - ToDo: Create and document my own demo.
-- Amazon Bedrock - RAG & Knowledge Base - Complete Setup - Hands On
+- **Amazon Bedrock - RAG & Knowledge Base - Complete Setup - Hands On**
   - In this lecture, the author demonstrates how to create a knowledge base from a PDF document. First, he creates an IAM role (he mentions that using the root user causes errors), then creates an S3 bucket where he uploads the PDF file, and then creates the knowledge base in Amazon Bedrock using Amazon OpenSearch Service, warning that it will incur a cost (he mentions that Pinecone is an alternative to keep it completely free). He then waits about 10 minutes, accesses an OpenSearch dashboard and does something I did not fully understand. After a short wait, he tests a prompt related to the document and gets a correct response that references the document. At the end, he deletes the bucket and the knowledge base.
-  - ToDo:
-    - Lab this the same way Stephan #tolab
-    - Try Pinecone #tolab
-    - Try other AWS-native databases. #tolab
+  - #tolab Lab this the same way Stephan
+  - #tolab Try Pinecone
+  - #tolab Try other AWS-native databases
 - More GenAI Concepts
   - [[20260226T0947-tokenization|Tokenization]]
   - [[20260226T1314-context-window|Context Window]]
@@ -202,7 +201,7 @@ These are my notes generated following the course lesson structure.
   - [[20260421T000700-xgboost-extreme-gradient-boosting|XGBoost]]
 
 - Training Data
- - [[20260420T2331-training-data|Training Data]]
+- [[20260420T2331-training-data|Training Data]]
 
 - Supervised Learning
 
