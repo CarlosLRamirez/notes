@@ -1,6 +1,6 @@
 ---
 created: 2025-09-18T06:02:00
-modified: 2026-04-21 06:10
+modified: 2026-04-22 16:19
 tags:
   - AI
   - AWS
@@ -96,7 +96,7 @@ These are my notes generated following the course lesson structure.
   - [[20260220T0735-retrieval-augmented-generation-rag|Retrieval-Augmented Generation (RAG)]] 📆
   - [[20260220T0733-rag-and-knowledge-bases-with-amazon-bedrock|RAG and Knowledge Bases with Amazon Bedrock]] 📆
   - [[20260226T0818-vector-databases-in-amazon-bedrock|Vector Databases in Amazon Bedrock]] 📆
-- Amazon Bedrock - RAG & Knowledge Base - Hands On
+- **Amazon Bedrock - RAG & Knowledge Base - Hands On**
   - In this lecture, the author makes a quick demo of the feature "chat with your document" within Amazon Bedrock. He does this by simulating a complete knowledge base (because creating an actual KB takes time). The author uses a document called "The Evolution of Internet," asks relevant questions and also irrelevant questions to show that the model only answers the information retrieved from the document and nothing else. No notes taken
   - ToDo: Create and document my own demo.
 - **Amazon Bedrock - RAG & Knowledge Base - Complete Setup - Hands On**
@@ -104,7 +104,7 @@ These are my notes generated following the course lesson structure.
   - #tolab Lab this the same way Stephan
   - #tolab Try Pinecone
   - #tolab Try other AWS-native databases
-- More GenAI Concepts
+- _More GenAI Concepts_
   - [[20260226T0947-tokenization|Tokenization]]
   - [[20260226T1314-context-window|Context Window]]
   - [[20260217T1155-embeddings|Embeddings]]
@@ -201,13 +201,23 @@ These are my notes generated following the course lesson structure.
   - [[20260421T000700-xgboost-extreme-gradient-boosting|XGBoost]]
 
 - Training Data
-- [[20260420T2331-training-data|Training Data]]
+  - [[20260420T2331-training-data|Training Data]]
 
 - Supervised Learning
+	- [[20260421T0644-supervised-learning|Supervised Learning]]
+	- [[20260421T0200-regression|Regression]]
+	- [[20260421T0300-classification|Classification]]
+	- [[20260421T1739-training-vs-validation-vs-test-set|Data Set Splits]]
+  - [[20260306T0936-feature-engineering|Feature Engineering]]
 
 - Unsupervised Learning
+  - [[20260422T1813-unsupervised-learning|Unsupervised Learning]]
+
+
+
 
 - Self-Supervised Learning
+
 
 - Reinforcement Learning
 
