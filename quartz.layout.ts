@@ -85,7 +85,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    //Component.Explorer(),
     //Component.DesktopOnly(Component.RecentNotes({ showTags: false, limit: 10, })),
   ],
   right: [

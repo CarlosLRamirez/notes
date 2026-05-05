@@ -1,6 +1,6 @@
 ---
 created: 2026-04-24 09:00
-modified: 2026-04-24 09:00
+modified: 2026-04-24 19:41
 tags:
   - AI
   - machine-learning
@@ -68,7 +68,7 @@ The model plots all customers and identifies three distinct groups. The model do
 - [[20260422T1813-unsupervised-learning|Unsupervised Learning]]
 - [[20260421T0644-supervised-learning|Supervised Learning]]
 - [[20260129T1102-machine-learning-ml|Machine Learning (ML)]]
-- [[20260306T0936-feature-ml|Feature Engineering]]
+- [[20260306T0936-feature-engineering|Feature Engineering]]
 - [[20251001T170057-amazon-sagemaker-overview|Amazon SageMaker Overview]]
 
 ## Exam Domain (AIF-C01)

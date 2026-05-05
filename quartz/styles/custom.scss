@@ -6,6 +6,17 @@ article p, article li, article blockquote {
   font-size: 1.05rem;
 }
 
+article table {
+  width: 100%;
+  min-width: 500px;
+  table-layout: auto;
+}
+
+article .table-container {
+  overflow-x: auto;
+  width: 100%;
+}
+
 // permite manejar columnas 
 .columns {
   display: flex;
