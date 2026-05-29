@@ -10,7 +10,7 @@ created: 2025-12-08 14:34
 folder: AI
 lang:
   - es
-modified: 2025-12-09 18:20
+modified: 2026-05-06 05:51
 publish: true
 title: Amazon Bedrock First Steps (ES)
 ---
@@ -19,7 +19,7 @@ title: Amazon Bedrock First Steps (ES)
 
 ## Introducción
 
-Si te encuentras al igual que yo en tus primeros pasos con los servicios de AWS para Inteligencia Artificial, ya sea porque estés preparándote para rendir la certificación de AWS GenAI Practitioner o simplemente quieres experimentar con modelos de AI sin escribir código, esta gúia es para ti.
+Si te encuentras al igual que yo en tus primeros pasos con los servicios de AWS para Inteligencia Artificial, ya sea porque estés preparándote para rendir la certificación de AWS GenAI Practitioner o simplemente quieres experimentar con modelos de AI sin escribir código, esta guía es para ti.
 
 Aquí te muestro como fue mi primera experiencia con Amazon Bedrock, en la cual experimenté la generación de texto e imágenes utilizando algunos de los modelos fundacionales disponibles.
 

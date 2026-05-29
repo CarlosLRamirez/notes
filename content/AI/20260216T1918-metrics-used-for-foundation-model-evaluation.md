@@ -11,8 +11,10 @@ folder: AI
 ---
 
 # Metrics used for Model Evaluation
+
 ## Main Concept 
 When performing an automated evaluation of foundation models, there are commonly used generic metrics for evaluating the output of such models, this metrics give numerical results about different things we would like to measure.
+
 ## Context
 Metrics are important because allow for objective measurement with quantifiable, reproducible results, removing the subjectivity  on "how well does the model works?" and allow us to build reliable AI systems.
 

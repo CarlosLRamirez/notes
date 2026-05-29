@@ -1,6 +1,6 @@
 ---
 created: 2026-03-22 05:09
-modified: 2026-03-22 05:59
+modified: 2026-05-07 22:11
 tags:
   - AI
   - GenAI
@@ -51,7 +51,7 @@ Esto es importante sobre todo cuando necesitamos respuestas menos variables,  co
 - [[20250907T210200-ai-model|AI Model]]
 - [[20250917T074225-types-of-inferencing|Types of inferencing]]
 - [[20251009T072400-prompt-engineering|Prompt Engineering]]
-- [[20260322T0557-system-prompts]]
+- [[20260322T0557-system-prompts|System Prompts]]
 
 
 ## Links / References

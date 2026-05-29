@@ -9,7 +9,7 @@ tags:
   - supervised-learning
   - AIF-C01
 created: 2026-04-21 03:00
-modified: 2026-04-21 03:00
+modified: 2026-05-27 22:59
 publish: true
 folder: AI
 ---
@@ -116,6 +116,7 @@ The exam expects you to:
 
 ## Related Notes
 - [[20260421T0644-supervised-learning|Supervised Learning]]
+- [[20260527T2017-binary-classification-metrics|Binary Classification Metrics]]
 - [[20260421T0200-regression|Regression]]
 - [[20260129T1102-machine-learning-ml|Machine Learning (ML)]]
 - [[20260420T2331-training-data|Training Data]]

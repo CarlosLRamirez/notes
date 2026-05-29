@@ -5,7 +5,7 @@ aliases:
 tags:
   - AI
 created: 2025-10-09 07:32
-modified: 2026-02-23 21:38
+modified: 2026-05-07 22:20
 folder: AI
 publish: true
 title: Model Fine-Tuning
@@ -30,7 +30,7 @@ title: Model Fine-Tuning
 - [[20260206T1026-reinforcement-fine-tuning|Reinforcement Fine-Tuning]]
 - [[20251011T071957-transfer-learning|Transfer Learning]]: Broader concept (fine-tuning is one type)
 - [[20251009T072400-prompt-engineering|Prompt Engineering]]: Simpler alternative
-- [[20251009T073427-retrieval-augmented-generation-rag|Retrieval Augmented Generation (RAG)]]: Complementary technique
+- [[20260220T0735-retrieval-augmented-generation-rag|Retrieval-Augmented Generation (RAG)]] : Complementary technique
 - [[20251009T102549-model-domain-adaptation|Model Domain Adaptation]]: not a method, but an objective
 
 

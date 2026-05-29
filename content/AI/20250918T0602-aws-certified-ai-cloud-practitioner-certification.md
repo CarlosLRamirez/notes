@@ -1,6 +1,6 @@
 ---
 created: 2025-09-18 06:02
-modified: 2026-05-05 07:03
+modified: 2026-05-29 07:31
 tags:
   - AI
   - AWS
@@ -252,7 +252,7 @@ Tactical index of Stephane Maarek's AIF-C01 course mapped to my atomic notes. Le
 - [[20260421T0644-supervised-learning|Supervised Learning]]
 - [[20260421T0200-regression|Regression]]
 - [[20260421T0300-classification|Classification]]
-  - [[20260421T1739-training-vs-validation-vs-test-set|Training vs. Validation vs. Test Set]]
+- [[20260421T1739-training-vs-validation-vs-test-set|Training vs. Validation vs. Test Set]]
 - [[20260306T0936-feature-engineering|Feature Engineering]]
 
 #### Unsupervised Learning
@@ -270,19 +270,49 @@ Tactical index of Stephane Maarek's AIF-C01 course mapped to my atomic notes. Le
 #### Reinforcement Learning
 
 - [[20260426T0656-reinforcement-learning-rl|Reinforcement Learning (RL)]]
+
+#### RLHF - Reinforcement Learning from Human Feedback
+
 - [[20251016T034417-rlhf|RLHF — Reinforcement Learning from Human Feedback]]
+
+#### Model Fit, Bias, and Variance
+- [[20260524T0639-model-fit|Model Fit]]
+- [[20260524T0716-bias|Bias]]
+- [[20260524T0802-variance|Variance]]
+
+#### Model Evaluation Metrics
+
+- [[20260527T2017-binary-classification-metrics|Binary Classification Metrics]]
+- [[20260527T2302-accuracy|Accuracy]]
+- [[20260527T2304-f1-score|F1 Score]]
+- [[20260527T2309-auc-roc|AUC-ROC]]
+ - [[20260527T2317-regression-metrics|Regression Metrics]]
+#### Machine Learning — Inferencing
+
+- [[20260528T0607-inferencing|Inferencing]]
+- [[20260528T0642-inferencing-at-the-edge|Inferencing at the Edge]]
+- [[20260528T0700-small-language-models-slms|Small Language Models (SLMs)]]
+
+#### Phases of a Machine Learning Project
+
+- [[20260528T0718-phases-of-a-machine-learning-project|Phases of a Machine Learning Project]]
+- [[20260528T0738-eda-exploratory-data-analysis|EDA - Exploratory Data Analysis]]
+
+#### Hypermarameters
+- [[20260529T0653-hyperparameter-tuning|Hyperparameter Tuning]]
+- [[20260529T0704-model-parameters|Model Parameters]]
 
 #### Pending — Section 8
 
-- [ ] Model Fit, Bias, and Variance
-- [ ] Model Evaluation Metrics
-- [ ] Machine Learning — Inferencing
-  - [[20250917T074225-types-of-inferencing|Types of Inferencing]]
-- [ ] Phases of a Machine Learning Project
-- [ ] Hyperparameters
+
+
 - [ ] When is ML not appropriate?
 - [[20251001T170057-amazon-sagemaker-overview|Amazon SageMaker Overview]]
 - [[20260306T0948-amazon-sagemaker-feature-store|Amazon SageMaker Feature Store]]
+
+---
+
+
 
 ---
 

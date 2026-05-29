@@ -1,6 +1,6 @@
 ---
 created: 2026-04-26 06:56
-modified: 2026-04-26 07:48
+modified: 2026-05-22 17:35
 tags:
   - AI
   - machine-learning
@@ -15,7 +15,7 @@ folder: AI
 
 ## Main Concept
 
-Reinforcement Learning is a type of [[20260129T1102-machine-learning-ml|Machine Learning]] where an **agent** learns to make decisions by interacting with an **environment**. The agent receives feedback in the form of **rewards** or penalties for each action it takes, and over time learns the strategy (policy) that maximizes cumulative reward.
+Reinforcement Learning is a type of [[20260129T1102-machine-learning-ml|Machine Learning]] where an **agent** learns to make decisions by interacting with an **environment**. The agent receives feedback in the form of **rewards** or penalties for each action it takes, and over time learns the strategy (**policy**) that maximizes cumulative reward.
 
 Unlike [[20260421T0644-supervised-learning|Supervised Learning]], there are no labeled examples — the agent discovers the right behavior entirely through trial and error.
 
@@ -37,7 +37,7 @@ Unlike [[20260421T0644-supervised-learning|Supervised Learning]], there are no l
 1. The Agent observes the current **State** of the Environment
 2. It selects an **Action** based on its current Policy
 3. The Environment transitions to a **new State** and returns a **Reward**
-4. The Agent updates its Policy based on the reward received
+4. The Agent updates its **Policy** based on the reward received
 5. This loop repeats — **Goal:** maximize cumulative reward over time
 
 ## Example — Robot in a Maze
@@ -62,7 +62,7 @@ Eventually the agent learns the optimal route — the one that reaches the exit 
 
 ## Context — Why It Matters for the Exam
 
-RL is distinct from supervised and unsupervised learning in a fundamental way: **there is no dataset**. The model generates its own experience by interacting with an environment. This makes it well-suited for sequential decision problems where the right answer isn't known in advance.
+Reinforcement Learning is distinct from supervised and unsupervised learning in a fundamental way: **there is no dataset**. The model generates its own experience by interacting with an environment. This makes it well-suited for sequential decision problems where the right answer isn't known in advance.
 
 **[[20251016T034417-rlhf|RLHF (Reinforcement Learning from Human Feedback)]]** applies this same principle to fine-tune LLMs — human raters provide reward signals that teach the model to produce better responses.
 
