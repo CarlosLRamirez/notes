@@ -1,4 +1,4 @@
-import { Date, getDate } from "./Date"
+import { Date } from "./Date"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import readingTime from "reading-time"
 import { classNames } from "../util/lang"
@@ -29,12 +29,17 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     if (text) {
       const segments: (string | JSX.Element)[] = []
 
-      // I modified based on this https://discord.com/channels/927628110009098281/927628110009098284/1366107598385840178
-      // to show both created and modified dates
-      // then I use chatgpt to add the 🌱 and 🪴 emojis
       if (fileData.dates) {
-        segments.push(<span>🌱 <Date date={fileData.dates?.created ?? new Date()} locale={cfg.locale} /></span>)
-        segments.push(<span>🪴 <Date date={fileData.dates?.modified ?? new Date()} locale={cfg.locale} /></span>)
+        segments.push(
+          <span>
+            🌱 <Date date={fileData.dates.created} locale={cfg.locale} />
+          </span>,
+        )
+        segments.push(
+          <span>
+            🪴 <Date date={fileData.dates.modified} locale={cfg.locale} />
+          </span>,
+        )
       }
 
       // Display reading time if enabled
@@ -43,7 +48,6 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
           minutes: Math.ceil(minutes),
         })
-        // I used chatgpt to add the ⏱️ emoji
         segments.push(<span>⏱️ {displayedTime}</span>)
       }
 

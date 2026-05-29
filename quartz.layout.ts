@@ -5,41 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
-  footer: Component.Footer({
-    links: {
-      LinkedIn: "https://www.linkedin.com/in/carloslrm/",
-      Github: "https://github.com/CarlosLRamirez",
-    },
-  }),
-}
-
-// components for pages that display a single page (e.g. a single note)
-export const defaultContentPageLayout: PageLayout = {
-  beforeBody: [
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
-
-    Component.ArticleTitle(),
-
-
-
-    Component.ConditionalRender({
-      component: Component.ContentMeta(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
-
-    Component.ConditionalRender({
-      component: Component.TagList(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
-  ],
-
   afterBody: [
-
-
     Component.ConditionalRender({
       component: Component.Comments({
         provider: "giscus",
@@ -58,20 +24,25 @@ export const defaultContentPageLayout: PageLayout = {
       }),
       condition: (page) => page.fileData.frontmatter?.comments === true,
     }),
+  ],
+  footer: Component.Footer({
+    links: {
+      LinkedIn: "https://www.linkedin.com/in/carloslrm/",
+      Github: "https://github.com/CarlosLRamirez",
+    },
+  }),
+}
+
+// components for pages that display a single page (e.g. a single note)
+export const defaultContentPageLayout: PageLayout = {
+  beforeBody: [
     Component.ConditionalRender({
-      component: Component.Graph({
-        globalGraph: {
-          showTags: false, // whether to show tags in the graph
-        },
-        localGraph: {
-          showTags: false, // whether to show tags in the graph
-          depth: 4, // how many hops of notes to display
-        },
-      }),
-      condition: (page) => page.fileData.slug === "index",
+      component: Component.Breadcrumbs(),
+      condition: (page) => page.fileData.slug !== "index",
     }),
-
-
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+    Component.TagList(),
   ],
   left: [
     Component.PageTitle(),
@@ -83,32 +54,13 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
+        { Component: Component.ReaderMode() },
       ],
     }),
-    //Component.Explorer(),
-    //Component.DesktopOnly(Component.RecentNotes({ showTags: false, limit: 10, })),
+    Component.Explorer(),
   ],
   right: [
-
-    Component.ConditionalRender({
-      component:
-        Component.Graph({
-          localGraph: {
-            showTags: false, // whether to show tags in the graph
-          },
-          globalGraph: {
-            showTags: false, // whether to show tags in the graph
-          },
-        }),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
-
-    Component.ConditionalRender({
-      component: Component.RecentNotes({ showTags: false, limit: 8 }),
-      condition: (page) => page.fileData.slug === "index",
-    }),
-
-
+    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
