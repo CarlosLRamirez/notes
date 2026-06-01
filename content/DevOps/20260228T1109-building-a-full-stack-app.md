@@ -2,10 +2,10 @@
 created: 2026-02-28 11:09
 modified: 2026-03-03 07:17
 tags:
-  - lab
+  - DevOps
   - AWS
-  - Amplify
-title: 20260228T1109-building-a-full-stack-app
+  - lab
+title: Building a Full Stack App con Next.js y AWS Amplify
 aliases:
   - Building a Full stack app
 publish: true

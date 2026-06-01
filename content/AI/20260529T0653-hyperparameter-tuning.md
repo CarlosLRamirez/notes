@@ -1,6 +1,6 @@
 ---
 created: 2026-05-29 06:53
-modified: 2026-05-29 07:56
+modified: 2026-06-01 17:33
 tags:
   - AI
   - ML
@@ -149,4 +149,4 @@ Note: "Performing hyperparameter tuning or model optimization" is explicitly lis
 - [[20260524T0802-variance|Variance]]
 - [[20260528T0718-phases-of-a-machine-learning-project|Phases of a Machine Learning Project]]
 - [[20251001T170057-amazon-sagemaker-overview|Amazon SageMaker]]
-- [[20260529T0755-mlops]]
+- [[20260529T0755-mlops|MLOps]]

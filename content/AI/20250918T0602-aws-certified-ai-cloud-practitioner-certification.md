@@ -1,6 +1,6 @@
 ---
 created: 2025-09-18 06:02
-modified: 2026-05-29 07:56
+modified: 2026-06-01 17:35
 tags:
   - AI
   - AWS
@@ -303,11 +303,14 @@ Tactical index of Stephane Maarek's AIF-C01 course mapped to my atomic notes. Le
 - [[20260529T0653-hyperparameter-tuning|Hyperparameter Tuning]]
 - [[20260529T0704-model-parameters|Model Parameters]]
 
+#### When is ML not appropriate?
+
+
 #### Pending — Section 8
 
 
 
-- [ ] When is ML not appropriate?
+
 - [[20251001T170057-amazon-sagemaker-overview|Amazon SageMaker Overview]]
 - [[20260306T0948-amazon-sagemaker-feature-store|Amazon SageMaker Feature Store]]
 
