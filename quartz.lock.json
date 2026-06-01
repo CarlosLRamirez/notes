@@ -62,10 +62,10 @@
       "installedAt": "2026-05-24T15:36:16.460Z"
     },
     "content-meta": {
-      "source": "github:quartz-community/content-meta",
-      "resolved": "https://github.com/quartz-community/content-meta.git",
-      "commit": "a148b4104e9fb6323a6459b2f13c46f9a92da487",
-      "installedAt": "2026-05-24T15:36:16.441Z"
+      "source": "./plugins/content-meta",
+      "resolved": "/Users/carlos.ramirez/projects/my-digital-jungle-public/plugins/content-meta",
+      "commit": "local",
+      "installedAt": "2026-06-01T04:40:35.075Z"
     },
     "content-page": {
       "source": "github:quartz-community/content-page",
