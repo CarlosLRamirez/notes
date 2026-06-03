@@ -1,6 +1,6 @@
 ---
 created: 2025-09-18 06:02
-modified: 2026-06-01 17:35
+modified: 2026-06-02 10:55
 tags:
   - AI
   - AWS
@@ -177,7 +177,6 @@ Tactical index of Stephane Maarek's AIF-C01 course mapped to my atomic notes. Le
 - [[20260325T1721-prompt-templates|Prompt Templates]]
 
 ---
-
 ### Section 7: Amazon Q Deep Dive
 
 #### Amazon Q Business
@@ -212,7 +211,6 @@ Tactical index of Stephane Maarek's AIF-C01 course mapped to my atomic notes. Le
 - [[20260417T0900-partyrock-amazon-bedrock-playground|PartyRock — Amazon Bedrock Playground]]
 
 ---
-
 ### Section 8: Artificial Intelligence (AI) & Machine Learning (ML)
 
 #### AI, ML, Deep Learning & GenAI
@@ -305,14 +303,29 @@ Tactical index of Stephane Maarek's AIF-C01 course mapped to my atomic notes. Le
 
 #### When is ML not appropriate?
 
+- [[20260602T1019-when-is-ml-not-appropriate|When NOT to Use ML]]
 
-#### Pending — Section 8
+
+### Section 9: AWS Managed AI Services
+
+#### Why AWS Managed Services?
+
+- [[20260602T1055-aws-ai-ml-managed-services-index|AWS AI/ML Managed Services — Index]] 
+
+
+
+### Section 10
 
 
 
 
 - [[20251001T170057-amazon-sagemaker-overview|Amazon SageMaker Overview]]
 - [[20260306T0948-amazon-sagemaker-feature-store|Amazon SageMaker Feature Store]]
+
+### Section 11
+
+
+### Section 12
 
 ---
 
