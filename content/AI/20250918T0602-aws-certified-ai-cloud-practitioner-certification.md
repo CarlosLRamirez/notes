@@ -1,6 +1,6 @@
 ---
 created: 2025-09-18 06:02
-modified: 2026-06-19 18:50
+modified: 2026-06-19 19:10
 tags:
   - AI
   - AWS
@@ -323,8 +323,10 @@ Tactical index of Stephane Maarek's AIF-C01 course mapped to my atomic notes. Le
 - [[20260619T1833-amazon-mechanical-turk|Amazon Mechanical Turk]]
 - [[20260619T1838-amazon-augmented-ai-a2i|Amazon Augmented AI (A2I)]]
 - [[20260619T1848-amazon-transcribe-medical-amazon-comprehend-medical|Amazon Transcribe Medical & Amazon Comprehend Medical]]
-
-
+- [[20260619T1856-aws-healthscribe|AWS HealthScribe]]
+- [[20260619T1907-ec2-for-ai|EC2 for AI]]
+- [[20260619T1909-aws-trainium|AWS Trainium]]
+- [[20260619T1910-aws-inferentia|AWS Inferentia]]
 
 ### Section 10
 
