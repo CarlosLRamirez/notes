@@ -1,6 +1,6 @@
 ---
 created: 2026-06-02 10:55
-modified: 2026-06-02 10:59
+modified: 2026-06-12 08:53
 tags:
   - AI
   - ML
@@ -148,8 +148,8 @@ This is a high-priority area — expect multiple scenario questions asking you t
 - [[20260327T1721-amazon-q-apps-introduction|Amazon Q]]
 - [[Amazon Transcribe]]
 - [[Amazon Polly]]
-- [[Amazon Comprehend]]
-- [[Amazon Translate]]
+- [[20260610T1637-amazon-comprehend|Amazon Comprehend]]
+- [[20260612T0849-amazon-translate|Amazon Translate]]
 - [[Amazon Textract]]
 - [[Amazon Lex]]
 - [[Amazon Kendra]]

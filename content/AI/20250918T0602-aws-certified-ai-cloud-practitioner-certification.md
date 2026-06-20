@@ -1,6 +1,6 @@
 ---
 created: 2025-09-18 06:02
-modified: 2026-06-02 10:55
+modified: 2026-06-19 18:34
 tags:
   - AI
   - AWS
@@ -311,7 +311,16 @@ Tactical index of Stephane Maarek's AIF-C01 course mapped to my atomic notes. Le
 #### Why AWS Managed Services?
 
 - [[20260602T1055-aws-ai-ml-managed-services-index|AWS AI/ML Managed Services — Index]] 
-
+- [[20260610T1637-amazon-comprehend|Amazon Comprehend]]
+- [[20260612T0849-amazon-translate|Amazon Translate]]
+- [[20260612T0900-amazon-transcribe|Amazon Transcribe]]
+- [[20260619T1742-amazon-polly|Amazon Polly]]
+- [[20260619T1757-amazon-rekognition|Amazon Rekognition]]
+- [[20260619T1821-amazon-lex|Amazon Lex]]
+- [[20260619T1824-amazon-personalize|Amazon Personalize]]
+- [[20260619T1827-amazon-textract|Amazon Textract]]
+- [[20260619T1829-amazon-kendra|Amazon Kendra]]
+- [[20260619T1833-amazon-mechanical-turk|Amazon Mechanical Turk]]
 
 
 ### Section 10
