@@ -1,6 +1,6 @@
 ---
 created: 2025-09-18 06:02
-modified: 2026-06-19 18:34
+modified: 2026-06-19 18:50
 tags:
   - AI
   - AWS
@@ -321,9 +321,13 @@ Tactical index of Stephane Maarek's AIF-C01 course mapped to my atomic notes. Le
 - [[20260619T1827-amazon-textract|Amazon Textract]]
 - [[20260619T1829-amazon-kendra|Amazon Kendra]]
 - [[20260619T1833-amazon-mechanical-turk|Amazon Mechanical Turk]]
+- [[20260619T1838-amazon-augmented-ai-a2i|Amazon Augmented AI (A2I)]]
+- [[20260619T1848-amazon-transcribe-medical-amazon-comprehend-medical|Amazon Transcribe Medical & Amazon Comprehend Medical]]
+
 
 
 ### Section 10
+
 
 
 
