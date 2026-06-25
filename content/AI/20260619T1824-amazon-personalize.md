@@ -1,6 +1,6 @@
 ---
 created: 2026-06-19 18:24
-modified: 2026-06-19 18:25
+modified: 2026-06-24 07:15
 tags:
   - AWS
   - AI
@@ -13,7 +13,7 @@ publish: true
 
 ## Main Concept
 
-Amazon Personalize is a fully managed ML service for building real-time personalized recommendation systems. It is the same technology that powers Amazon.com's product recommendations — available as a managed service so you can add personalization to your own applications without building or training ML models from scratch.
+Amazon Personalize is a fully managed ML service for building **real-time personalized recommendation systems**. It is the same technology that powers Amazon.com's product recommendations and is designed to create **tailored user experiences** based on individual **preferences** and **behaviors**, — available as a managed service so you can add personalization to your own applications without building or training ML models from scratch.
 
 > [!TIP] Key Idea
 > 
@@ -39,7 +39,7 @@ Amazon Personalize is a fully managed ML service for building real-time personal
 
 ## Recipes — The Core Concept
 
-Recipes are pre-built algorithms already implemented inside Personalize, each designed for a specific recommendation use case. You select the recipe that matches your need, provide your data and training configuration, and Personalize does the rest.
+Recipes are **pre-built algorithms** already implemented inside Personalize, each designed for a specific recommendation use case. You select the recipe that matches your need, provide your data and training configuration, and Personalize does the rest.
 
 > [!TIP] Key Idea
 > 
@@ -120,7 +120,8 @@ Forecasting        → predicts HOW MUCH of something will happen
 
 > [!example] Example
 > 
-> "Recommend which products a user is likely to buy next" → Amazon Personalize. "Predict how many units of product X will sell next month" → forecasting (not Personalize).
+> - "Recommend which products a user is likely to buy next" → Amazon Personalize.
+> - "Predict how many units of product X will sell next month" → forecasting (not Personalize).
 
 ## Exam Scope
 
@@ -140,8 +141,8 @@ You will not be asked how to implement Personalize. You need to:
 
 ## Related Notes
 
-- [[AWS AI/ML Managed Services — Index]]
+- [[20260602T1055-aws-ai-ml-managed-services-index|AWS AI/ML Managed Services — Index]]
 - [[Amazon S3]]
 - [[Recommendation Systems]]
-- [[When NOT to Use ML]]
+- [[20260602T1019-when-is-ml-not-appropriate|When NOT to Use ML]]
 - [[Amazon Forecast]]

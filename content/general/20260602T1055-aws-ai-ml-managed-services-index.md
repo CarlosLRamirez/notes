@@ -1,6 +1,6 @@
 ---
 created: 2026-06-02 10:55
-modified: 2026-06-12 08:53
+modified: 2026-06-24 07:17
 tags:
   - AI
   - ML
@@ -146,17 +146,17 @@ This is a high-priority area — expect multiple scenario questions asking you t
 - [[20250907T100953-amazon-bedrock-overview|Amazon Bedrock]]
 - [[20251001T170057-amazon-sagemaker-overview|Amazon SageMaker]]
 - [[20260327T1721-amazon-q-apps-introduction|Amazon Q]]
-- [[Amazon Transcribe]]
-- [[Amazon Polly]]
+- [[20260612T0900-amazon-transcribe|Amazon Transcribe]]
+- [[20260619T1742-amazon-polly|Amazon Polly]]
 - [[20260610T1637-amazon-comprehend|Amazon Comprehend]]
 - [[20260612T0849-amazon-translate|Amazon Translate]]
-- [[Amazon Textract]]
-- [[Amazon Lex]]
-- [[Amazon Kendra]]
-- [[Amazon Rekognition]]
-- [[Amazon Personalize]]
+- [[20260619T1827-amazon-textract|Amazon Textract]]
+- [[20260619T1821-amazon-lex|Amazon Lex]]
+- [[20260619T1829-amazon-kendra|Amazon Kendra]]
+- [[20260619T1757-amazon-rekognition|Amazon Rekognition]]
+- [[20260619T1824-amazon-personalize|Amazon Personalize]]
 - [[Amazon Fraud Detector]]
-- [[Amazon Augmented AI (A2I)]]
+- [[20260619T1838-amazon-augmented-ai-a2i|Amazon Augmented AI (A2I)]]
 - [[20260602T1019-when-is-ml-not-appropriate|When NOT to Use ML]]
 - [[Practical Use Cases for AI]]
 

@@ -1,6 +1,6 @@
 ---
 created: 2026-06-19 17:57
-modified: 2026-06-19 17:58
+modified: 2026-06-24 06:31
 tags:
   - AWS
   - AI
@@ -188,10 +188,10 @@ You will not be asked how to implement Rekognition. You need to:
 
 ## Related Notes
 
-- [[AWS AI/ML Managed Services — Index]]
-- [[Amazon Augmented AI (A2I)]]
+- [[20260602T1055-aws-ai-ml-managed-services-index|AWS AI/ML Managed Services — Index]]
+- [[20260619T1838-amazon-augmented-ai-a2i|Amazon Augmented AI (A2I)]]
 - [[Amazon S3]]
-- [[Computer Vision]]
+- [[20250907T113120-computer-vision|Computer Vision]]
 - [[Content Moderation]]
 - [[Custom Labels vs Pre-built Models]]
 - [[Responsible AI]]

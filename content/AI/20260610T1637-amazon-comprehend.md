@@ -1,6 +1,6 @@
 ---
 created: 2026-06-10 16:37
-modified: 2026-06-12 08:52
+modified: 2026-06-24 07:24
 tags:
   - AI
   - AWS
@@ -15,7 +15,7 @@ folder: AI
 
 ## Main Concept
 
-Amazon Comprehend is a fully managed NLP (Natural Language Processing) service that uses ML to extract meaning and insights from text. You send text in, and Comprehend tells you what it means — no model training required. For domain-specific needs, Comprehend also supports custom models trained on your own data.
+Amazon Comprehend is a fully managed NLP (Natural Language Processing) service that uses ML to **extract meaning and insights from text.** You send text in, and Comprehend tells you what it means — no model training required. For domain-specific needs, Comprehend also supports custom models trained on your own data.
 
 ## Context
 
@@ -203,8 +203,8 @@ You will not be asked how to configure or implement Comprehend. You need to:
 - [[Named Entity Recognition (NER)]]
 - [[Custom Entity Recognition]]
 - [[Custom Classification vs Pre-built Models]]
-- [[Amazon Textract]]
+- [[20260619T1827-amazon-textract|Amazon Textract]]
 - [[20260612T0849-amazon-translate|Amazon Translate]]
-- [[Amazon Lex]]
+- [[20260619T1821-amazon-lex|Amazon Lex]]
 - [[20250907T114034-natural-language-processing|Natural Language Processing]]
 - [[20260602T1019-when-is-ml-not-appropriate|When NOT to Use ML]]
